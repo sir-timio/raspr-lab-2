@@ -16,13 +16,15 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
         float min = Float.MAX_VALUE;
         float max = Float.MIN_NORMAL;
         float sum = 0;
+        int counter = 0;
 
         while (iterator.hasNext()) {
             float delay = Float.parseFloat(iterator.next().toString());
             min = Float.min(min, delay);
             max = Float.max(max, delay);
             sum += delay;
-
+            counter++;
         }
+        
     }
 }
