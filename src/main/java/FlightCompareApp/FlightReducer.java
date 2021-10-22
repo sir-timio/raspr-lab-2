@@ -1,2 +1,4 @@
-package FlightCompareApp;public class FlightReducer {
+package FlightCompareApp;
+
+public class FlightReducer {
 }
