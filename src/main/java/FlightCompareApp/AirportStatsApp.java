@@ -27,8 +27,10 @@ public class AirportStatsApp {
         job.setPartitionerClass(FlightPartitioner.class);
         job.setGroupingComparatorClass(AirportGroupingComparator.class);
         job.setReducerClass(FlightReducer.class);
-        job.setOutputKeyClass(FlightWritableComparable.class);
         job.setMapOutputKeyClass(Text.class);
+
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
 
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
 
