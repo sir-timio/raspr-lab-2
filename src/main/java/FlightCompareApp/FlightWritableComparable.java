@@ -35,7 +35,7 @@ public class FlightWritableComparable implements WritableComparable{
             } else if (this.isOverflight == other.airportID) {
                 return 0;
             } else {
-                return -1
+                return -1;
             }
         } else {
             return (ot)
