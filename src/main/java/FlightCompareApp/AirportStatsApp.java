@@ -1,5 +1,7 @@
 package FlightCompareApp;
 
+import org.apache.hadoop.mapreduce.Job;
+
 public class AirportStatsApp {
 
     public static void main(String[] args) {
@@ -8,6 +10,7 @@ public class AirportStatsApp {
             System.exit(-1);
         }
 
-        Job 
+        Job job = Job.getInstance();
+        job.set
     }
 }
