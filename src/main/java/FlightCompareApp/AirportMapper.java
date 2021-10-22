@@ -18,8 +18,8 @@ public class AirportMapper extends Mapper<LongWritable, Text, FlightWritableComp
         if (key.get() != 0) {
             String[] row = value.toString().split(DELIMETER);
             String rawCode = row[AIRPORT_CODE_COLUMN];
-            
-            int code = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);
+            rawCode = rawCode.replace("\"", "")l
+            int code = Integer.parseInt(rawCode);
             String airportName = row[NAME_COLUMN];
             context.write(new FlightWritableComparable(code, DATA_TYPE), new Text(airportName));
         }
