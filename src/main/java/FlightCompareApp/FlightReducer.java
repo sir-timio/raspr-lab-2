@@ -9,6 +9,7 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
 
     @Override
     protected void reduce(FlightWritableComparable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-        Text airportName = new Text()
+        Text airportName = new Text(key.toString());
+        
     }
 }
