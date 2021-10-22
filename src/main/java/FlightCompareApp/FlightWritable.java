@@ -11,6 +11,8 @@ public class FlightWritable implements Writable{
     private int isOverflight;
     private int delay;
     private int delayNew;
+    private int isCancelled;
+
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(airportID);
