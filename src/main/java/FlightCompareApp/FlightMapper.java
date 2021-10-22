@@ -7,5 +7,5 @@ import org.apache.hadoop.mapreduce.Mapper;
 public class FlightMapper extends Mapper<IntWritable, Text, FlightWritableComparable, Text>{
     private static String DELIMITER = ",";
     private static int AIRPORT_ID_COLUMN =  14;
-    
+    private static int CANCELED_COLUMN = 
 }
