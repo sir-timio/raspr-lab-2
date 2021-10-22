@@ -25,4 +25,4 @@ hadoop FlightCompareApp.AirportStatsApp flights.csv airports.csv output
 
 rm -rf output
 mkdir output
-hadoop fs -copyToLocal output
+hadoop fs -copyToLocal /Users/timur/output/
