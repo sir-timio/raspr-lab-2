@@ -1,5 +1,6 @@
 mvn package
 
+hdfs namenode -format
 stop-dfs.sh
 stop-yarn.sh
 
