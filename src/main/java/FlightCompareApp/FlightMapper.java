@@ -9,7 +9,7 @@ import java.io.IOException;
 public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableComparable, Text>{
     private static String DELIMITER = ",";
     private static int DEST_AIRPORT_ID_COLUMN =  14;
-    private static int ARR_DELAY_COLUMN = 17;
+    private static int ARR_DELAY_COLUMN = 18;
     private static int DATA_TYPE = 1;
 
     @Override
