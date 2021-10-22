@@ -19,7 +19,10 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
 
         while (iterator.hasNext()) {
             float delay = Float.parseFloat(iterator.next().toString());
-            
+            min = Float.min(min, delay);
+            max = Float.max(max, delay);
+            sum += delay;
+
         }
     }
 }
