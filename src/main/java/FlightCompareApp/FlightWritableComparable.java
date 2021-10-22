@@ -6,7 +6,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class FlightWritableComparable implements WritableComparable{
-
+    private int airportID;
+    private int isOverflight;
     @Override
     public void write(DataOutput dataOutput) throws IOException {
 
