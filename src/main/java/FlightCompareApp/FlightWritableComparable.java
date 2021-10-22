@@ -8,10 +8,13 @@ import java.io.IOException;
 public class FlightWritableComparable implements WritableComparable{
     private int airportID;
     private int isOverflight;
+
     @Override
     public void write(DataOutput dataOutput) throws IOException {
-
+        dataOutput.writeInt(airportID);
+        dataOutput.writeInt(isOverflight);
     }
+
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
