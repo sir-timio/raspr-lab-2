@@ -18,6 +18,7 @@ hadoop fs -rm -r -f  hdfs://localhost:9000/user/timur/output
 
 hadoop fs -copyFromLocal /Users/timur/data/flights.csv
 hadoop fs -copyFromLocal /Users/timur/data/airports.csv
+
 export HADOOP_CLASSPATH=target/FlightCompareApp-1.0.jar
 hadoop FlightCompareApp.AirportStatsApp Flights.csv Airports.csv output
 
