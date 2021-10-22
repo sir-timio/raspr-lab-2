@@ -18,7 +18,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
         if (key.get() != 0){
             String[] row = value.toString().split(DELIMITER);
             String rawDelay = row[ARR_DELAY_COLUMN];
-            if (rawDelay.isEmpty() || Float.parseFloat(rawDelay) == 0) return;
+            if (!rawDelay.isEmpty() & Float.parseFloat(rawDelay) != 0) return;
 
             int destAirportID = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
             context.write(new FlightWritableComparable(destAirportID, DATA_TYPE),
