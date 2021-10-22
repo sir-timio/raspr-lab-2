@@ -13,6 +13,10 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
         Iterator<Text> iterator = values.iterator();
         Text airportName = new Text(iterator.next());
 
+        float min = Float.MAX_VALUE;
+        float max = Float.MIN_NORMAL;
+        float sum = 0;
+
         
     }
 }
