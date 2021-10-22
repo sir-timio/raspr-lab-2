@@ -11,8 +11,8 @@ mkdir ~/hdata/datanode
 
 hdfs namenode -format
 
-start
 start-dfs.sh
+start-yarn.sh
 
 hadoop fs -copyFromLocal data/Flights.csv
 hadoop fs -copyFromLocal data/Airports.csv
