@@ -9,6 +9,10 @@ public class FlightWritableComparable implements WritableComparable{
     private int airportID;
     private int isOverflight;
 
+    public int getAirportID() {
+        return airportID;
+    }
+
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(airportID);
@@ -24,6 +28,6 @@ public class FlightWritableComparable implements WritableComparable{
 
     @Override
     public int compareTo(Object o) {
-        return 0;
+        AirportWritable other = (AirportWritable) o;
     }
 }
