@@ -18,7 +18,11 @@ public class FlightWritableComparable implements WritableComparable{
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-
+        this.airportID = dataInput.readInt();
+        this.isOverflight = dataInput.readInt();
+        this.delay = dataInput.readInt();
+        this.delayNew = dataInput.readInt();
+        this.isCancelled = dataInput.readInt();
     }
 
     @Override
