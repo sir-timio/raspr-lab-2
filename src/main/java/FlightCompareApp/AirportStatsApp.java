@@ -1,6 +1,9 @@
 package FlightCompareApp;
 
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 
 public class AirportStatsApp {
 
@@ -11,6 +14,8 @@ public class AirportStatsApp {
         }
 
         Job job = Job.getInstance();
-        job.set
+        job.setJarByClass(AirportStatsApp.class);
+
+
     }
 }
