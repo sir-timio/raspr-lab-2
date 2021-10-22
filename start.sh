@@ -14,7 +14,7 @@ hdfs namenode -format
 start-dfs.sh
 start-yarn.sh
 
-hadoop fs -rm -r -f /user/the/path/to/your/dir
+hadoop fs -rm -r -f  hdfs://localhost:9000/user/timur/output
 
 hadoop fs -copyFromLocal data/Flights.csv
 hadoop fs -copyFromLocal data/Airports.csv
