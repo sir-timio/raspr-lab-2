@@ -6,6 +6,9 @@ stop-dfs.sh
 rm -rf ~/hdata/namenode
 rm -rf ~/hdata/datanode
 
+mkdir ~/hdata/namenode
+mkdir ~/hdata/datanode
+
 hdfs namenode -format
 
 start
