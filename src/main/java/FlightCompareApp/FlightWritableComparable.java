@@ -26,6 +26,4 @@ public class FlightWritableComparable implements WritableComparable{
     public int compareTo(Object o) {
         return 0;
     }
-    double
-
 }
