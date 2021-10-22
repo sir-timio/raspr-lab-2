@@ -25,7 +25,9 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
             sum += delay;
             counter++;
         }
-        String out = String.format("min: %f, max: %f, average: %f", min, max, sum / counter);
-        return new Text(out);
+        Text stats = new Text(String.format("min: %f, max: %f, average: %f", min, max, sum / counter));
+        if (counter > 0) {
+            context.write(airportName, stats);
+        }
     }
 }
