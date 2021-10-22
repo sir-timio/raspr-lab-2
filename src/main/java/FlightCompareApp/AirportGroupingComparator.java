@@ -1,2 +1,4 @@
-package FlightCompareApp;public class AirportGroupingComparator {
+package FlightCompareApp;
+
+public class AirportGroupingComparator {
 }
