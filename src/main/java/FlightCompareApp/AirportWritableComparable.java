@@ -5,7 +5,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class FlightWritableComparable implements WritableComparable{
+public class AirportWritableComparable implements WritableComparable{
     private int airportID;
     private int isOverflight;
 
@@ -13,7 +13,7 @@ public class FlightWritableComparable implements WritableComparable{
         return airportID;
     }
 
-    public FlightWritableComparable(int airportID, int isOverflight) {
+    public AirportWritableComparable(int airportID, int isOverflight) {
         this.airportID =  airportID;
         this.isOverflight = isOverflight;
     }
@@ -33,7 +33,7 @@ public class FlightWritableComparable implements WritableComparable{
 
     @Override
     public int compareTo(Object o) {
-        FlightWritableComparable other = (FlightWritableComparable) o;
+        AirportWritableComparable other = (AirportWritableComparable) o;
         if (this.airportID == other.airportID) {
             if (this.isOverflight < other.airportID) {
                 return -1;
