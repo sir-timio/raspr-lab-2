@@ -30,7 +30,7 @@ public class AirportStatsApp {
         job.setGroupingComparatorClass(AirportGroupingComparator.class);
         job.setReducerClass(FlightReducer.class);
 
-        job.setOutputKeyClass(FlightWritableComparable.class);
+        job.setMapOutputKeyClass(FlightWritableComparable.class);
         job.setMapOutputValueClass(Text.class);
 
         job.setOutputKeyClass(Text.class);
