@@ -1,2 +1,5 @@
-package FlightCompareApp;public class AirportStatsApp {
+package FlightCompareApp;
+
+public class AirportStatsApp {
+
 }
