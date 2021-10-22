@@ -18,8 +18,8 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         if (key.get() != 0){
             String[] row = value.toString().split(DELIMITER);
-            String rawDelay =
-            if (rawDelay.isEmpty() || Integer.parseInt(raw))
+            String rawDelay = row[ARR_DELAY_COLUMN];
+            if (rawDelay.isEmpty() || Integer.parseInt(rawDelay) == 0)
         }
     }
 }
