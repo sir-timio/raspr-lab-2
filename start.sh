@@ -3,6 +3,8 @@ mvn package
 stop-yarn.sh
 stop-dfs.sh
 
+rm -rf ~/hdata/namenode
+rm -rf ~/hdata/datanode
 hdfs namenode -format
 
 start
