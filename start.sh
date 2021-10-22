@@ -14,6 +14,8 @@ hdfs namenode -format
 start-dfs.sh
 start-yarn.sh
 
+hadoop fs -rm -r -f /user/the/path/to/your/dir
+
 hadoop fs -copyFromLocal data/Flights.csv
 hadoop fs -copyFromLocal data/Airports.csv
 export HADOOP_CLASSPATH=target/FlightCompareApp-1.0.jar
