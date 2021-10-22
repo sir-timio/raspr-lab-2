@@ -11,7 +11,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
     private static String DELIMITER = ",";
     private static int DEST_AIRPORT_ID_COLUMN =  14;
     private static int ARR_DELAY_COLUMN = 17;
-    private static int 
+    private static int DATA_TYPE = 1;
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
@@ -21,7 +21,8 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
             if (rawDelay.isEmpty() || Float.parseFloat(rawDelay) == 0) return;
 
             int destAirportID = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
-            context.write(new FlightWritableComparable());
+            context.write(new FlightWritableComparable(destAirportID, DATA_TYPE),
+                          new Text(rawDelay));
 
         }
     }
