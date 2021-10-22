@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class AirportStatsApp {
 
-    public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         if (args.length != 3) {
             System.err.println("flights airports output");
             System.exit(-1);
