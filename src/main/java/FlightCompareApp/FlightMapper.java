@@ -19,7 +19,9 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
         if (key.get() != 0){
             String[] row = value.toString().split(DELIMITER);
             String rawDelay = row[ARR_DELAY_COLUMN];
-            if (rawDelay.isEmpty() || Integer.parseInt(rawDelay) == 0)
+            if (rawDelay.isEmpty() || Float.parseFloat(rawDelay) == 0) return;
+
+
         }
     }
 }
