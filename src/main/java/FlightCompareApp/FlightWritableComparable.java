@@ -18,6 +18,7 @@ public class FlightWritableComparable implements WritableComparable{
         this.airportID = 0;
         this.isOverflight = 0;
     }
+
     public FlightWritableComparable(int airportID, int isOverflight) {
         this.airportID =  airportID;
         this.isOverflight = isOverflight;
