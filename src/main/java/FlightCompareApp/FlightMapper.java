@@ -13,5 +13,5 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
     private static int ARR_DELAY_NEW_COLUMN = 18;
 
     @Override
-    protected void map(IntWritable key, )
+    protected void map(LongWritable key, )
 }
