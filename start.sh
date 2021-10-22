@@ -17,5 +17,5 @@ start-yarn.sh
 hadoop fs -copyFromLocal data/Flights.csv
 hadoop fs -copyFromLocal data/Airports.csv
 export HADOOP_CLASSPATH=target/FlightCompareApp-1.0.jar
-hadoop AirportStatsApp data/Flights.csv data/Airports.csv output
+hadoop FlightCompareApp.irportStatsApp data/Flights.csv data/Airports.csv output
 hadoop fs -copyToLocal output
