@@ -17,7 +17,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, FlightWritableComp
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         if (key.get() != 0) {
             String[] row = value.toString()
-                                .substring(1, -1)
+                                .substring(1, row.length-1)
                                 .split(DELIMETER);
 
             System.out.println(row);
