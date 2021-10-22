@@ -5,5 +5,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class FlightMapper extends Mapper<IntWritable, Text, FlightWritableComparable, Text>{
-    private static 
+    private static String DELIMITER = ",";
+    
 }
