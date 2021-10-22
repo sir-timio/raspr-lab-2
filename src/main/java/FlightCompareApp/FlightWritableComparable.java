@@ -1,4 +1,5 @@
 package FlightCompareApp;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
@@ -13,6 +14,10 @@ public class FlightWritableComparable implements WritableComparable{
         return airportID;
     }
 
+    public FlightWritableComparable(){
+        this.airportID = new IntWritable(0);
+        this.isOverflight = new IntWritable(0);
+    }
     public FlightWritableComparable(int airportID, int isOverflight) {
         this.airportID =  airportID;
         this.isOverflight = isOverflight;
