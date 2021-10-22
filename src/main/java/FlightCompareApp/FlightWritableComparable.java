@@ -35,6 +35,7 @@ public class FlightWritableComparable implements WritableComparable{
     public int compareTo(Object o) {
         FlightWritableComparable other = (FlightWritableComparable) o;
         if (this.airportID == other.airportID) {
+            return Integer.compare(this.isOverflight, other.isOverflight)
             if (this.isOverflight < other.isOverflight) {
                 return -1;
             } else if (this.isOverflight == other.isOverflight) {
