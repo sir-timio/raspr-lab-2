@@ -38,7 +38,7 @@ public class FlightWritableComparable implements WritableComparable{
                 return -1;
             }
         } else {
-            return (ot)
+            return (this.airportID < other.airportID) ? -1 : 1;
         }
     }
 }
