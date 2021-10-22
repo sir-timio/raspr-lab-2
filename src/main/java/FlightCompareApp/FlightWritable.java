@@ -18,6 +18,7 @@ public class FlightWritable implements Writable{
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-
+        this.airportID = dataInput.readInt();
+        this.isOverflight = dataInput.readInt();
     }
 }
