@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hadoop-examples</groupId>
-    <artifactId>laba2</artifactId>
+    <artifactId>FightCompareApp</artifactId>
 
     <dependencies>
         <dependency>
