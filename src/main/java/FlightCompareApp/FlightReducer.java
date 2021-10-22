@@ -25,6 +25,8 @@ public class FlightReducer extends Reducer<FlightWritableComparable, Text, Text,
             sum += delay;
             counter++;
         }
-        
+        return new Text(
+                "min: " + 
+        )
     }
 }
