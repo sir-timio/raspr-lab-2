@@ -16,10 +16,8 @@ public class AirportMapper extends Mapper<LongWritable, Text, FlightWritableComp
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         if (key.get() != 0) {
-            String[] row = value.toString()
-                                .substring(1, row.length-1)
-                                .split(DELIMETER);
-
+            String rowString = value.toString();
+            
             System.out.println(row);
             int code = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);
             String airportName = row[NAME_COLUMN];
