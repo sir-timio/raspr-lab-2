@@ -1,13 +1,12 @@
 package FlightCompareApp;
 
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableComparable, Text>{
+public class FlightMapper extends Mapper<LongWritable, Text, AirportWritableComparable, Text>{
     private static String DELIMITER = ",";
     private static int DEST_AIRPORT_ID_COLUMN =  14;
     private static int ARR_DELAY_COLUMN = 17;
@@ -21,7 +20,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableCompa
             if (rawDelay.isEmpty() || Float.parseFloat(rawDelay) == 0) return;
 
             int destAirportID = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
-            context.write(new FlightWritableComparable(destAirportID, DATA_TYPE),
+            context.write(new AirportWritableComparable(destAirportID, DATA_TYPE),
                           new Text(rawDelay));
 
         }
