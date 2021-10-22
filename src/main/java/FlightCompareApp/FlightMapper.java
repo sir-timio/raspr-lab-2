@@ -10,5 +10,5 @@ public class FlightMapper extends Mapper<IntWritable, Text, FlightWritableCompar
     private static int CANCELED_COLUMN = 19;
     private static int ARR_DELAY_COLUMN = 17;
     private static int ARR_DELAY_NEW_COLUMN = 18;
-    
+
 }
