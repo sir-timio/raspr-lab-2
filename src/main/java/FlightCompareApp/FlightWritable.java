@@ -9,7 +9,8 @@ import java.io.IOException;
 public class FlightWritable implements Writable{
     private int airportID;
     private int isOverflight;
-    
+    private int delay;
+    private int delayNew;
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeInt(airportID);
