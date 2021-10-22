@@ -21,7 +21,6 @@ public class FlightWritableComparable implements WritableComparable{
         this.airportID = dataInput.readInt();
         this.isOverflight = dataInput.readInt();
     }
-    asfsf
 
     @Override
     public int compareTo(Object o) {
