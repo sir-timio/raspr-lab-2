@@ -24,13 +24,12 @@ public class AirportStatsApp {
         MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, FlightMapper.class);
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, FlightMapper.class);
 
-        job.setMapOutputKeyClass(FlightWritableComparable.class);
-        job.setMapOutputValueClass(Text.class);
         job.setPartitionerClass(FlightPartitioner.class);
         job.setGroupingComparatorClass(AirportGroupingComparator.class);
         job.setReducerClass(FlightReducer.class);
         job.setOutputKeyClass(Text.class);
-        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputKeyClass(FlightWritableComparable.class);
+
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
 
         job.setNumReduceTasks(2);
