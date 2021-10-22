@@ -1,7 +1,9 @@
 mvn package
 
 stop-dfs.sh
+stop-yarn.sh
 
+start
 start-dfs.sh
 
 hadoop fs -copyFromLocal data/Flights.csv
