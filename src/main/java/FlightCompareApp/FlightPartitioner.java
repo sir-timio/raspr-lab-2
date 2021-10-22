@@ -2,10 +2,10 @@ package FlightCompareApp;
 import org.apache.hadoop.mapreduce.Partitioner;
 import org.apache.hadoop.io.Text;
 
-public class FlightPartitioner extends Partitioner<FlightWritableComparable, Text>{
+public class FlightPartitioner extends Partitioner<AirportWritableComparable, Text>{
 
     @Override
-    public int getPartition(FlightWritableComparable flightWritableComparable, Text text, int numPartitions) {
+    public int getPartition(AirportWritableComparable flightWritableComparable, Text text, int numPartitions) {
        return flightWritableComparable.getAirportID() % numPartitions;
     }
 }
