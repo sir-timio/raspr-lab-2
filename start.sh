@@ -21,7 +21,7 @@ hadoop fs -copyFromLocal /Users/timur/data/airports.csv
 
 export HADOOP_CLASSPATH=target/FlightCompareApp-1.0.jar
 
-hadoop FlightCompareApp.AirportStatsApp Flights.csv Airports.csv output
+hadoop FlightCompareApp.AirportStatsApp flights.csv airports.csv output
 
 rm -rf output
 mkdir output
