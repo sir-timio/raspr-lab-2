@@ -14,6 +14,9 @@ hdfs namenode -format
 start-dfs.sh
 start-yarn.sh
 
+hdfs dfs -mkdir /user
+hdfs dfs -mkdir /user/timur
+
 hadoop fs -rm -r -f  hdfs://localhost:9000/user/timur/output
 
 hadoop fs -copyFromLocal data/flights.csv
@@ -25,4 +28,4 @@ hadoop FlightCompareApp.AirportStatsApp flights.csv airports.csv output
 
 rm -rf output
 mkdir output
-hadoop fs -copyToLocal /Users/timur/output
+hadoop fs -copyToLocal output

@@ -7,10 +7,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 public class FlightMapper extends Mapper<LongWritable, Text, FlightWritableComparable, Text>{
-    private static String DELIMITER = ",";
-    private static int DEST_AIRPORT_ID_COLUMN =  14;
-    private static int ARR_DELAY_COLUMN = 18;
-    private static int DATA_TYPE = 1;
+    private static final String DELIMITER = ",";
+    private static final int DEST_AIRPORT_ID_COLUMN =  14;
+    private static final int ARR_DELAY_COLUMN = 18;
+    private static final int DATA_TYPE = 1;
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
