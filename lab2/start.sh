@@ -28,4 +28,4 @@ hadoop FlightCompareApp.AirportStatsApp flights.csv airports.csv output
 
 rm -rf output
 mkdir output
-hadoop fs -copyToLocal ~/raspr-lab-2/lab2/output
+hadoop fs -copyToLocal output
