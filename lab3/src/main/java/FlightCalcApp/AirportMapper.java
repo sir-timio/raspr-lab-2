@@ -10,7 +10,7 @@ public class AirpotMapper implements Serializable {
     private static final int DATA_TYPE = 0;
     private static final String REDUNTANT_QUOT = "\"";
 
-    protected String removeQuots(String s){
+    protected static String removeQuots(String s){
         return s.replace(REDUNTANT_QUOT, "");
     }
 
