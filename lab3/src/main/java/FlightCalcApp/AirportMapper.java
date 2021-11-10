@@ -19,7 +19,8 @@ public class AirporMapper implements Serializable {
         String[] row = rowStr.split(DELIMETER);
         int code = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);
         String airportName = row[NAME_COLUMN];
-        
+
+        return new Tuple2<>(code, airportName);
 
     }
 
