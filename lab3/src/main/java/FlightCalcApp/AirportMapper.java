@@ -2,7 +2,7 @@ package FlightCalcApp;
 
 import java.io.Serializable;
 
-public class AirporMapper implements Serializable {
+public class AirpotMapper implements Serializable {
 
     private static final String DELIMETER = ",";
     private static final int AIRPORT_CODE_COLUMN = 0;
