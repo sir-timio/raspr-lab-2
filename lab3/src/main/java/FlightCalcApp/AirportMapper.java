@@ -14,9 +14,10 @@ public class AirporMapper implements Serializable {
         return s.replace(REDUNTANT_QUOT, "");
     }
 
-    public static Tuple2<Integer, String> tuple2Mapper(String row) {
+    public static Tuple2<Integer, String> tuple2Mapper(String rowStr) {
         row = removeQuots(row);
-        
+
+
     }
 
 }
