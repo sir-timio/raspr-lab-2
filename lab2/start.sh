@@ -1,4 +1,4 @@
-mvn 
+mvn
 
 stop-yarn.sh
 stop-dfs.sh
