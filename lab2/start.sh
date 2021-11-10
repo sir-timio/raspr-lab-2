@@ -14,8 +14,8 @@ hdfs namenode -format
 start-dfs.sh
 start-yarn.sh
 
-hdfs dfs -mkdir /home
-hdfs dfs -mkdir /home/parallels
+hdfs dfs -mkdir /user
+hdfs dfs -mkdir /user/parallels
 
 hadoop fs -rm -r -f  hdfs://localhost:9000/home/parallels/output
 
