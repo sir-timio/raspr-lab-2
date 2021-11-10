@@ -17,7 +17,7 @@ start-yarn.sh
 hdfs dfs -mkdir /home
 hdfs dfs -mkdir /home/parallels
 
-hadoop fs -rm -r -f  hdfs://localhost:9000/user/parallels/output
+hadoop fs -rm -r -f  hdfs://localhost:9000/home/parallels/output
 
 hadoop fs -copyFromLocal data/flights.csv
 hadoop fs -copyFromLocal data/airports.csv
