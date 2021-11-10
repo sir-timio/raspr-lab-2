@@ -6,6 +6,6 @@ public class FlightApp {
         SparkConf conf = new SparkConf().setAppName("FlightApp");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> 
+        JavaRDD<String> flights = sc.textFile("flights.csv")
     }
 }
