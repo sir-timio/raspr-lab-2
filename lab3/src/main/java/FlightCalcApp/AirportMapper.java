@@ -1,7 +1,6 @@
 package FlighCalcApp;
 
 import java.io.Serializable;
-import 
 
 public class AirporMapper implements Serializable {
 
