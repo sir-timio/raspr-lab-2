@@ -15,7 +15,7 @@ start-dfs.sh
 start-yarn.sh
 
 hdfs dfs -mkdir /user
-hdfs dfs -mkdir /user/timur
+hdfs dfs -mkdir /user/parallels
 
 hadoop fs -rm -r -f  hdfs://localhost:9000/user/parallels/output
 
