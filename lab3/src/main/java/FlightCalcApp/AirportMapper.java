@@ -17,7 +17,7 @@ public class AirporMapper implements Serializable {
     public static Tuple2<Integer, String> tuple2Mapper(String rowStr) {
         rowStr = removeQuots(rowStr);
         String[] row = rowStr.split(DELIMETER);
-        int code = Integer.parseInt(row[AIRPORT_CODE_COLUMN])
+        int code = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);
 
     }
 
