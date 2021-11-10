@@ -7,7 +7,7 @@ rm -rf ~/hdata/namenode
 rm -rf ~/hdata/datanode
 
 mkdir ~/hdata/namenode
-mkdir ~/hdata/datanode
+mkdir ~/hdata/datanodeS
 
 hdfs namenode -format
 
