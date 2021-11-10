@@ -1,4 +1,4 @@
-mvn package
+mvn 
 
 stop-yarn.sh
 stop-dfs.sh
