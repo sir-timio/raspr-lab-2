@@ -1,4 +1,4 @@
-package FlighCalcApp;
+package FlightCalcApp;
 
 import java.io.Serializable;
 
