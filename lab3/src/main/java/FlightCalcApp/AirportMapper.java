@@ -1,6 +1,7 @@
 package FlighCalcApp;
 
 import java.io.Serializable;
+import 
 
 public class AirporMapper implements Serializable {
 
@@ -13,6 +14,7 @@ public class AirporMapper implements Serializable {
     protected String removeQuots(String s){
         return s.replace(REDUNTANT_QUOT, "");
     }
-    
+
+    public static Tuple2
 
 }
