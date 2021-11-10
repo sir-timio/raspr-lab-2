@@ -15,7 +15,7 @@ public class AirporMapper implements Serializable {
     }
 
     public static Tuple2<Integer, String> tuple2Mapper(String rowStr) {
-        row = removeQuots(row);
+        rowStr = removeQuots(rowStr);
 
 
     }
