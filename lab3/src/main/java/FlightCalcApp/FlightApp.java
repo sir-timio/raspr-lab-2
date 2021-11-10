@@ -1,4 +1,4 @@
-package FlightAp;
+package FlightCalcApp;
 
 public class FlightApp {
 
