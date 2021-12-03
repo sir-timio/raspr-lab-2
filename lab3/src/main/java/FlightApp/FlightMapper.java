@@ -1,5 +1,7 @@
 package FlightApp;
 
+import scala.Tuple2;
+
 public class FlightMapper {
 
     private static final String DELIMETER = ",";
@@ -10,6 +12,10 @@ public class FlightMapper {
 
     protected static String removeQuots(String s){
         return s.replace(QUOT, "");
+    }
+
+    public static Tuple2<Integer, String> processRow(String rowS) {
+        row = removeQuots(rowS)
     }
 
 }
