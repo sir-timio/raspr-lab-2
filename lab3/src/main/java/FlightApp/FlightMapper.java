@@ -8,4 +8,8 @@ public class FlightMapper {
     private static final int DATA_TYPE = 0;
     private static final String QUOT = "\"";
 
+    protected static String removeQuots(String s){
+        return s.replace(QUOT, "");
+    }
+
 }
