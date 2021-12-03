@@ -12,6 +12,6 @@ public class FlightApp {
     JavaSparkContext sc = new JavaSparkContext(conf);
 
     JavaRDD<String> flightFile = sc.textFile(PATH_TO_FLIGHTS);
-    JavaPairRDD<Tuple2<Integer, Integer>, FlightSerializable>
+    JavaPairRDD<Tuple2<Integer, Integer>, FlightSerializable> fligts = flightFile.mapToPair(FlightMapper::processRow);
 
 }
