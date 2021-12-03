@@ -1,0 +1,1 @@
+spark-submit --class FlightApp --maset yarn-client --num-executors 3 target/FlightApp.jar
