@@ -1,2 +1,4 @@
-package FlightApp;public class FlightApp {
+package FlightApp;
+
+public class FlightApp {
 }
