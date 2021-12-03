@@ -1,7 +1,7 @@
 package FlightCalcApp;
 
 import java.io.Serializable;
-import scala.Tuple2;
+
 
 public class AirpotMapper implements Serializable {
 
