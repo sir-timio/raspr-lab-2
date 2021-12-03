@@ -10,4 +10,12 @@ public class FlightSerializable implements Serializable {
         this.delay = delay;
         this.isCancelled = isCancelled;
     }
+
+    public float getDelay() {
+        return delay;
+    }
+
+    public boolean isCancelled() {
+        return isCancelled;
+    }
 }
