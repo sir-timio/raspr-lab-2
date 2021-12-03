@@ -27,6 +27,6 @@ public class FlightMapper {
         int destAirportId = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
 
         return new Tuple2<Tuple2<Integer, Integer>,
-                FlightApp.FlightSerializable>(delay, isCancelled)
+                FlightSerializable>(delay, isCancelled)
     }
 }
