@@ -15,7 +15,8 @@ public class FlightMapper {
     }
 
     public static Tuple2<Integer, String> processRow(String rowS) {
-        row = removeQuots(rowS)
+        String row = removeQuots(rowS);
+
     }
 
 }
