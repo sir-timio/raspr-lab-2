@@ -2,7 +2,7 @@ package FlightApp;
 
 import scala.Tuple2;
 
-public class FlightMapper {
+public class AirportMapper {
 
     private static final String DELIMETER = ",";
     private static final int AIRPORT_CODE_COLUMN = 0;
