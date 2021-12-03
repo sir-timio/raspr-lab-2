@@ -23,6 +23,8 @@ public class FlightMapper {
         if (!rawIsCancelled.isEmpty()){
             isCancelled = Float.parseFloat(rawIsCancelled) == 1.;
         }
-
+        int originAirportId = Integer.parseInt(row[ORIGIN_AIRPORT_ID_COLUMN]);
+        int destAirportId = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
+        
     }
 }
