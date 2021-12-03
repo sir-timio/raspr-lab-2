@@ -8,6 +8,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
     private static final String PATH_TO_AIRPORTS = "airp.csv";
+
+    public static void main(String[] args)
     SparkConf conf = new SparkConf().setAppName("FlightApp");
     JavaSparkContext sc = new JavaSparkContext(conf);
 
