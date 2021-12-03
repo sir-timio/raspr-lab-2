@@ -26,7 +26,7 @@ public class FlightApp {
         JavaPairRDD<Tuple2<Integer, Integer>, FlightSerializable> flights = flightsFile
                 .filter(row -> !row.startsWith(FIRST_LINE_PREFIX_FLIGHTS))
                 .mapToPair(FlightMapper::processRow);
-
+        
 
     }
 }
