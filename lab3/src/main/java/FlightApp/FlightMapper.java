@@ -15,7 +15,7 @@ public class FlightMapper {
         String rawDelay = row[ARR_DELAY_COLUMN];
         float delay = 0;
         if (!rawDelay.isEmpty()) {
-            delay = Float.parseFloat(rawDelay)
+            delay = Float.parseFloat(rawDelay);
         }
 
         String rawIsCancelled = row[CANCELLED_STATUS_COLUMN];
