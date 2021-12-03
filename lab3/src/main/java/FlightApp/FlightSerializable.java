@@ -6,4 +6,8 @@ public class FlightSerializable implements Serializable {
     private float delay;
     private boolean isCancelled;
 
+    public FlightSerializable(float delay, boolean isCancelled) {
+        this.delay = delay;
+        this.isCancelled = isCancelled;
+    }
 }
