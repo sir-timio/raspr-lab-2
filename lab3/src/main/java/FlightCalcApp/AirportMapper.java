@@ -1,5 +1,4 @@
 package FlightCalcApp;
-import spark.sqlContext.implicits._;
 import java.io.Serializable;
 import scala.Tuple2;
 
