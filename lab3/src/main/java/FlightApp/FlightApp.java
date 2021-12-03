@@ -16,12 +16,12 @@ public class FlightApp {
         SparkConf conf = new SparkConf().setAppName("FlightApp");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> flightsFile = sc.textFile(PATH_TO_FLIGHTS);
-
 
         JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
         JavaPairRDD<Integer, String> airports = airportsFIle.filter(row -> !row.startsWith(FIRST_LINE_PREFIX_AIRPORT))
                                                             .mapToPair(AirportMapper::processRow);
+
+        JavaRDD<String> flightsFile = sc.textFile(PATH_TO_FLIGHTS);
 
 
     }
