@@ -9,13 +9,16 @@ public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
     private static final String PATH_TO_AIRPORTS = "airp.csv";
 
-    public static void main(String[] args)
-    SparkConf conf = new SparkConf().setAppName("FlightApp");
-    JavaSparkContext sc = new JavaSparkContext(conf);
+    public static void main(String[] args){
 
-    JavaRDD<String> flightsFile = sc.textFile(PATH_TO_FLIGHTS);
+        SparkConf conf = new SparkConf().setAppName("FlightApp");
+        JavaSparkContext sc = new JavaSparkContext(conf);
+
+        JavaRDD<String> flightsFile = sc.textFile(PATH_TO_FLIGHTS);
 
 
-    JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
-    JavaPairRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
+        JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
+        JavaPairRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
+
+    }
 }
