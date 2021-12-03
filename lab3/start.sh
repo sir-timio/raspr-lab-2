@@ -1,1 +1,1 @@
-spark-submit --class FlightApp --master yarn-client --num-executors 3 target/FlightApp.jar
+spark-submit --class FlightApp.FlightApp --master yarn-client --num-executors 3 target/FlightApp.jar
