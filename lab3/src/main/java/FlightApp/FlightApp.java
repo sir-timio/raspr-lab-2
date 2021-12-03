@@ -8,5 +8,5 @@ public class FlightApp {
     JavaSparkContext sc = new JavaSparkContext(conf);
 
     JavaRDD<String> flightFile = sc.textFile("flights.csv");
-    
+
 }
