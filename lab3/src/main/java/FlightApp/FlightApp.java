@@ -4,6 +4,9 @@ import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
+import static java.lang.System.*;
+
+
 public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
     private static final String PATH_TO_AIRPORTS = "airports.csv";
