@@ -1,7 +1,7 @@
 package FlightCalcApp;
 
 import java.io.Serializable;
-
+import java.lang.Object
 
 public class AirpotMapper implements Serializable {
 
