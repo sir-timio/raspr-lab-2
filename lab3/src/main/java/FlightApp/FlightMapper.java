@@ -14,9 +14,11 @@ public class FlightMapper {
         return s.replace(QUOT, "");
     }
 
-    public static Tuple2<Integer, String> processRow(String rowS) {
-        String row = removeQuots(rowS);
-
+    public static Tuple2<Integer, String> processRow(String rowRawStr) {
+        String rowStr = removeQuots(rowRawStr);
+        String[] row = rowStr.split(DELIMETER);
+        String airportName = row[NAME_COLUMN];
+        
     }
 
 }
