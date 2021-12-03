@@ -1,8 +1,7 @@
 package FlightCalcApp;
 
 import java.io.Serializable;
-import java.lang.Object
-
+import scala
 public class AirpotMapper implements Serializable {
 
     private static final String DELIMETER = ",";
