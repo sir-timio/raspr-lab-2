@@ -3,7 +3,6 @@ import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import scala.Tuple2;
 
 public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
@@ -16,6 +15,6 @@ public class FlightApp {
 
 
     JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
-    JavaRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
-    
+    JavaPairRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
+
 }
