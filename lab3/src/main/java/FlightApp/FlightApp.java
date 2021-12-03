@@ -15,6 +15,7 @@ public class FlightApp {
 
 
     JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
-    JavaPairRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
+    JavaPairRDD<Integer, String> airports = airportsFIle
+            .mapToPair(AirportMapper::processRow);
 
 }
