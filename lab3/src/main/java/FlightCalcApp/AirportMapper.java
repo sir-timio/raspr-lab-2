@@ -1,10 +1,9 @@
 package FlightCalcApp;
 
 import java.io.Serializable;
-import scala;
+import scala.Tuple2;
 
 public class AirpotMapper implements Serializable {
-    scala.
     private static final String DELIMETER = ",";
     private static final int AIRPORT_CODE_COLUMN = 0;
     private static final int NAME_COLUMN = 1;
