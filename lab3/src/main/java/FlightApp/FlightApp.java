@@ -4,6 +4,7 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 
 public class FlightApp {
+    private static final String PATH_TO_FLIGHTS = "flights.csv";
     SparkConf conf = new SparkConf().setAppName("FlightApp");
     JavaSparkContext sc = new JavaSparkContext(conf);
 
