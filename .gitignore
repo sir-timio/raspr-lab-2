@@ -152,3 +152,5 @@ hs_err_pid*
 
 .DS_Store
 
+gitwatch.sh
+start_gitwatch.sh

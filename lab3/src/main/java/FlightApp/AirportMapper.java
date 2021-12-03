@@ -13,8 +13,8 @@ public class AirportMapper {
         return s.replace(QUOT, "");
     }
 
-    public static Tuple2<Integer, String> processRow(String rowRawStr) {
-        String rowStr = removeQuots(rowRawStr);
+    public static Tuple2<Integer, String> processRow(String rawRowStr) {
+        String rowStr = removeQuots(rawRowStr);
         String[] row = rowStr.split(DELIMETER);
         String airportName = row[NAME_COLUMN];
         int airportCode = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);

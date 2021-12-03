@@ -7,7 +7,9 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
-    private static final String PATH_TO_AIRPORTS = "airp.csv";
+    private static final String PATH_TO_AIRPORTS = "airport.csv";
+    private static final String FIRST_LINE_PREFIX_AIRPORT = "Code";
+    private static final String FIRST_LINE_PREFIX_FLIGHTS = "\"YEAR\"";
 
     public static void main(String[] args){
 
@@ -18,7 +20,9 @@ public class FlightApp {
 
 
         JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
-        JavaPairRDD<Integer, String> airports = airportsFIle.mapToPair(AirportMapper::processRow);
+        JavaPairRDD<Integer, String> airports = airportsFIle.filter(row -> !row.startsWith(FIRST_LINE_PREFIX_AIRPORT))
+                                                            .mapToPair(AirportMapper::processRow);
+
 
     }
 }
