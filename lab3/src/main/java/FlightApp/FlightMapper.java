@@ -19,6 +19,6 @@ public class FlightMapper {
         String[] row = rowStr.split(DELIMETER);
         String airportName = row[NAME_COLUMN];
         int airportCode = Integer.parseInt(row[AIRPORT_CODE_COLUMN]);
-        return new Tuple2<>(airportCode, airportName)
+        return new Tuple2<>(airportCode, airportName);
     }
 }
