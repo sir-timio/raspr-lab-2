@@ -19,14 +19,15 @@ public class FlightApp {
 
 
         JavaRDD<String> airportsFIle = sc.textFile(PATH_TO_AIRPORTS);
-        JavaPairRDD<Integer, String> airports = airportsFIle.filter(row -> !row.startsWith(FIRST_LINE_PREFIX_AIRPORT))
-                                                            .mapToPair(AirportMapper::processRow);
+        JavaPairRDD<Integer, String> airports = airportsFIle
+                .filter(row -> !row.startsWith(FIRST_LINE_PREFIX_AIRPORT))
+                .mapToPair(AirportMapper::processRow);
 
         JavaRDD<String> flightsFile = sc.textFile(PATH_TO_FLIGHTS);
         JavaPairRDD<Tuple2<Integer, Integer>, FlightSerializable> flights = flightsFile
                 .filter(row -> !row.startsWith(FIRST_LINE_PREFIX_FLIGHTS))
                 .mapToPair(FlightMapper::processRow);
-        
+
 
     }
 }
