@@ -1,2 +1,9 @@
-package FlightApp;public class FlightStat {
+package FlightApp;
+
+import java.io.Serializable;
+
+public class FlightStat implements Serializable {
+
+    private float maxDelay;
+    
 }
