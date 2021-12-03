@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class a {
+import org.hadoop.*;
+
+public class a {
 }
