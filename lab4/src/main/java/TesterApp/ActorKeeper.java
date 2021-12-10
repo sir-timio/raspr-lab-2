@@ -11,7 +11,6 @@ public class ActorKeeper extends AbstractActor {
 
     @Override
     public Receive createReceive() {
-        return null;
         return receiveBuilder()
                 .match(
                         TestResultStore.class,
