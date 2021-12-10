@@ -8,7 +8,7 @@ public class MessageTestsPackage {
     private final String packageId;
     private final String jsScript;
     private final String functionName;
-    private final List<Test> testList;
+    private final List<Test> tests;
 
     @JsonCreator
     public MessageTestsPackage(@J)
