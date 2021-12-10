@@ -22,7 +22,11 @@ public class MessageTestsPackage {
         this.tests = tests;
     }
 
-    static List<Test> getTests() {
+    public List<Test> getTests() {
         return tests;
+    }
+
+    public String getPackageId() {
+        return getPackageId();
     }
 }
