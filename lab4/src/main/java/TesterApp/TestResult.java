@@ -6,6 +6,5 @@ public class TestResult {
     private final String testName;
     private final String expectedResult;
     private final String evaluatedResult;
-
     
 }
