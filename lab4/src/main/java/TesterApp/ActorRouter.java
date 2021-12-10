@@ -30,5 +30,8 @@ public class ActorRouter extends AbstractActor {
         router = new Router(new RoundRobinRoutingLogic(), routees);
     }
 
-    
+    static class MessageTest {
+        private final String packageId;
+        
+    }
 }
