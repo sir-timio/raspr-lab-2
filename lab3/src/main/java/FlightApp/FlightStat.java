@@ -15,5 +15,21 @@ public class FlightStat implements Serializable {
         this.cancelledFlights = cancelledFlights;
         this.totalFlights = totalFlights;
     }
+
+    protected float getMaxDelay() {
+        return this.maxDelay;
+    }
+
+    protected int getLateFlights() {
+        return this.lateFlights;
+    }
+
+    protected int getCancelledFlights() {
+        return this.cancelledFlights;
+    }
+
+    protected int getTotalFlights() {
+        return this.totalFlights;
+    }
 }
 
