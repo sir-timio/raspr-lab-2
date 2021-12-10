@@ -12,7 +12,7 @@ public class Test {
     @JsonProperty
     private final String expectedResult;
 
-    public Test() {
+    public Test(String testName, ) {
 
     }
 }
