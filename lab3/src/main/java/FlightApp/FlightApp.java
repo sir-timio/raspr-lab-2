@@ -37,7 +37,12 @@ public class FlightApp {
         Map<Integer, String> airportsMap = airports.collectAsMap();
         final Broadcast<Map<Integer, String>> airportsBroadcasted = sc.broadcast(airportsMap);
 
-        JavaRDD<String> statRDD = Fl
+        JavaRDD<String> statRDD = flightsStat.map(
+                flightsStat -> {
+                    Map<Integer, String> airportsBroadcastedMap = airportsBroadcasted.value();
+                    
+                }
+        )
 
     }
 }
