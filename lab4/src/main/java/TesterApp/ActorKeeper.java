@@ -12,12 +12,12 @@ public class ActorKeeper extends AbstractActor {
     @Override
     public Receive createReceive() {
         return null;
-//        return receiveBuilder()
-//                .match(
-//                        MessageTestResult.class,
-//                        this::storeResult
-//                )
-//                .match()
+        return receiveBuilder()
+                .match(
+                        MessageTestResults.class,
+                        this::storeResult
+                )
+                .match()
     }
 
     public void storeResult(TestResultStore m) {
