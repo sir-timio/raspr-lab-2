@@ -8,6 +8,7 @@ public class ActorTester extends AbstractActor {
     private static final String FAILING_STATUS = "FAILED";
     private static final String ERROR_STATUS = "ERROR";
 
-    
+
+    private String evalJS(String jscript, String functionName, )
 
 }
