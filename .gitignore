@@ -132,6 +132,7 @@ fabric.properties
 # Log file
 *.log
 
+gitwatch.sh
 # BlueJ files
 *.ctxt
 

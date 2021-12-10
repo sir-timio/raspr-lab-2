@@ -26,7 +26,6 @@ public class FlightStat implements Serializable {
                 ONE_FLIGHT
         );
     }
-
     
 
     public FlightStat updateStat(FlightStat stat, FlightSerializable flight) {
