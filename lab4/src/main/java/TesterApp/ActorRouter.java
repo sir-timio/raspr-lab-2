@@ -3,6 +3,7 @@ package TesterApp;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
+import akka.routing.ActorRefRoutee;
 import akka.routing.Routee;
 import akka.routing.Router;
 
@@ -21,7 +22,9 @@ public class ActorRouter extends AbstractActor {
 
         List<Routee> routees = new ArrayList<>();
         for (int i = 0; i < NUM_WORKERS; i++) {
-            ActorRef 
+            ActorRef tester = getContext().actorOf(Props.create(ActorTester.class));
+            getContext().watch(tester);
+            routees.add(new ActorRefRoutee(tester));
         }
 
 
