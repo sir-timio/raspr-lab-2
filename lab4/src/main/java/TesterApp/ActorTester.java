@@ -2,6 +2,9 @@ package TesterApp;
 
 import akka.actor.AbstractActor;
 
+import javax.script.Invocable;
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,7 +20,7 @@ public class ActorTester extends AbstractActor {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(SCRIPT_ENGINE_NAME);
         engine.eval(jscript);
         Invocable invocable = (Invocable) engine;
-        return invocable.invokeFunction(functionName, params).toString();
+        return invocable.invokeFunction(functionName, params.toArray()).toString();
     }
 
 }
