@@ -35,7 +35,14 @@ public class ActorRouter extends AbstractActor {
     @Override
     public Receive createReceive() {
         return receiveBuilder()
-                .match()
+                .match(
+                        ActorRouter.MessageTest.class,
+                        m -> sender().tell(
+                                runTest(m),
+                                self()
+                        )
+                )
+                .build();
     }
 
     static class MessageTest {
