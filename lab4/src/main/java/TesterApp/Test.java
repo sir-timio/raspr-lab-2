@@ -29,5 +29,11 @@ public class Test {
         return testName;
     }
 
-    public get 
+    public ArrayList<Object> getParams() {
+        return params;
+    }
+
+    public String getExpectedResult() {
+        return expectedResult;
+    }
 }
