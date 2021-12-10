@@ -7,12 +7,12 @@ import java.util.ArrayList;
 
 public class MessageTestResult {
     private static String packageId;
-    private static ArrayList<TestResult> results;
+    private static List<TestResult> results;
 
     @JsonCreator
     public MessageTestResult(
             @JsonProperty("packageId") String packageId,
-            @JsonProperty("results") ArrayList<TestResult> results) {
+            @JsonProperty("results") List<TestResult> results) {
         this.packageId = packageId;
         this.results = results;
     }
