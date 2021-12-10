@@ -29,4 +29,14 @@ public class MessageTestsPackage {
     public String getPackageId() {
         return getPackageId();
     }
+
+    public String getJsScript() {
+        return jsScript;
+    }
+
+    public String get
+
+    public String getFunctionName() {
+        return functionName;
+    }
 }
