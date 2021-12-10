@@ -41,7 +41,8 @@ public class ActorTester extends AbstractActor {
             );
             status = expected.equals(evaluated) ? PASSED_STATUS : FAILED_STATUS
         } catch (ScriptException | NoSuchMethodException e) {
-            e.printStackTrace();
+            evaluated = "";
+            status = ERROR_STATUS;
         }
     }
 }
