@@ -45,7 +45,7 @@ public class FlightApp {
                     return String.format("Stat from %s to %s: %s",
                             origAirportName, destAirportName, flightsStat._2.toString())
                 }
-        )
+        );
 
     }
 }
