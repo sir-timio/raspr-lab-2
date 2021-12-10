@@ -3,7 +3,6 @@ package TesterApp;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MessageTestResult {
@@ -22,7 +21,7 @@ public class MessageTestResult {
         return packageId;
     }
 
-    public List<TestResult> getResults() {
+    public TestResult getResults() {
         return results;
     }
 }
