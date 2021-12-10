@@ -21,7 +21,7 @@ public class MessageTestResult {
         return packageId;
     }
 
-    public static ArrayList<TestResult> getResults() {
+    public ArrayList<TestResult> getResults() {
         return results;
     }
 }
