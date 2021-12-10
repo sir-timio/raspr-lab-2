@@ -2,6 +2,7 @@ package TesterApp;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
+import akka.actor.Props;
 import akka.routing.Router;
 
 public class ActorRouter extends AbstractActor {
@@ -10,7 +11,8 @@ public class ActorRouter extends AbstractActor {
     private final ActorRef keeper;
     private final Router router;
 
-    {
-        keeper = getContext().actorOf()
+    public ActorRouter() {
+        keeper = getContext().actorOf(Props.create(ActorKeeper.class));
+        getContext().watch(ActorKeeper)
     }
 }
