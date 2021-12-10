@@ -46,7 +46,9 @@ public class FlightStat implements Serializable {
         );
     }
 
-    public float calcPercent()
+    public float calcPercent(int part, int total) {
+        return (float) (100.0 * part / total);
+    }
 
     @Override
     public String toString() {
