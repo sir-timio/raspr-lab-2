@@ -1,4 +1,4 @@
-package FlightStateApp;
+package FlightApp;
 
 import scala.Tuple2;
 

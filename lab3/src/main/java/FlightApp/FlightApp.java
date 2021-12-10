@@ -1,4 +1,4 @@
-package FlightStateApp;
+package FlightApp;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
@@ -19,7 +19,7 @@ public class FlightApp {
 
     public static void main(String[] args){
 
-        SparkConf conf = new SparkConf().setAppName("FlightStateApp");
+        SparkConf conf = new SparkConf().setAppName("FlightApp");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
 
