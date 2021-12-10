@@ -45,12 +45,13 @@ public class ActorTester extends AbstractActor {
             status = ERROR_STATUS + ": " + e.toString();
         }
 
-        return new TestResultStore(
+        TestResultStore testResultStore = new TestResultStore(
                 messageTest.getPackageId(),
                 status,
                 messageTest.getTest().getTestName(),
                 expected,
                 evaluated
         );
+        return testResultStore;
     }
 }
