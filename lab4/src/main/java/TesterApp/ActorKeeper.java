@@ -18,4 +18,8 @@ public class ActorKeeper extends AbstractActor {
                         this::storeResult
                 )
     }
+
+    public void storeResult(MessageTestResult m) {
+        String packageId = m.get
+    }
 }
