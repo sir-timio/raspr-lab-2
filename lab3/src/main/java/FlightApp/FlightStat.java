@@ -37,6 +37,15 @@ public class FlightStat implements Serializable {
         );
     }
 
+    public FlightStat mergeStat(FlightStat stat1, FlightStat stat2) {
+        return new FlightStat(
+                Float.max(stat1.getMaxDelay(), stat2.getMaxDelay()),
+                stat1.getLateFlights() + stat2.getLateFlights(),
+                stat1.getCancelledFlights() + stat2.getCancelledFlights(),
+                stat1.getTotalFlights() + stat2.getTotalFlights()
+        )
+    }
+
     protected float getMaxDelay() {
         return this.maxDelay;
     }
