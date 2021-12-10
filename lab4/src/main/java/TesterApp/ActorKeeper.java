@@ -20,7 +20,7 @@ public class ActorKeeper extends AbstractActor {
 //                .match()
     }
 
-    public void storeResult(MessageTestResults m) {
+    public void storeResult(TestResultStore m) {
         String packageId = m.getPackageId();
         if (results.containsKey(packageId)) {
             results.get(packageId).add(m.getResults())
