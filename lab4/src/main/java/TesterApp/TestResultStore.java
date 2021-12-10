@@ -8,6 +8,13 @@ public class TestResultStore {
                            String expectedResult, String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResult(packageId, status, testName, expectedResult, evaluatedResult);
-        
+    }
+
+    public String getPackageId() {
+        return packageId;
+    }
+
+    public TestResult getResult() {
+        return result;
     }
 }
