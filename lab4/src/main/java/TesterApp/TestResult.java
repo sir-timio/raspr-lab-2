@@ -9,5 +9,12 @@ public class TestResult {
 
 
     public TestResult(String packageId, String status, String testName,
-                      String expectedResult, String evaluatedResult)
+                      String expectedResult, String evaluatedResult) {
+        this.packageId = packageId;
+        this.status = status;
+        this.testName = testName;
+        this.expectedResult = expectedResult;
+        this.evaluatedResult = evaluatedResult;
+    }
+
 }
