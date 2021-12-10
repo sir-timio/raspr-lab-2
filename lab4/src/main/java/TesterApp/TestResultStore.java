@@ -5,5 +5,8 @@ public class TestResultStore {
     private final TestResult result;
 
     public TestResultStore(String packageId, String status, String testName,
-                           String expectedResult, String receivedResult)
+                           String expectedResult, String receivedResult) {
+        this.packageId = packageId;
+        
+    }
 }
