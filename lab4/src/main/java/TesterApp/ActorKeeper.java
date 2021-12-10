@@ -23,6 +23,9 @@ public class ActorKeeper extends AbstractActor {
 
     public void storeResult(MessageTestResult m) {
         String packageId = m.getPackageId();
+        if (results.containsKey(packageId)) {
+            results.get(packageId).add(m.getTestResults())
+        }
 
     }
 }
