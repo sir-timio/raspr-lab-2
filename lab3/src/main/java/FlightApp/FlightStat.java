@@ -16,6 +16,10 @@ public class FlightStat implements Serializable {
         this.totalFlights = totalFlights;
     }
 
+    public FlightStat makeStat(FlightSerializable flight)  {
+        
+    }
+
     protected float getMaxDelay() {
         return this.maxDelay;
     }
