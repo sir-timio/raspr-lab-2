@@ -41,6 +41,11 @@ public class ActorRouter extends AbstractActor {
                             String packageId = m.getPackageId();
                             String jsScript = m.getJsScript();
                             String functionName = m.getFunctionName();
+
+                            for (Test test: m.getTests()) {
+                                router.route(new MessageTest(packageId, jsScript,
+                                                            functionName, test), keeper);
+                            }
                         }
                 )
     }
