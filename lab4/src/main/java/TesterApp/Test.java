@@ -24,4 +24,10 @@ public class Test {
         this.expectedResult = expectedResult;
 
     }
+
+    public String getTestName() {
+        return testName;
+    }
+
+    public get 
 }
