@@ -45,6 +45,7 @@ public class TestApp extends AllDirectives {
                                         () -> parameter("packageId", (id) -> {
                                             Future<Object> result = Patterns.ask(
                                                     actorRouter,
+                                                    MessageTestsPackage
 
                                             )
 
