@@ -11,7 +11,7 @@ mkdir ~/hdata/datanode
 
 hdfs namenode -format
 
-start-dfs.sh
+start-yarn.sh
 start-yarn.sh
 
 hdfs dfs -mkdir /user
