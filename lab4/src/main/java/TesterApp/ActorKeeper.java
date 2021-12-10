@@ -14,7 +14,8 @@ public class ActorKeeper extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(
-                        MessageTestResult
+                        MessageTestResult.class,
+                        this::storeResult
                 )
     }
 }
