@@ -3,6 +3,7 @@ import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.http.javadsl.Http;
+import akka.http.javadsl.marshallers.jackson.Jackson;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.AllDirectives;
@@ -27,8 +28,11 @@ public class TestApp extends AllDirectives {
         return route(
                 path("test", () ->
                         route(
-                                post(
-                                        
+                                post(() ->
+                                        entity(Jackson.unmarshaller(MessageTestsPackage.class), m -> {
+                                            actorRouter.tell(m, ActorRef.noSender());
+                                        })
+
                                 )
                         )
                 )
