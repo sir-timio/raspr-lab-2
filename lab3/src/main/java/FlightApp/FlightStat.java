@@ -51,7 +51,6 @@ public class FlightStat implements Serializable {
     }
 
     @Override
-    
     public String toString() {
         return "\nMax delay: " + maxDelay + "\n" +
                 "delayed: " + String.format("%.2f", calcPercent(delayedFlights, totalFlights)) + "%\n" +
