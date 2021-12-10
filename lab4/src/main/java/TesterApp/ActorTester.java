@@ -38,7 +38,10 @@ public class ActorTester extends AbstractActor {
                     messageTest.getJsScript(),
                     messageTest.getFunctionName(),
                     messageTest.getTest().getParams()
-            )
+            );
+
+        } catch (ScriptException | NoSuchMethodException e) {
+            e.printStackTrace();
         }
     }
 }
