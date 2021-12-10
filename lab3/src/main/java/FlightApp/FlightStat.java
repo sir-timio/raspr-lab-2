@@ -30,7 +30,9 @@ public class FlightStat implements Serializable {
     public FlightStat updateStat(FlightStat stat, FlightSerializable flight) {
         return new FlightStat(
                 Float.max(stat.getMaxDelay(), flight.getDelay()),
-                
+                stat.getLateFlights() + flight.isDelayed(),
+                stat.getCancelledFlights() + flight.isCancelled(),
+                stat.getTotalFlights() + ONE_FLIGHT
         )
     }
 
