@@ -5,12 +5,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-public class MessageTestResult {
+public class MessageTestResults {
     private static String packageId;
     private static List<TestResult> results;
 
     @JsonCreator
-    public MessageTestResult(
+    public MessageTestResults(
             @JsonProperty("packageId") String packageId,
             @JsonProperty("results") List<TestResult> results) {
         this.packageId = packageId;
