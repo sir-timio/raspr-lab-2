@@ -18,7 +18,6 @@ public class TestApp extends AllDirectives {
         ActorMaterializer actorMaterializer = ActorMaterializer.create(ActorSystem);
 
         TestApp app = new TestApp();
-        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
-                
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
     }
 }
