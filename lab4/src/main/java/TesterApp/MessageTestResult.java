@@ -17,7 +17,7 @@ public class MessageTestResult {
         this.results = results;
     }
 
-    public static String getPackageId() {
+    public String getPackageId() {
         return packageId;
     }
 
