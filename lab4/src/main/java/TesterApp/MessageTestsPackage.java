@@ -21,4 +21,8 @@ public class MessageTestsPackage {
         this.functionName = functionName;
         this.tests = tests;
     }
+
+    static List<Test> getTests() {
+        return tests;
+    }
 }
