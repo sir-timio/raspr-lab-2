@@ -19,9 +19,9 @@ public class FlightMapper {
         }
 
         String rawIsCancelled = row[CANCELLED_STATUS_COLUMN];
-        boolean isCancelled = false;
+        float isCancelled = 0;
         if (!rawIsCancelled.isEmpty()){
-            isCancelled = Float.parseFloat(rawIsCancelled) == 1.;
+            isCancelled = Float.parseFloat(rawIsCancelled);
         }
         int originAirportId = Integer.parseInt(row[ORIGIN_AIRPORT_ID_COLUMN]);
         int destAirportId = Integer.parseInt(row[DEST_AIRPORT_ID_COLUMN]);
