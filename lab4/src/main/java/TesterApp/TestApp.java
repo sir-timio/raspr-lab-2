@@ -48,7 +48,7 @@ public class TestApp extends AllDirectives {
                                                     new MessageTestsPackageResult(id),
                                                     500
                                             );
-                                            return completeOKWithFuture(result, Jackson.marshaller())
+                                            return completeOKWithFuture(result, Jackson.marshaller());
 
 
                                         })
