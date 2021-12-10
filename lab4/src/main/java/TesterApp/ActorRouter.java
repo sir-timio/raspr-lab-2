@@ -29,6 +29,5 @@ public class ActorRouter extends AbstractActor {
         }
         router = new Router(new RoundRobinRoutingLogic(), routees);
 
-
     }
 }
