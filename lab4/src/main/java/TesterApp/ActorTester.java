@@ -2,7 +2,9 @@ package TesterApp;
 
 import akka.actor.AbstractActor;
 
+import javax.script.ScriptException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ActorTester extends AbstractActor {
     private static final String EVAL_ENGINE = "nashorn";
@@ -11,6 +13,8 @@ public class ActorTester extends AbstractActor {
     private static final String ERROR_STATUS = "ERROR";
 
 
-    private String evalJS(String jscript, String functionName, ArrayList<Object> params) throws 
+    private String evalJS(String jscript, String functionName, ArrayList<Object> params) throws ScriptException, NoSuchMethodException {
+        
+    }
 
 }
