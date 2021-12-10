@@ -5,5 +5,7 @@ public class Test {
     private final Object[] params;
     private final String expectedResult;
 
-    public Test()
+    public Test() {
+        
+    }
 }
