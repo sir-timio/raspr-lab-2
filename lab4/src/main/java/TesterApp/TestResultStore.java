@@ -17,4 +17,12 @@ public class TestResultStore {
     public TestResult getResult() {
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "TestResultStore{" +
+                "packageId='" + packageId + '\'' +
+                ", result=" + result +
+                '}';
+    }
 }
