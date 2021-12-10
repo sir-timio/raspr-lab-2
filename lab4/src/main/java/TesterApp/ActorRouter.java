@@ -32,6 +32,12 @@ public class ActorRouter extends AbstractActor {
         router = new Router(new RoundRobinRoutingLogic(), routees);
     }
 
+    @Override
+    public Receive createReceive() {
+        return receiveBuilder()
+                .match()
+    }
+
     static class MessageTest {
         private final String packageId;
         private final String jsScript;
