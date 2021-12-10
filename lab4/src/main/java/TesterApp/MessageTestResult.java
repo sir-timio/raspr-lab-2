@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MessageTestResult {
     private static String packageId;
@@ -21,7 +22,7 @@ public class MessageTestResult {
         return packageId;
     }
 
-    public ArrayList<TestResult> getResults() {
+    public List<TestResult> getResults() {
         return results;
     }
 }
