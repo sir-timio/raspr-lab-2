@@ -7,6 +7,6 @@ public class TestResultStore {
     public TestResultStore(String packageId, String status, String testName,
                            String expectedResult, String evaluatedResult) {
         this.packageId = packageId;
-        this.result = new TestResult(packageId, status, testName, expectedResult, )
+        this.result = new TestResult(packageId, status, testName, expectedResult, evaluatedResult)
     }
 }
