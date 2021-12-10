@@ -13,6 +13,7 @@ public class ActorRouter extends AbstractActor {
 
     public ActorRouter() {
         keeper = getContext().actorOf(Props.create(ActorKeeper.class));
-        getContext().watch(ActorKeeper)
+        getContext().watch(keeper);
+        
     }
 }
