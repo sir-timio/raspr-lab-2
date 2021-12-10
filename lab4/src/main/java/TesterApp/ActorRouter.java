@@ -64,6 +64,5 @@ public class ActorRouter extends AbstractActor {
         protected Test getTest() {
             return test;
         }
-
     }
 }
