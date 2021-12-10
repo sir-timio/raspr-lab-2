@@ -33,7 +33,7 @@ public class FlightStat implements Serializable {
                 stat.getLateFlights() + flight.isDelayed(),
                 stat.getCancelledFlights() + flight.isCancelled(),
                 stat.getTotalFlights() + ONE_FLIGHT
-        )
+        );
     }
 
     protected float getMaxDelay() {
