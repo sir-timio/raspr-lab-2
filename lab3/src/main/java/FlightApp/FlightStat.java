@@ -52,7 +52,7 @@ public class FlightStat implements Serializable {
 
     @Override
     public String toString() {
-        return "Max delay: "
+        return "Max delay: %f"
     }
 
     protected float getMaxDelay() {
