@@ -16,4 +16,6 @@ public class MessageTestResults {
         this.packageId = packageId;
         this.results = results;
     }
+
+
 }
