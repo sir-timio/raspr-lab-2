@@ -20,8 +20,9 @@ public class FlightStat implements Serializable {
 
         return new FlightStat(
                 flight.getDelay(),
-                flight.isCancelled(),
-
+                flight.getDelay() > 0 ? 1 : 0,
+                (int) flight.isCancelled(),
+                1
         )
     }
 
