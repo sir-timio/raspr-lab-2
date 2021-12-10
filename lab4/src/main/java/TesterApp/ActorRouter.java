@@ -1,2 +1,7 @@
-package TesterApp;public class ActorRouter {
+package TesterApp;
+
+import akka.actor.AbstractActor;
+
+public class ActorRouter extends AbstractActor
+{
 }
