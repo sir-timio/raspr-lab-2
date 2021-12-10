@@ -14,6 +14,8 @@ hdfs namenode -format
 start-dfs.sh
 start-yarn.sh
 
+hdfs dfs -rm -f /user
+
 hdfs dfs -mkdir /user
 hdfs dfs -mkdir /user/parallels
 
