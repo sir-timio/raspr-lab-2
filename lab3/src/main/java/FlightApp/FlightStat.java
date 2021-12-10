@@ -52,10 +52,10 @@ public class FlightStat implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("Max delay: %f\ndelayed: %.2f%\ncancelled: %.2f%",
+        return String.format("Max delay: %f\ndelayed: %.2f%s\ncancelled: %.2f%s",
                             maxDelay,
                             calcPercent(delayedFlights, totalFlights),
-                            calcPercent(cancelledFlights, totalFlights));
+                            calcPercent(cancelledFlights, totalFlights), "%");
     }
 
     protected float getMaxDelay() {
