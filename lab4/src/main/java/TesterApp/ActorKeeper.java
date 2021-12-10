@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 public class ActorKeeper extends AbstractActor {
     private Map<String, List<TestResult>> results = new HashMap<>();
+    
     @Override
     public Receive createReceive() {
         return receiveBuilder()
