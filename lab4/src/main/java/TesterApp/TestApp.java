@@ -12,7 +12,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
-import java.util.concurrent.Future;
+import scala.concurrent.Future;
 
 public class TestApp extends AllDirectives {
     private static final String ACTOR_SYSTEM_NAME = "JS_TESTER";
