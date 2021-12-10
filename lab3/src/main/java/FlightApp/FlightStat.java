@@ -17,8 +17,10 @@ public class FlightStat implements Serializable {
     }
 
     public FlightStat makeStat(FlightSerializable flight)  {
+
         return new FlightStat(
-                Float.max()
+                flight.getDelay(),
+                
         )
     }
 
