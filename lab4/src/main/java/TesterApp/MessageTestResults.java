@@ -6,16 +6,22 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 
 static class MessageTestResults {
-    private static final String packageId;
-    private static final ArrayList<TestResult> results;
+    private static String packageId;
+    private static ArrayList<TestResult> results;
 
     @JsonCreator
-     public MessageReturnResults(
+     public MessageTestResults(
             @JsonProperty("packageId") String packageId,
             @JsonProperty("results") ArrayList<TestResult> results) {
         this.packageId = packageId;
         this.results = results;
     }
 
+    public static String getPackageId() {
+        return packageId;
+    }
 
+    public static ArrayList<TestResult> getResults() {
+        return results;
+    }
 }
