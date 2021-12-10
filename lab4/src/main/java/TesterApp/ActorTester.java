@@ -27,5 +27,10 @@ public class ActorTester extends AbstractActor {
         return invocable.invokeFunction(functionName, params.toArray()).toString();
     }
 
-    
+
+    private TestResultStore evalTest(ActorRouter.MessageTest messageTest) {
+        String evaluated;
+        String status;
+        String expected = messageTest.getTest().getExpectedResult();
+    }
 }
