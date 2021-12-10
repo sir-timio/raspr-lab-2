@@ -32,7 +32,7 @@ public class FlightApp {
                 .mapToPair(FlightMapper::processRow);
 
         Map<Integer, String> airportsMap = airports.collectAsMap();
-        final Broadcast<Map<Integer, String>> airportsBroa
+        final Broadcast<Map<Integer, String>> airportsBroadcasted = sc.broadcast(airportsMap)
 
     }
 }
