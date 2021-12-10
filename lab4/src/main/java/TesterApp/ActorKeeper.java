@@ -23,7 +23,8 @@ public class ActorKeeper extends AbstractActor {
                                 new MessageTestResults(
                                         request.getPackageID(),
                                         results.get(request.getPackageID())
-                                )
+                                ),
+                                self()
                         )
                 )
     }
