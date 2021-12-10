@@ -15,5 +15,10 @@ public class MessageTestsPackage {
     public MessageTestsPackage(@JsonProperty("packageId") String packageID,
                                @JsonProperty("jsScript") String jsScript,
                                @JsonProperty("functionName") String functionName,
-                               @JsonProperty("tests") List<Test> tests)
+                               @JsonProperty("tests") List<Test> tests) {
+        this.packageId = packageID;
+        this.jsScript = jsScript;
+        this.functionName = functionName;
+        this.tests = tests;
+    }
 }
