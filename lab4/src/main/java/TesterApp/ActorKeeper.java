@@ -12,6 +12,9 @@ public class ActorKeeper extends AbstractActor {
 
     @Override
     public Receive createReceive() {
-
+        return receiveBuilder()
+                .match(
+                        MessageTestResult
+                )
     }
 }

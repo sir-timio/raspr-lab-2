@@ -5,12 +5,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 
-public class MessageTestResults {
+public class MessageTestResult {
     private static String packageId;
     private static ArrayList<TestResult> results;
 
     @JsonCreator
-     public MessageTestResults(
+     public MessageTestResult(
             @JsonProperty("packageId") String packageId,
             @JsonProperty("results") ArrayList<TestResult> results) {
         this.packageId = packageId;
