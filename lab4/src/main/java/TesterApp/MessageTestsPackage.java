@@ -1,6 +1,7 @@
 package TesterApp;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
@@ -11,5 +12,8 @@ public class MessageTestsPackage {
     private final List<Test> tests;
 
     @JsonCreator
-    public MessageTestsPackage(@J)
+    public MessageTestsPackage(@JsonProperty("packageId") String packageID,
+                               @JsonProperty("jsScript") String jsScript,
+                               @JsonProperty("functionName") String functionName,
+                               @JsonProperty("tests") List<Test> tests)
 }
