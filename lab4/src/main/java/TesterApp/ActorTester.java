@@ -24,7 +24,8 @@ public class ActorTester extends AbstractActor {
                                 evalTest(m),
                                 self()
                         )
-                );
+                )
+                .build();
     }
 
     private String evalJS(String jscript, String functionName, ArrayList<Object> params) throws ScriptException, NoSuchMethodException {
