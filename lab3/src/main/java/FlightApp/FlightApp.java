@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class FlightApp {
     private static final String PATH_TO_FLIGHTS = "flights.csv";
-    private static final String PATH_TO_AIRPORTS = "airport.csv";
+    private static final String PATH_TO_AIRPORTS = "airports.csv";
     private static final String FIRST_LINE_PREFIX_AIRPORT = "Code";
     private static final String FIRST_LINE_PREFIX_FLIGHTS = "\"YEAR\"";
 
@@ -44,8 +44,8 @@ public class FlightApp {
                     Map<Integer, String> airportsBroadcastedMap = airportsBroadcasted.value();
                     String origAirportName = airportsBroadcastedMap.get(flightStat._1._1);
                     String destAirportName = airportsBroadcastedMap.get(flightStat._1._2);
-                    return String.format("Stat from %s to %s: %s",
-                            origAirportName, destAirportName, flightStat._2.toString());
+                    return "Stat from: " + origAirportName + " to " + destAirportName + ": " +
+                            flightStat._2.toString();
                 }
         );
     statRDD.saveAsTextFile(OUTPUT_FILE);
