@@ -15,6 +15,10 @@ public class ActorTester extends AbstractActor {
     private static final String FAILING_STATUS = "FAILED";
     private static final String ERROR_STATUS = "ERROR";
 
+    @Override
+    public Receive createReceive() {
+        return null;
+    }
 
     private String evalJS(String jscript, String functionName, ArrayList<Object> params) throws ScriptException, NoSuchMethodException {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(EVAL_ENGINE);
@@ -23,9 +27,5 @@ public class ActorTester extends AbstractActor {
         return invocable.invokeFunction(functionName, params.toArray()).toString();
     }
 
-
-    @Override
-    public Receive createReceive() {
-        return null;
-    }
+    
 }
