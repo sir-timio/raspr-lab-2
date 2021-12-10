@@ -1,10 +1,12 @@
 package TesterApp;
 import akka.NotUsed;
+import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.AllDirectives;
+import akka.http.javadsl.server.Route;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
@@ -19,5 +21,17 @@ public class TestApp extends AllDirectives {
 
         TestApp app = new TestApp();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
+    }
+
+    private Route createRoute(ActorRef actorRouter) {
+        return route(
+                path("test", () ->
+                        route(
+                                post(
+                                        
+                                )
+                        )
+                )
+        )
     }
 }
