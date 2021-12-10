@@ -7,3 +7,4 @@ public class FlightStat implements Serializable {
     private float maxDelay;
 
 }
+
