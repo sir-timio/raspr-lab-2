@@ -20,6 +20,7 @@ public class ActorKeeper extends AbstractActor {
     }
 
     public void storeResult(MessageTestResult m) {
-        String packageId = m.getPackageId()
+        String packageId = m.getPackageId();
+
     }
 }
