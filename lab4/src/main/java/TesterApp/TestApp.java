@@ -8,8 +8,11 @@ import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.AllDirectives;
 import akka.http.javadsl.server.Route;
+import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+
+import java.util.concurrent.Future;
 
 public class TestApp extends AllDirectives {
     private static final String ACTOR_SYSTEM_NAME = "JS_TESTER";
@@ -35,7 +38,21 @@ public class TestApp extends AllDirectives {
                                         })
                                 )
                         )
-                )
+                ),
+                path("result", () ->
+                        route(
+                                get(
+                                        () -> parameter("packageId", (id) -> {
+                                            Future<Object> result = Patterns.ask(
+                                                    actorRouter,
+
+                                            )
+
+
+                                        })
+                                )
+                        )
+                        )
         )
     }
 }
