@@ -52,6 +52,7 @@ public class ActorRouter extends AbstractActor {
                         MessageTestsPackageResult.class,
                         m -> keeper.tell(m, sender())
                 )
+                .build()
     }
 
     static class MessageTest {
