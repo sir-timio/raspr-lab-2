@@ -1,2 +1,4 @@
-package ru.bmstu;public class Test {
+package ru.bmstu;
+import akka
+public class Test {
 }
