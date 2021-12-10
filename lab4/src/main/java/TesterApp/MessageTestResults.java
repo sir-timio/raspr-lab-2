@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 
-static class MessageTestResults {
+public class MessageTestResults {
     private static String packageId;
     private static ArrayList<TestResult> results;
 
