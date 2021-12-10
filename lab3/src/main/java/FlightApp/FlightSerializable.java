@@ -15,6 +15,10 @@ public class FlightSerializable implements Serializable {
         return delay;
     }
 
+    public int isDelayed() {
+        return this.getDelay() > 0 ? 1 : 0;
+    }
+
     public int isCancelled() {
         return isCancelled;
     }

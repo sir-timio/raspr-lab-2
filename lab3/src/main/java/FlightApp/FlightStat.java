@@ -27,6 +27,10 @@ public class FlightStat implements Serializable {
         );
     }
 
+    public FlightStat updateStat(FlightStat stat, FlightSerializable flight) {
+        int newLateFlights = stat.
+    }
+
     protected float getMaxDelay() {
         return this.maxDelay;
     }
