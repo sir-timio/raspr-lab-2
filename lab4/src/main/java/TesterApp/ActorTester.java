@@ -32,5 +32,13 @@ public class ActorTester extends AbstractActor {
         String evaluated;
         String status;
         String expected = messageTest.getTest().getExpectedResult();
+
+        try {
+            evaluated = evalJS(
+                    messageTest.getJsScript(),
+                    messageTest.getFunctionName(),
+                    messageTest.getTest().getParams()
+            )
+        }
     }
 }
