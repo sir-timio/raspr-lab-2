@@ -40,7 +40,10 @@ public class FlightApp {
         JavaRDD<String> statRDD = flightsStat.map(
                 flightsStat -> {
                     Map<Integer, String> airportsBroadcastedMap = airportsBroadcasted.value();
-
+                    String origAirportName = airportsBroadcastedMap.get(flightsStat._1._1);
+                    String destAirportName = airportsBroadcastedMap.get(flightsStat._1._2);
+                    return String.format("Stat from %s to %s: %s",
+                            origAirportName, destAirportName, flightsStat._2.toString())
                 }
         )
 
