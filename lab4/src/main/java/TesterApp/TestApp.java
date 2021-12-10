@@ -12,6 +12,6 @@ public class TestApp extends AllDirectives {
 
         Http http = Http.get(actorSystem);
         ActorMaterializer actorMaterializer = ActorMaterializer.create(ActorSystem);
-        
+
     }
 }
