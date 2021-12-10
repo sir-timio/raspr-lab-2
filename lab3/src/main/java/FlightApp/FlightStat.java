@@ -6,7 +6,7 @@ public class FlightStat implements Serializable {
 
     private float maxDelay;
     private int lateFlights;
-    private float cancelledFlights;
+    private int cancelledFlights;
     private int totalFlights;
 
     public FlightStat(float maxDelay, int lateFlights, float cancelledFlights, int totalFlights) {
