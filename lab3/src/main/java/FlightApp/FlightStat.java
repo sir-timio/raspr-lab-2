@@ -46,9 +46,11 @@ public class FlightStat implements Serializable {
         );
     }
 
+    public float calcPercent()
+
     @Override
     public String toString() {
-        return "Max delay: " 
+        return "Max delay: "
     }
 
     protected float getMaxDelay() {
