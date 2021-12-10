@@ -5,14 +5,14 @@ import java.io.Serializable;
 public class FlightStat implements Serializable {
 
     private float maxDelay;
-    private int lateFlights;
+    private int delayedFlights;
     private int cancelledFlights;
     private int totalFlights;
 
     private final int ONE_FLIGHT = 1;
-    public FlightStat(float maxDelay, int lateFlights, int cancelledFlights, int totalFlights) {
+    public FlightStat(float maxDelay, int delayedFlights, int cancelledFlights, int totalFlights) {
         this.maxDelay = maxDelay;
-        this.lateFlights = lateFlights;
+        this.delayedFlights = delayedFlights;
         this.cancelledFlights = cancelledFlights;
         this.totalFlights = totalFlights;
     }
@@ -52,7 +52,7 @@ public class FlightStat implements Serializable {
 
     @Override
     public String toString() {
-        return "Max delay: %f"
+        return "Max delay: %f\ndelayed"
     }
 
     protected float getMaxDelay() {
