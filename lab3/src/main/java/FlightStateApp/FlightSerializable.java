@@ -1,4 +1,4 @@
-package FlightApp;
+package FlightStateApp;
 
 import java.io.Serializable;
 
