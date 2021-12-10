@@ -1,5 +1,5 @@
 package TesterApp;
-import akka.stream
+import akka.http.javadsl.server.AllDirectives;
 
 public class TestApp {
 }
