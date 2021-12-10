@@ -48,6 +48,6 @@ public class FlightApp {
                             origAirportName, destAirportName, flightsStat._2.toString());
                 }
         );
-    statRDD.saveAsTextFile();
+    statRDD.saveAsTextFile(OUTPUT_FILE);
     }
 }
