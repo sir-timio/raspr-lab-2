@@ -22,7 +22,7 @@ public class TestResultStore {
     public String toString() {
         return "TestResultStore{" +
                 "packageId:" + packageId + '\n' +
-                ", result: " + result +
+                "result: " + result +
                 '}';
     }
 }
