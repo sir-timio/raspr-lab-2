@@ -20,8 +20,7 @@ public class TestResultStore {
 
     @Override
     public String toString() {
-        return "TestResultStore{" +
-                "packageId:" + packageId + '\n' +
+        return packageId:" + packageId + '\n' +
                 result
     }
 }
