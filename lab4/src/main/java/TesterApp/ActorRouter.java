@@ -36,7 +36,12 @@ public class ActorRouter extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(
-
+                        MessageTestsPackage.class,
+                        m -> {
+                            String packageId = m.getPackageId();
+                            String jsScript = m.getJsScript();
+                            String functionName = m.getFunctionName();
+                        }
                 )
     }
 
