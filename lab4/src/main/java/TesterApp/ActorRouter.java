@@ -32,6 +32,7 @@ public class ActorRouter extends AbstractActor {
 
     static class MessageTest {
         private final String packageId;
+        private final String
 
     }
 }
