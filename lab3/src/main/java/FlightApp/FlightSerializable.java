@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class FlightSerializable implements Serializable {
     private float delay;
-    private boolean isCancelled;
+    private int isCancelled;
 
-    public FlightSerializable(float delay, boolean isCancelled) {
+    public FlightSerializable(float delay, int isCancelled) {
         this.delay = delay;
         this.isCancelled = isCancelled;
     }
