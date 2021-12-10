@@ -27,6 +27,7 @@ public class ActorKeeper extends AbstractActor {
                                 self()
                         )
                 )
+                .build();
     }
 
     public void storeResult(TestResultStore m) {
