@@ -25,3 +25,4 @@ hadoop fs -copyFromLocal data/flights.csv
 hadoop fs -copyFromLocal data/airports.csv
 
 spark-submit --class FlightApp.FlightApp --master yarn-client --num-executors 3 target/FlightApp.jar
+hadoop fs -copyToLocal output
