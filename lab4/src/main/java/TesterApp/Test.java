@@ -16,7 +16,12 @@ public class Test {
     private final String expectedResult;
 
     @JsonCreator
-    public Test(String testName, ) {
+    public Test(@JsonProperty("testName") String testName,
+                @JsonProperty("params") ArrayList<Object> params,
+                @JsonProperty("expectedResult") String expectedResult) {
+        this.testName = testName;
+        this.params = params;
+        this.expectedResult = expectedResult;
 
     }
 }
