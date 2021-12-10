@@ -30,10 +30,14 @@ public class FlightApp {
         JavaPairRDD<Tuple2<Integer, Integer>, FlightSerializable> flights = flightsFile
                 .filter(row -> !row.startsWith(FIRST_LINE_PREFIX_FLIGHTS))
                 .mapToPair(FlightMapper::processRow);
+        JavaPairRDD<Tuple2<Integer, Integer>, FlightStat> flightsStat = flights.combineByKey(
+                FlightStat::makeStat, FlightStat::updateStat, FlightStat::mergeStat
+        );
 
         Map<Integer, String> airportsMap = airports.collectAsMap();
         final Broadcast<Map<Integer, String>> airportsBroadcasted = sc.broadcast(airportsMap);
-        
+
+        JavaRDD<String> statRDD = Fl
 
     }
 }
