@@ -49,12 +49,10 @@ public class TestApp extends AllDirectives {
                                                     500
                                             );
                                             return completeOKWithFuture(result, Jackson.marshaller());
-
-
                                         })
                                 )
                         )
                         )
-        )
+        );
     }
 }
