@@ -25,8 +25,7 @@ public class ActorKeeper extends AbstractActor {
         if  (!results.containsKey(packageId)) {
             results.put(m.getPackageId(), new ArrayList<>());
         }
-        if (results.containsKey(packageId)) {
-
+        results.get(packageId).add(m.getResult());
 
     }
 }
