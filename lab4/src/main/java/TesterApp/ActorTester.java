@@ -17,7 +17,14 @@ public class ActorTester extends AbstractActor {
 
     @Override
     public Receive createReceive() {
-        return null;
+        return receiveBuilder()
+                .match(
+                        ActorRouter.MessageTest.class,
+                        m -> sender().tell(
+                                evalTest(m),
+                                self()
+                        )
+                );
     }
 
     private String evalJS(String jscript, String functionName, ArrayList<Object> params) throws ScriptException, NoSuchMethodException {
