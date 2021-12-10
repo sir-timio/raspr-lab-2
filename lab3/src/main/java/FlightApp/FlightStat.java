@@ -9,7 +9,7 @@ public class FlightStat implements Serializable {
     private float cancelledFlights;
     private int totalFlights;
 
-    public FlightStat(float maxDelay, int lateFlights, int cancelledFlights, int totalFlights) {
+    public FlightStat(float maxDelay, int lateFlights, float cancelledFlights, int totalFlights) {
         this.maxDelay = maxDelay;
         this.lateFlights = lateFlights;
         this.cancelledFlights = cancelledFlights;
@@ -21,7 +21,7 @@ public class FlightStat implements Serializable {
         return new FlightStat(
                 flight.getDelay(),
                 flight.getDelay() > 0 ? 1 : 0,
-                (int) flight.isCancelled(),
+                flight.isCancelled(),
                 1
         );
     }
