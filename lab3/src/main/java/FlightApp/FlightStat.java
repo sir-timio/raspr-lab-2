@@ -17,7 +17,7 @@ public class FlightStat implements Serializable {
         this.totalFlights = totalFlights;
     }
 
-    public FlightStat makeStat(FlightSerializable flight)  {
+    public static FlightStat makeStat(FlightSerializable flight)  {
 
         return new FlightStat(
                 flight.getDelay(),
@@ -28,7 +28,7 @@ public class FlightStat implements Serializable {
     }
 
 
-    public FlightStat updateStat(FlightStat stat, FlightSerializable flight) {
+    public static FlightStat updateStat(FlightStat stat, FlightSerializable flight) {
         return new FlightStat(
                 Float.max(stat.getMaxDelay(), flight.getDelay()),
                 stat.getDelayedFlights() + flight.isDelayed(),
@@ -37,7 +37,7 @@ public class FlightStat implements Serializable {
         );
     }
 
-    public FlightStat mergeStat(FlightStat stat1, FlightStat stat2) {
+    public static FlightStat mergeStat(FlightStat stat1, FlightStat stat2) {
         return new FlightStat(
                 Float.max(stat1.getMaxDelay(), stat2.getMaxDelay()),
                 stat1.getDelayedFlights() + stat2.getDelayedFlights(),

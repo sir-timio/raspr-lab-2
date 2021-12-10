@@ -40,7 +40,7 @@ public class FlightApp {
         JavaRDD<String> statRDD = flightsStat.map(
                 flightsStat -> {
                     Map<Integer, String> airportsBroadcastedMap = airportsBroadcasted.value();
-                    
+
                 }
         )
 
