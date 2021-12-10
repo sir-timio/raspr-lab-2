@@ -28,12 +28,11 @@ public class TestApp extends AllDirectives {
         return route(
                 path("test", () ->
                         route(
-                                post(() ->
-                                        entity(Jackson.unmarshaller(MessageTestsPackage.class), m -> {
+                                post(
+                                        () -> entity(Jackson.unmarshaller(MessageTestsPackage.class), m -> {
                                             actorRouter.tell(m, ActorRef.noSender());
                                             return complete("Start testing");
                                         })
-
                                 )
                         )
                 )
