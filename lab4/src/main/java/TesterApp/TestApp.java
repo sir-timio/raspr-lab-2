@@ -2,6 +2,7 @@ package TesterApp;
 import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import akka.actor.Props;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.marshallers.jackson.Jackson;
 import akka.http.javadsl.model.HttpRequest;
@@ -19,12 +20,13 @@ public class TestApp extends AllDirectives {
 
     public static void main(String[] args) {
         ActorSystem actorSystem = ActorSystem.create(ACTOR_SYSTEM_NAME);
-
+        ActorRef actorRouter = actorSystem.actorOf(Props.create(ActorRouter.class))
         Http http = Http.get(actorSystem);
         ActorMaterializer actorMaterializer = ActorMaterializer.create(ActorSystem);
 
         TestApp app = new TestApp();
-        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow;
+        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
+                app.createRoute(a)
     }
 
     private Route createRoute(ActorRef actorRouter) {
