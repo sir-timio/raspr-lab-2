@@ -5,6 +5,8 @@ import requests
 
 def main():
     url = 'http://localhost:8080'
+    with open('test.json', 'r') as f:
+        test = json.loads(f.read())
     test = json.loads('test.json')
     print(test)
     get = f'{url}/result?packageId=11'
