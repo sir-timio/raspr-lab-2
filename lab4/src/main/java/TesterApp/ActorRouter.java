@@ -49,7 +49,7 @@ public class ActorRouter extends AbstractActor {
                         }
                 )
                 .match(
-                        MessageTestsPackageResult.class,
+                        MessageRequest.class,
                         m -> keeper.tell(m, sender())
                 )
                 .build();
