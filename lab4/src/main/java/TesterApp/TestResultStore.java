@@ -3,9 +3,16 @@ package TesterApp;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestResultStore {
+    private static final String PASSED_STATUS = "OK";
+    private static final String FAILED_STATUS = "FAILED";
+    private static final String ERROR_STATUS = "ERROR";
+
     private final String packageId;
 
-    private final TestResultJson result;
+    private final String status;
+    private final String testName;
+    private final String expectedResult;
+    private final String receivedResult;
 
 
     public TestResultStore(String packageId,
@@ -14,24 +21,31 @@ public class TestResultStore {
                            String expectedResult,
                            String evaluatedResult) {
         this.packageId = packageId;
-        this.result = new TestResultJson(
-                status,
-                testName,
-                expectedResult,
-                evaluatedResult
-        );
+        this.status = status;
+        this.testName = testName;
+        this.expectedResult = expectedResult;
+        this.receivedResult = evaluatedResult;
     }
 
     public String getPackageId() {
         return packageId;
     }
 
-    public TestResultJson getResult() {
-        return this.result;
+    public String getResult() {
+
+        String result = "packageId: " + packageId + '\n' +
+                "name: " + testName + '\n' +
+                "status: " + status + '\n';
+        if (status.equals(FAILED_STATUS)){
+            result += "received: " + receivedResult + '\n' +
+                      "expected: " + expectedResult + '\n';
+        }
+        return result;
     }
+
 
     @Override
     public String toString() {
-        return "packageId: " + packageId + '\n' + result;
+        return "packageId: " + packageId + '\n';
     }
 }

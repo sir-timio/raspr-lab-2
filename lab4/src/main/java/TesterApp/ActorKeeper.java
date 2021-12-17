@@ -5,7 +5,7 @@ import akka.actor.AbstractActor;
 import java.util.*;
 
 public class ActorKeeper extends AbstractActor {
-    private Map<String, List<TestResultJson>> results = new HashMap<>();
+    private Map<String, List<String>> results = new HashMap<>();
 
     @Override
     public Receive createReceive() {
