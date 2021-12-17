@@ -4,7 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestResultStore {
     private final String packageId;
-    
+
+    private final TestResultJson result;
+
 
     public TestResultStore(String packageId,
                            String status,
