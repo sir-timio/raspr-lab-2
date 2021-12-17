@@ -19,7 +19,7 @@ public class TestResultStore {
         return packageId;
     }
 
-    public TestResultJson getResult() {
+    public String getResult() {
         return result;
     }
 
