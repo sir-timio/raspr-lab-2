@@ -6,9 +6,17 @@ public class TestResultStore {
     private final String testName;
     private final String expectedResult;
     private final String receivedResult;
+    private final TestResultJson result;
+
     public TestResultStore(String packageId, String status, String testName,
                            String expectedResult, String evaluatedResult) {
         this.packageId = packageId;
+        this.result = new TestResultJson(
+                status,
+                testName,
+                expectedResult,
+                evaluatedResult,
+        );
         this.status = status;
         this.testName = testName;
         this.expectedResult = expectedResult;
