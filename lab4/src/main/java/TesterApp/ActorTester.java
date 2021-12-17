@@ -50,15 +50,14 @@ public class ActorTester extends AbstractActor {
             status = expected.equals(evaluated) ? PASSED_STATUS : FAILED_STATUS;
         } catch (ScriptException | NoSuchMethodException e) {
             evaluated = "";
-            status = ERROR_STATUS + ": " + e.toString();
+            status = ERROR_STATUS + ": " + e;
         }
-        TestResultStore testResultStore = new  TestResultStore(
+        return new  TestResultStore(
                 messageTest.getPackageId(),
                 status,
                 messageTest.getTest().getTestName(),
                 expected,
                 evaluated
         );
-        return testResultStore;
     }
 }
