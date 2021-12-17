@@ -1,5 +1,7 @@
 import http
 import json
+import time
+
 import requests
 
 
@@ -9,7 +11,7 @@ def main():
         test = json.loads(f.read())
     r = requests.post(f'{url}/test', json=test)
     assert r.status_code == http.HTTPStatus.OK
-
+    time.sleep(3)
     r = requests.get(f'{url}/result?packageId=11')
     assert r.status_code == http.HTTPStatus.OK
     print(r.content)
