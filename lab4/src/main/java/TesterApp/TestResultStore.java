@@ -1,5 +1,7 @@
 package TesterApp;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class TestResultStore {
     private final String packageId;
     private final String status;
@@ -8,8 +10,17 @@ public class TestResultStore {
     private final String receivedResult;
     private final TestResultJson result;
 
-    public TestResultStore(String packageId, String status, String testName,
-                           String expectedResult, String evaluatedResult) {
+    @JsonProperty("packageId") String packageId,
+    @JsonProperty("status") String status,
+    @JsonProperty("testName") String testName,
+    @JsonProperty("expectedResult") String expectedResult,
+    @JsonProperty("receivedResult") String evaluatedResult
+
+    public TestResultStore(@JsonProperty("packageId") String packageId,
+                           @JsonProperty("status") String status,
+                           String testName,
+                           String expectedResult,
+                           String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResultJson(
                 status,
