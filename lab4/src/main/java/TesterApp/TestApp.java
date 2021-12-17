@@ -28,7 +28,7 @@ public class TestApp extends AllDirectives {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
                 app.createRoute(actorRouter)
     }
-    
+
 
     private Route createRoute(ActorRef actorRouter) {
         return route(
