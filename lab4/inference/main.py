@@ -5,6 +5,10 @@ import requests
 
 def main():
     url = 'http://localhost:8080'
+    test = {
+        "packageId": "11",
+        "jsScript": "var divideFn = function(a,b) { return a/b} ",
+    }
     test = """
         {
         "packageId":"11",
@@ -23,7 +27,6 @@ def main():
         }"""
 
     get = f'{url}/<url>?packageId=11'
-    print(json.decoder)
     r = requests.request('post', f'{url}/test', data=json.dumps(test))
     print(r)
     assert r.status_code == http.HTTPStatus.OK
