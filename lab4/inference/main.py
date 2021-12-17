@@ -1,7 +1,7 @@
 import http
 import json
-
 import requests
+
 
 def main():
     url = 'http://localhost:8080'
@@ -14,6 +14,6 @@ def main():
     assert r.status_code == http.HTTPStatus.OK
     print(r.content)
 
-    
+
 if __name__ == '__main__':
     main()
