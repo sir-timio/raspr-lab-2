@@ -12,10 +12,10 @@ public class TestResult {
 
     @JsonCreator
     public TestResult(@JsonProperty("packageId") String packageId,
-                      String status,
-                      String testName,
-                      String expectedResult,
-                      String evaluatedResult) {
+                      @JsonProperty("status") String status,
+                      @JsonProperty("testName") String testName,
+                      @JsonProperty("expectedResult") String expectedResult,
+                      @JsonProperty("receivedResult") String evaluatedResult) {
         this.packageId = packageId;
         this.status = status;
         this.testName = testName;
