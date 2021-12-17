@@ -60,6 +60,6 @@ public class ActorTester extends AbstractActor {
                 expected,
                 evaluated
         );
-        return TestResultStore
+        return testResultStore;
     }
 }
