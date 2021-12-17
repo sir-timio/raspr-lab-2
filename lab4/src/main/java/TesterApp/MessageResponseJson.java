@@ -12,7 +12,7 @@ public class MessageResponseJson {
     @JsonCreator
     public MessageResponseJson(
             @JsonProperty("packageId") String packageId,
-            @JsonProperty("results") ArrayList<String> results) {
+            @JsonProperty("results") ArrayList<TestResultJson> results) {
         this.packageId = packageId;
         this.results = results;
     }
