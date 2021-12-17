@@ -15,7 +15,6 @@ public class TestResultStore {
                            String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResultJson(
-                packageId,
                 status,
                 testName,
                 expectedResult,
