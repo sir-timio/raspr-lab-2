@@ -23,7 +23,7 @@ def main():
         }"""
 
     get = f'{url}/<url>?packageId=11'
-    print(json.dump(test))
+    print(json.decoder)
     r = requests.request('post', f'{url}/test', data=json.dumps(test))
     print(r)
     assert r.status_code == http.HTTPStatus.OK
