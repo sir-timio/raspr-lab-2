@@ -4,9 +4,8 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class MessageReturnResults {
+public class MessageResponseJson {
     private static String packageId;
     private static ArrayList<String> results;
 
