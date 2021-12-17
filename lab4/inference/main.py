@@ -7,7 +7,7 @@ def main():
     url = 'http://localhost:8080'
     r = requests.get(url)
     print(r)
-    post = """
+    test = """
         {
         "packageId":"11",
         "jsScript":"var divideFn = function(a,b) { return a/b} ",
@@ -25,7 +25,7 @@ def main():
         }"""
 
     get = f'{url}/<url>?packageId=11'
-    r = requests.post(url, json=json.dumps(post))
+    r = requests.post(f'{url}/test', json=json.dumps(test))
     print(r)
     assert r.status_code == http.HTTPStatus.OK
     r = requests.get(get)
