@@ -29,7 +29,7 @@ public class ActorKeeper extends AbstractActor {
                 .build();
     }
 
-    private void storeResult()
+    private void storeResult(TestResultStore m)
 
     public void storeResult(TestResultStore m) {
         String packageId = m.getPackageId();
