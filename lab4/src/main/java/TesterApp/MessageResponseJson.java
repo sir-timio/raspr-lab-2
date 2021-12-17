@@ -21,7 +21,7 @@ public class MessageResponseJson {
         return packageId;
     }
 
-    public ArrayList<TestResultJson > getResults() {
+    public List<TestResultJson > getResults() {
         return results;
     }
 }
