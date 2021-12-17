@@ -1,2 +1,4 @@
-package TesterApp;public class MessageResponseJson {
+package TesterApp;
+
+public class MessageResponseJson {
 }

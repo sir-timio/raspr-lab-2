@@ -1,9 +1,9 @@
 package TesterApp;
 
-public class MessageRequest {
+public class MessageRequestJson {
     private final String packageID;
 
-    public MessageRequest(String packageID) {
+    public MessageRequestJson(String packageID) {
         this.packageID = packageID;
     }
 
