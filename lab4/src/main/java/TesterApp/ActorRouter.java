@@ -42,7 +42,7 @@ public class ActorRouter extends AbstractActor {
                             String jsScript = m.getJsScript();
                             String functionName = m.getFunctionName();
 
-                            for (Test test: m.getTests()) {
+                            for (TestJson test: m.getTests()) {
                                 router.route(new MessageTest(packageId, jsScript,
                                                             functionName, test), keeper);
                             }
@@ -59,13 +59,13 @@ public class ActorRouter extends AbstractActor {
         private final String packageId;
         private final String jsScript;
         private final String functionName;
-        private final Test test;
+        private final TestJson test;
 
         @JsonCreator
         public MessageTest(@JsonProperty("packageId") String packageID,
                            @JsonProperty("jsScript") String jsScript,
                            @JsonProperty("functionName") String functionName,
-                           @JsonProperty("test") Test test) {
+                           @JsonProperty("test") TestJson test) {
             this.packageId = packageID;
             this.functionName = functionName;
             this.jsScript = jsScript;
@@ -84,7 +84,7 @@ public class ActorRouter extends AbstractActor {
             return functionName;
         }
 
-        protected Test getTest() {
+        protected TestJson getTest() {
             return test;
         }
     }

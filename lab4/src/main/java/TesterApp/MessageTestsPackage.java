@@ -9,20 +9,20 @@ public class MessageTestsPackage {
     private final String packageId;
     private final String jsScript;
     private final String functionName;
-    private final List<Test> tests;
+    private final List<TestJson> tests;
 
     @JsonCreator
     public MessageTestsPackage(@JsonProperty("packageId") String packageID,
                                @JsonProperty("jsScript") String jsScript,
                                @JsonProperty("functionName") String functionName,
-                               @JsonProperty("tests") List<Test> tests) {
+                               @JsonProperty("tests") List<TestJson> tests) {
         this.packageId = packageID;
         this.jsScript = jsScript;
         this.functionName = functionName;
         this.tests = tests;
     }
 
-    public List<Test> getTests() {
+    public List<TestJson> getTests() {
         return tests;
     }
 
