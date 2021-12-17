@@ -20,9 +20,8 @@ def main():
              }
         ]
     }
-
     get = f'{url}/result?packageId=11'
-    r = requests.post(f'{url}/test', data=json.dumps(test))
+    r = requests.post(f'{url}/test', json=json.dumps(test))
     print(r)
     assert r.status_code == http.HTTPStatus.OK
     r = requests.get(get)
