@@ -11,6 +11,7 @@ def main():
     assert r.status_code == http.HTTPStatus.OK
 
     r = requests.get(f'{url}/result?packageId=11')
-    print(r)
+    assert r.status_code == http.HTTPStatus.OK
+    print(r.content)
 if __name__ == '__main__':
     main()
