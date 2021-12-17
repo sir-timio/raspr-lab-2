@@ -33,7 +33,7 @@ public class ActorKeeper extends AbstractActor {
     public void storeResult(TestResultStore m) {
         String packageId = m.getPackageId();
         if  (!results.containsKey(packageId)) {
-            results.put(m.getPackageId(), new List<TestResult>());
+            results.put(m.getPackageId(), new List<>());
         }
         results.get(packageId).add(m.getResult());
         System.out.println(results.get(packageId));
