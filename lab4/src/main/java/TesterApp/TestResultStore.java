@@ -34,6 +34,6 @@ public class TestResultStore {
     @Override
     public String toString() {
         return "Test{" +
-                "packageId: " + packageId + '\n' + result
+                "packageId: " + packageId + '\n' + result;
     }
 }
