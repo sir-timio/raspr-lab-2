@@ -6,8 +6,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 
 public class MessageResponseJson {
-    private static String packageId;
-    private static ArrayList<TestResultJson> results;
+    private final String packageId;
+    private final ArrayList<TestResultJson> results;
 
     @JsonCreator
     public MessageResponseJson(
