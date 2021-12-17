@@ -5,8 +5,6 @@ import requests
 
 def main():
     url = 'http://localhost:8080'
-    r = requests.get(url)
-    print(r)
     test = """
         {
         "packageId":"11",
