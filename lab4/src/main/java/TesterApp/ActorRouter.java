@@ -65,7 +65,7 @@ public class ActorRouter extends AbstractActor {
         public MessageTest(@JsonProperty("packageId") String packageID,
                            @JsonProperty("jsScript") String jsScript,
                            @JsonProperty("functionName") String functionName,
-                           @JsonProperty("test") Test test) {
+                           @JsonProperty("tests") Test test) {
             this.packageId = packageID;
             this.functionName = functionName;
             this.jsScript = jsScript;
