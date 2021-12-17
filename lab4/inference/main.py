@@ -24,6 +24,7 @@ def main():
 
     get = f'{url}/<url>?packageId=11'
     r = requests.post(url, json=json.dumps(post))
+    print(r)
     assert r.status_code == http.HTTPStatus.OK
     r = requests.get(get)
     print(r)
