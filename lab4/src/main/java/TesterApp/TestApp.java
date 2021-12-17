@@ -17,12 +17,13 @@ import akka.stream.javadsl.Flow;
 
 import scala.concurrent.Future;
 
+import java.io.IOException;
 import java.util.concurrent.CompletionStage;
 
 public class TestApp extends AllDirectives {
     private static final String ACTOR_SYSTEM_NAME = "JS_TESTER";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ActorSystem actorSystem = ActorSystem.create(ACTOR_SYSTEM_NAME);
         ActorRef actorRouter = actorSystem.actorOf(Props.create(ActorRouter.class))
         Http http = Http.get(actorSystem);
@@ -38,10 +39,7 @@ public class TestApp extends AllDirectives {
         );
         System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
         System.in.read();
-        binging.thenCompose(ServerBinding::unbind).thenAccept(unbound -> actorSystem.terminate())
-
-
-
+        binging.thenCompose(ServerBinding::unbind).thenAccept(unbound -> actorSystem.terminate());
     }
 
 
