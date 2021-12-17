@@ -21,8 +21,6 @@ def main():
         ]
     }
 
-    
-
     get = f'{url}/<url>?packageId=11'
     r = requests.request('post', f'{url}/test', data=json.dumps(test))
     print(r)
