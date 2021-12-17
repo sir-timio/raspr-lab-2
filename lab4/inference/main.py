@@ -9,7 +9,7 @@ def main():
         test = json.loads(f.read())
     print(test)
     get = f'{url}/result?packageId=11'
-    r = requests.post(f'{url}/test', data=test)
+    r = requests.post(f'{url}/test', json=test)
     print(r)
     assert r.status_code == http.HTTPStatus.OK
     r = requests.get(get)
