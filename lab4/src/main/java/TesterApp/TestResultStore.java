@@ -26,11 +26,10 @@ public class TestResultStore {
     @Override
     public String toString() {
         return "Test{" +
-                "packageId='" + packageId + '\'' +
-                ", status='" + status + '\'' +
-                ", testName='" + testName + '\'' +
-                ", expectedResult='" + expectedResult + '\'' +
-                ", receivedResult='" + receivedResult + '\'' +
-                '}';
+                "packageId='" + packageId + '\n' +
+                "status: " + status + '\n' +
+                "testName: " + testName + '\n' +
+                "expectedResult: " + expectedResult + '\n' +
+                "receivedResult: " + receivedResult + '\n';
     }
 }
