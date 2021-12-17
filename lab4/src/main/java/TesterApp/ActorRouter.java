@@ -28,7 +28,6 @@ public class ActorRouter extends AbstractActor {
             ActorRef tester = getContext().actorOf(Props.create(ActorTester.class));
             getContext().watch(tester);
             routees.add(new ActorRefRoutee(tester));
-            System.out.println(i);
         }
         router = new Router(new RoundRobinRoutingLogic(), routees);
     }
