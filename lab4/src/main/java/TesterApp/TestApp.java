@@ -3,6 +3,7 @@ import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
+import akka.http.javadsl.ConnectHttp;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
 import akka.http.javadsl.marshallers.jackson.Jackson;
@@ -30,7 +31,11 @@ public class TestApp extends AllDirectives {
         TestApp app = new TestApp();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
                 app.createRoute(actorRouter).flow(actorSystem, actorMaterializer);
-        final CompletionStage<ServerBinding> binging
+        final CompletionStage<ServerBinding> binging = http.bindAndHandle(
+                routeFlow,
+                ConnectHttp.toHost("localhost", 8080),
+                actorMaterializer
+        )
 
 
     }
