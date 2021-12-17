@@ -2,6 +2,7 @@ package TesterApp;
 
 import akka.actor.AbstractActor;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,7 +33,7 @@ public class ActorKeeper extends AbstractActor {
     public void storeResult(TestResultStore m) {
         String packageId = m.getPackageId();
         if  (!results.containsKey(packageId)) {
-            results.put(m.getPackageId(), new List<>());
+            results.put(m.getPackageId(), new ArrayList<>());
         }
         results.get(packageId).add(m.getResult());
         System.out.println(results.get(packageId));
