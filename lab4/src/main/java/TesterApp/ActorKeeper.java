@@ -17,7 +17,7 @@ public class ActorKeeper extends AbstractActor {
                         this::storeResult
                 )
                 .match(
-                        MessageTestsPackageResult.class,
+                        MessageReturnResults.class,
                         request -> sender().tell(
                                 new MessageReturnResults(
                                         request.getPackageID(),
