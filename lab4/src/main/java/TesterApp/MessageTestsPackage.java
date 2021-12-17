@@ -27,7 +27,7 @@ public class MessageTestsPackage {
     }
 
     public String getPackageId() {
-        return packageId();
+        return packageId;
     }
 
     public String getJsScript() {
