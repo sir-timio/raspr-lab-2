@@ -10,10 +10,6 @@ def main():
     get = f'{url}/result?packageId=11'
     r = requests.post(f'{url}/test', json=test)
     assert r.status_code == http.HTTPStatus.OK
-
-    r = requests.get(get)
-    assert r.status_code == http.HTTPStatus.OK
-    print(r)
-
+    
 if __name__ == '__main__':
     main()
