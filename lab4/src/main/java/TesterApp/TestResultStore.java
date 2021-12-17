@@ -10,11 +10,6 @@ public class TestResultStore {
     private final String receivedResult;
     private final TestResultJson result;
 
-    @JsonProperty("packageId") String packageId,
-    @JsonProperty("status") String status,
-    @JsonProperty("testName") String testName,
-    @JsonProperty("expectedResult") String expectedResult,
-    @JsonProperty("receivedResult") String evaluatedResult
 
     public TestResultStore(@JsonProperty("packageId") String packageId,
                            @JsonProperty("status") String status,
@@ -23,6 +18,7 @@ public class TestResultStore {
                            @JsonProperty("receivedResult") String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResultJson(
+                packageId,
                 status,
                 testName,
                 expectedResult,
