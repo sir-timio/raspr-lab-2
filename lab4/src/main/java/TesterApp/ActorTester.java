@@ -59,7 +59,6 @@ public class ActorTester extends AbstractActor {
                 expected,
                 evaluated
         );
-        System.out.println(testResultStore);
         return testResultStore;
     }
 }
