@@ -3,7 +3,7 @@ package TesterApp;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class TestResult {
+public class TestResultJson {
     private final String packageId;
     private final String status;
     private final String testName;
@@ -11,11 +11,11 @@ public class TestResult {
     private final String evaluatedResult;
 
     @JsonCreator
-    public TestResult(@JsonProperty("packageId") String packageId,
-                      @JsonProperty("status") String status,
-                      @JsonProperty("testName") String testName,
-                      @JsonProperty("expectedResult") String expectedResult,
-                      @JsonProperty("receivedResult") String evaluatedResult) {
+    public TestResultJson(@JsonProperty("packageId") String packageId,
+                          @JsonProperty("status") String status,
+                          @JsonProperty("testName") String testName,
+                          @JsonProperty("expectedResult") String expectedResult,
+                          @JsonProperty("receivedResult") String evaluatedResult) {
         this.packageId = packageId;
         this.status = status;
         this.testName = testName;
