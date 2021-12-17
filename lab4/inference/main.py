@@ -13,5 +13,7 @@ def main():
     r = requests.get(f'{url}/result?packageId=11')
     assert r.status_code == http.HTTPStatus.OK
     print(r.content)
+
+    
 if __name__ == '__main__':
     main()
