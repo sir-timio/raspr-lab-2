@@ -4,7 +4,7 @@
   "functionName": "divideFn",
   "tests": [
       {
-        "testName": "test1",
+       "testName": "test1",
        "expectedResult": "2.0",
        "params": [2, 1]
        },
