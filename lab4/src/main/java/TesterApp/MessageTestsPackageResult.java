@@ -3,7 +3,7 @@ package TesterApp;
 public class MessageRequest {
     private final String packageID;
 
-    public MessageTestsPackageResult(String packageID) {
+    public MessageRequest(String packageID) {
         this.packageID = packageID;
     }
 
