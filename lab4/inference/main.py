@@ -1,6 +1,7 @@
 import requests
 
 def main():
+    url = 'http://localhost:8080'
     post = """
         {
         "packageId":"11",
@@ -18,8 +19,7 @@ def main():
         ]
         }"""
 
-    get = 'http://localhost:8080/<url>?packageId=11'
-    url = 'http://localhost:8080'
+    get = f'{url}/<url>?packageId=11'
     r = requests.post('')
 
 
