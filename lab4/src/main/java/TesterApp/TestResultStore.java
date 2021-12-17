@@ -19,7 +19,7 @@ public class TestResultStore {
     public TestResultStore(@JsonProperty("packageId") String packageId,
                            @JsonProperty("status") String status,
                            @JsonProperty("testName") String testName,
-                           String expectedResult,
+                           @JsonProperty("expectedResult") String expectedResult,
                            String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResultJson(
