@@ -18,7 +18,7 @@ def main():
         ]
         }"""
 
-    get = 
+    get = "http://localhost:8080/<url>?packageId=11"
 
 
 
