@@ -19,7 +19,7 @@ public class TestResultStore {
                 status,
                 testName,
                 expectedResult,
-                evaluatedResult,
+                evaluatedResult
         );
     }
 
