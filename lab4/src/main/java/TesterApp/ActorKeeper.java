@@ -18,6 +18,7 @@ public class ActorKeeper extends AbstractActor {
                                 results.put(m.getPackageId(), new ArrayList<>());
                             }
                             results.get(packageId).add(m.getResult());
+                            System.out.println(m);
                         }
                 )
                 .match(
