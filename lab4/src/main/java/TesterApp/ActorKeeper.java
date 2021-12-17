@@ -2,9 +2,7 @@ package TesterApp;
 
 import akka.actor.AbstractActor;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class ActorKeeper extends AbstractActor {
     private Map<String, List<TestResultJson>> results = new HashMap<>();
@@ -17,7 +15,7 @@ public class ActorKeeper extends AbstractActor {
                         m -> {
                             String packageId = m.getPackageId();
                             if  (!results.containsKey(packageId)) {
-                                results.put(m.getPackageId(), new List<>());
+                                results.put(m.getPackageId(), Collections.emptyList());
                             }
                             results.get(packageId).add(m.getResult());
                         }
