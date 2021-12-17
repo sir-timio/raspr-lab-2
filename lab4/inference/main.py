@@ -20,7 +20,7 @@ def main():
         }"""
 
     get = f'{url}/<url>?packageId=11'
-    r = requests.post('')
+    r = requests.post(url, json=)
 
 
 
