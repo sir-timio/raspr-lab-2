@@ -2,7 +2,8 @@ package TesterApp;
 
 public class MessageTestsPackageResult {
     private final String packageID;
-    public MessageTestsPackageResult(String packageID, TestResult result) {
+    
+    public MessageTestsPackageResult(String packageID) {
         this.packageID = packageID;
     }
 
