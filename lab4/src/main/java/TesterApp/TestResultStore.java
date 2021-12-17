@@ -10,7 +10,7 @@ public class TestResultStore {
                            String expectedResult, String evaluatedResult) {
         this.packageId = packageId;
         this.status = status;
-        this.testName = testName,
+        this.testName = testName;
         this.expectedResult = expectedResult;
         this.receivedResult = evaluatedResult;
     }
