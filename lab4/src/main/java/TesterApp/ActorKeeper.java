@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ActorKeeper extends AbstractActor {
-    private Map<String, ArrayList<String>> results = new HashMap<>();
+    private Map<String, ArrayList<TestResultJson>> results = new HashMap<>();
 
     @Override
     public Receive createReceive() {
