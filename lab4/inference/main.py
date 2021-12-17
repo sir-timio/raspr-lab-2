@@ -19,6 +19,8 @@ def main():
         }"""
 
     get = 'http://localhost:8080/<url>?packageId=11'
+    url = 'http://localhost:8080/post'
+    r = requests.post('')
 
 
 
