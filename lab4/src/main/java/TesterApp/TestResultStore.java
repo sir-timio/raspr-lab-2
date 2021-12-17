@@ -11,11 +11,11 @@ public class TestResultStore {
     private final TestResultJson result;
 
 
-    public TestResultStore(@JsonProperty("packageId") String packageId,
-                           @JsonProperty("status") String status,
-                           @JsonProperty("testName") String testName,
-                           @JsonProperty("expectedResult") String expectedResult,
-                           @JsonProperty("receivedResult") String evaluatedResult) {
+    public TestResultStore(String packageId,
+                           String status,
+                           String testName,
+                           String expectedResult,
+                           String evaluatedResult) {
         this.packageId = packageId;
         this.result = new TestResultJson(
                 packageId,
