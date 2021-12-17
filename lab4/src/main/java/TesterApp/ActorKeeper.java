@@ -14,7 +14,13 @@ public class ActorKeeper extends AbstractActor {
         return receiveBuilder()
                 .match(
                         TestResultStore.class,
-                        this::storeResult
+                        m -> {
+                            String packageId = m.getPackageId();
+                            if  (!results.containsKey(packageId)) {
+                                results.put(m.getPackageId(), new ArrayList<>());
+                            }
+                            results.get(packageId).add(m.getResult());
+                        }
                 )
                 .match(
                         MessageRequestJson.class,
