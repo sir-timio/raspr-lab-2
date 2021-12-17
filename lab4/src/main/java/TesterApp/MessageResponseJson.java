@@ -10,7 +10,7 @@ public class MessageResponseJson {
     private static ArrayList<String> results;
 
     @JsonCreator
-    public MessageReturnResults(
+    public MessageResponseJson(
             @JsonProperty("packageId") String packageId,
             @JsonProperty("results") ArrayList<String> results) {
         this.packageId = packageId;
