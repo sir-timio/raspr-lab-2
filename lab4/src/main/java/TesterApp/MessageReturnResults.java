@@ -7,7 +7,7 @@ import java.util.List;
 
 public class MessageReturnResults {
     private static String packageId;
-    private static ArrayList<TestResult> results;
+    private static List<TestResult> results;
 
     @JsonCreator
     public MessageReturnResults(
@@ -21,7 +21,7 @@ public class MessageReturnResults {
         return packageId;
     }
 
-    public ArrayList<TestResult> getResults() {
+    public List<TestResult> getResults() {
         return results;
     }
 }
