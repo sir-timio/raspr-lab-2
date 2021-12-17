@@ -22,7 +22,7 @@ public class TestApp extends AllDirectives {
         ActorSystem actorSystem = ActorSystem.create(ACTOR_SYSTEM_NAME);
         ActorRef actorRouter = actorSystem.actorOf(Props.create(ActorRouter.class))
         Http http = Http.get(actorSystem);
-        ActorMaterializer actorMaterializer = ActorMaterializer.create(ActorSystem);
+        ActorMaterializer actorMaterializer = ActorMaterializer.create(actorSystem);
 
         TestApp app = new TestApp();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
