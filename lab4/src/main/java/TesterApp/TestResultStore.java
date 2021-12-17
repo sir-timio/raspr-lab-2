@@ -4,10 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestResultStore {
     private final String packageId;
-    private final String status;
-    private final String testName;
-    private final String expectedResult;
-    private final String receivedResult;
+
     private final TestResultJson result;
 
 
@@ -24,10 +21,6 @@ public class TestResultStore {
                 expectedResult,
                 evaluatedResult,
         );
-        this.status = status;
-        this.testName = testName;
-        this.expectedResult = expectedResult;
-        this.receivedResult = evaluatedResult;
     }
 
     public String getPackageId() {
