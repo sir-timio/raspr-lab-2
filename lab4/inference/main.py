@@ -1,3 +1,5 @@
+import json
+
 import requests
 
 def main():
@@ -20,7 +22,7 @@ def main():
         }"""
 
     get = f'{url}/<url>?packageId=11'
-    r = requests.post(url, json=)
+    r = requests.post(url, json=json.dumps(post))
 
 
 
