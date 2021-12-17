@@ -4,6 +4,7 @@ import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.actor.Props;
 import akka.http.javadsl.Http;
+import akka.http.javadsl.ServerBinding;
 import akka.http.javadsl.marshallers.jackson.Jackson;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
@@ -14,6 +15,8 @@ import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
 import scala.concurrent.Future;
+
+import java.util.concurrent.CompletionStage;
 
 public class TestApp extends AllDirectives {
     private static final String ACTOR_SYSTEM_NAME = "JS_TESTER";
@@ -27,6 +30,9 @@ public class TestApp extends AllDirectives {
         TestApp app = new TestApp();
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow =
                 app.createRoute(actorRouter).flow(actorSystem, actorMaterializer);
+        final CompletionStage<ServerBinding> binging
+
+
     }
 
 
