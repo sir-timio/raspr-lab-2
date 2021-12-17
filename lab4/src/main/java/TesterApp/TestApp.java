@@ -36,8 +36,8 @@ public class TestApp extends AllDirectives {
                 ConnectHttp.toHost("localhost", 8080),
                 actorMaterializer
         );
+        System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
 
-        
 
 
     }
