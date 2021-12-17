@@ -20,7 +20,7 @@ public class TestResultStore {
     }
 
     public String getResult() {
-        return ;
+        return this.toString();
     }
 
     @Override
