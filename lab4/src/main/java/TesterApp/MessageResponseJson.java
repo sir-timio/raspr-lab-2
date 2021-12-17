@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class MessageResponseJson {
     private static String packageId;
-    private static ArrayList<String> results;
+    private static ArrayList<TestResultJson> results;
 
     @JsonCreator
     public MessageResponseJson(
