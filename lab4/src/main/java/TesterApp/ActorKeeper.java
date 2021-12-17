@@ -19,6 +19,7 @@ public class ActorKeeper extends AbstractActor {
                 .match(
                         MessageRequest.class,
                         request -> sender().tell(
+                                System.out.println(results.get(request.getPackageID()));
                                 new MessageReturnResults(
                                         request.getPackageID(),
                                         results.get(request.getPackageID())
