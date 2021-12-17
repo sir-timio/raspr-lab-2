@@ -15,6 +15,7 @@ public class MessageReturnResults {
             @JsonProperty("results") ArrayList<TestResult> results) {
         this.packageId = packageId;
         this.results = results;
+        System.out.println(results);
     }
 
     public String getPackageId() {
