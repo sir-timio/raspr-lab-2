@@ -33,12 +33,10 @@ public class TestResultStore {
 
     public String getResult() {
 
-        String result = "packageId: " + packageId + '\n' +
-                "name: " + testName + '\n' +
-                "status: " + status + '\n';
+        String result = "name: " + testName + " status: " + status;
         if (status.equals(FAILED_STATUS)){
-            result += "received: " + receivedResult + '\n' +
-                      "expected: " + expectedResult + '\n';
+            result += " received: " + receivedResult + '\n' +
+                      " expected: " + expectedResult + '\n';
         }
         return result;
     }
