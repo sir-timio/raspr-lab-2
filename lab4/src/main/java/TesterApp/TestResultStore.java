@@ -33,7 +33,6 @@ public class TestResultStore {
 
     @Override
     public String toString() {
-        return "Test{" +
-                "packageId: " + packageId + '\n' + result;
+        return "packageId: " + packageId + '\n' + result;
     }
 }
