@@ -8,6 +8,8 @@ def main():
     test = {
         "packageId": "11",
         "jsScript": "var divideFn = function(a,b) { return a/b} ",
+        "functionName": "divideFn",
+        "testName": "test1",
     }
     test = """
         {
