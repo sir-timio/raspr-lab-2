@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TestResultJson {
-    private final String packageId;
     private final String status;
     private final String testName;
     private final String expectedResult;
