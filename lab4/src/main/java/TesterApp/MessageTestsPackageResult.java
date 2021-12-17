@@ -2,10 +2,10 @@ package TesterApp;
 
 public class MessageTestsPackageResult {
     private final String packageID;
-    
-    public MessageTestsPackageResult(String packageID) {
+    private final TestResult result;
+    public MessageTestsPackageResult(String packageID, TestResult result) {
         this.packageID = packageID;
-        this.results = re
+        this.result = result
     }
 
     public String getPackageID() {
