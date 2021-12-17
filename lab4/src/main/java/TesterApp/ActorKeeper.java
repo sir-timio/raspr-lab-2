@@ -29,14 +29,6 @@ public class ActorKeeper extends AbstractActor {
                 .build();
     }
 
-    private void storeResult(TestResultStore m) {
-        String packageId = m.getPackageId();
-        if (results.containsKey(packageId)) {
-            results.get(packageId).add(m.getResult());
-        } else {
-            results.put(m.getPackageId(), new ArrayList<>(m.getResult()))
-        }
-    }
 
     public void storeResult(TestResultStore m) {
         String packageId = m.getPackageId();
@@ -44,5 +36,6 @@ public class ActorKeeper extends AbstractActor {
             results.put(m.getPackageId(), new ArrayList<>());
         }
         results.get(packageId).add(m.getResult());
+        System.out.println(m);
     }
 }
