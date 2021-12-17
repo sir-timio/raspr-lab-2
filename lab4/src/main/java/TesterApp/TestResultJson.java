@@ -23,7 +23,6 @@ public class TestResultJson {
     @Override
     public String toString() {
         return "TestResult{" +
-                "packageId='" + packageId + '\'' +
                 ", status='" + status + '\'' +
                 ", testName='" + testName + '\'' +
                 ", expectedResult='" + expectedResult + '\'' +
