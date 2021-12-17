@@ -52,7 +52,6 @@ public class ActorTester extends AbstractActor {
             evaluated = "";
             status = ERROR_STATUS + ": " + e.toString();
         }
-        System.out.println(status);
         TestResultStore testResultStore = new  TestResultStore(
                 messageTest.getPackageId(),
                 status,
@@ -60,7 +59,7 @@ public class ActorTester extends AbstractActor {
                 expected,
                 evaluated
         );
-        System.out.println();
+        System.out.println(testResultStore);
         return testResultStore;
     }
 }
