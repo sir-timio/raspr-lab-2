@@ -15,7 +15,7 @@ public class ActorKeeper extends AbstractActor {
                         m -> {
                             String packageId = m.getPackageId();
                             if  (!results.containsKey(packageId)) {
-                                results.put(m.getPackageId(), new List<TestResultJson>());
+                                results.put(m.getPackageId(), new ArrayList<>());
                             }
                             results.get(packageId).add(m.getResult());
                         }
