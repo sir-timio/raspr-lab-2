@@ -3,16 +3,17 @@ package TesterApp;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MessageReturnResults {
     private static String packageId;
-    private static List<TestResultJson> results;
+    private static List<String> results;
 
     @JsonCreator
     public MessageReturnResults(
             @JsonProperty("packageId") String packageId,
-            @JsonProperty("results") List<TestResultJson> results) {
+            @JsonProperty("results") ArrayList<String> results) {
         this.packageId = packageId;
         this.results = results;
     }
@@ -21,7 +22,7 @@ public class MessageReturnResults {
         return packageId;
     }
 
-    public List<TestResultJson> getResults() {
+    public ArrayList<String > getResults() {
         return results;
     }
 }
