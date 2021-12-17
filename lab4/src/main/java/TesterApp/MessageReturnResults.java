@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MessageReturnResults {
     private static String packageId;
-    private static List<String> results;
+    private static ArrayList<String> results;
 
     @JsonCreator
     public MessageReturnResults(
