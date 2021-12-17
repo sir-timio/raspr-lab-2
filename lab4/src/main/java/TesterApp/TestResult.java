@@ -17,4 +17,14 @@ public class TestResult {
         this.evaluatedResult = evaluatedResult;
     }
 
+    @Override
+    public String toString() {
+        return "TestResult{" +
+                "packageId='" + packageId + '\'' +
+                ", status='" + status + '\'' +
+                ", testName='" + testName + '\'' +
+                ", expectedResult='" + expectedResult + '\'' +
+                ", evaluatedResult='" + evaluatedResult + '\'' +
+                '}';
+    }
 }
