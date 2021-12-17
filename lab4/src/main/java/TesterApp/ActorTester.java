@@ -32,7 +32,6 @@ public class ActorTester extends AbstractActor {
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(EVAL_ENGINE);
         engine.eval(jscript);
         Invocable invocable = (Invocable) engine;
-        System.out.println("eval");
         return invocable.invokeFunction(functionName, params.toArray()).toString();
     }
 
