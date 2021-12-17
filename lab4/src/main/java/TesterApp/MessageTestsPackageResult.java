@@ -5,7 +5,7 @@ public class MessageTestsPackageResult {
     private final TestResult result;
     public MessageTestsPackageResult(String packageID, TestResult result) {
         this.packageID = packageID;
-        this.result = result
+        this.result = result;
     }
 
     public String getPackageID() {
