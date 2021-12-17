@@ -61,7 +61,7 @@ public class TestApp extends AllDirectives {
                                         () -> parameter("packageId", (id) -> {
                                             Future<Object> result = Patterns.ask(
                                                     actorRouter,
-                                                    new MessageTestsPackageResult(id),
+                                                    new MessageRequest(id),
                                                     500
                                             );
                                             return completeOKWithFuture(result, Jackson.marshaller());
