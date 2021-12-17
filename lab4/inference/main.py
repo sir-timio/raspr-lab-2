@@ -6,7 +6,7 @@ import requests
 def main():
     url = 'http://localhost:8080'
     test = {
-        "packageId": "11",
+        "packageI": "11",
         "jsScript": "var divideFn = function(a,b) { return a/b} ",
         "functionName": "divideFn",
         "tests": [
