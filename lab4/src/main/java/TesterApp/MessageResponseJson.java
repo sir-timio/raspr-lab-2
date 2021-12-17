@@ -3,7 +3,7 @@ package TesterApp;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class MessageResponseJson {
     private final String packageId;
