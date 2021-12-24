@@ -37,6 +37,8 @@ public class HttpFlow {
                                 new MessageRequest(request.first()),
                                 Duration.ofSeconds(TIMEOUT_SECONDS)
                         )
-                .thenCompose()
+                .thenCompose(responseTime -> {
+                    
+                })
     }
 }
