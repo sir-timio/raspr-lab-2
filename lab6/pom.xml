@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <build>
-        <defaultGoal>validate</defaultGoal>
-    </build>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>akka-labs</groupId>
-    <artifactId>AkkaStream</artifactId>
+    <groupId>zookeeper-labs</groupId>
+    <artifactId>AnonApp</artifactId>
     <packaging>jar</packaging>
     <version>0</version>
     <properties>
@@ -80,11 +77,13 @@
             <artifactId>akka-http-xml_2.12</artifactId>
             <version>${akka-http.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>org.asynchttpclient</groupId>
-            <artifactId>async-http-client</artifactId>
-            <version>2.10.4</version>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.5.5</version>
         </dependency>
 
     </dependencies>
 </project>
+
