@@ -23,7 +23,7 @@ public class ActorConfigKeeper extends AbstractActor{
                                         Actor.noSender()
                                 )
                 )
-                .match(MessageGetRandom.class,
+                .match(MessageServers.class,
                         msg -> )
 
     }
