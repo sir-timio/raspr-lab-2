@@ -43,11 +43,12 @@ public class AkkaMain {
         }
 
         ArrayList<CompletionStage<ServerBinding>> bindings = new ArrayList<>();
+
         System.out.println("Servers online at\n");
-        f
+
+        for (port: args)
 
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
-                routeFlow,
                 ConnectHttp.toHost("localhost", 8080),
                 materializer
         );
