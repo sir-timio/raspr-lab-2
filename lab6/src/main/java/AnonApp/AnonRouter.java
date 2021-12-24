@@ -4,6 +4,8 @@ import akka.actor.ActorRef;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.server.Route;
 
+import static akka.http.javadsl.server.Directives.route;
+
 public class AnonRouter {
     private final ActorRef actorConfigKeeper;
     private final Http client;
@@ -15,7 +17,9 @@ public class AnonRouter {
     }
 
     public Route createRoute() {
-        return route()
+        return route(
+                
+        )
     }
 
 }
