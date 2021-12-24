@@ -19,13 +19,8 @@ public class ZooWatcher implements Watcher {
     public ZooWatcher(ActorRef actorConfigKeeper, ZooKeeper zooKeeper) throws Exception {
         this.actorConfigKeeper = actorConfigKeeper;
         this.zooKeeper = zooKeeper;
-        String akkaUrl = "http://" + host + ":" + port;
-        zooKeeper.create(
-                SERVERS_PATH,
-                akkaUrl.getBytes(StandardCharsets.UTF_8),
-                ZooDefs.Ids.OPEN_ACL_UNSAFE,
-                CreateMode.EPHEMERAL_SEQUENTIAL
-        );
+
+        
     }
 
 }
