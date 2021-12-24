@@ -12,6 +12,7 @@ import akka.http.javadsl.ConnectHttp;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
 import akka.stream.ActorMaterializer;
+import com.sun.net.httpserver.HttpServer;
 import org.apache.zookeeper.ZooKeeper;
 
 
@@ -47,7 +48,9 @@ public class AkkaMain {
         System.out.println("Servers online at\n");
 
         for (String port: args) {
-            
+            try {
+                HttpServer server = new HttpServer(http, actorConfigKeeper, zooKeeper, port)
+            }
         }
 
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
