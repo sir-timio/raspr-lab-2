@@ -6,13 +6,16 @@ import akka.japi.pf.ReceiveBuilder;
 
 import java.util.ArrayList;
 
-public class ActorConfigKeeper {
+public class ActorConfigKeeper extends AbstractActor{
     private ArrayList<String> servers;
 
     @Override
-    public AbstractActor.Receive createReceive() {
+    public Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(MessageServers.class, )
+                .match(MessageServers.class,
+                        msg -> sender()
+                                .tell(servers.get(random.nex))
+                )
 
     }
 }
