@@ -24,7 +24,7 @@ public class ActorConfigKeeper extends AbstractActor{
                                 )
                 )
                 .match(MessageServers.class,
-                        msg -> )
+                        msg -> msg.getServers())
 
     }
 }
