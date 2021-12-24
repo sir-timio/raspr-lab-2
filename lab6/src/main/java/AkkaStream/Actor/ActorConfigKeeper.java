@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class ActorConfigKeeper extends AbstractActor{
     private ArrayList<String> servers;
+    
 
     @Override
     public Receive createReceive() {
@@ -15,7 +16,7 @@ public class ActorConfigKeeper extends AbstractActor{
                 .match(MessageServers.class,
                         msg -> sender()
                                 .tell(
-                                        
+                                        servers.get()
                                 )
                 )
 
