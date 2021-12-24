@@ -1,5 +1,6 @@
 package Actor;
 
+import Message.MessageRequest;
 import akka.actor.AbstractActor;
 
 import java.util.HashMap;
@@ -11,6 +12,7 @@ public class ActorKeeper extends AbstractActor {
     @Override
     public Receive createReceive() {
         return receiveBuilder()
-                .match()
+                .match(MessageRequest.class,
+                        )
     }
 }
