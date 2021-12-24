@@ -66,7 +66,8 @@ public class AkkaMain {
                 .createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
                 ConnectHttp.toHost(HOST, port), materializer);
-
+        System.out.println("Server online at http://" + HOST + ":" + port + "/\nPress RETURN to stop...");
+        System.in.read();
         binding
                 .thenCompose(ServerBinding::unbind)
                 .thenAccept(unbound ->  system.terminate());
