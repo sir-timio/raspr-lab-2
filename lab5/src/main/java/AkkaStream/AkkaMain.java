@@ -29,7 +29,7 @@ public class AkkaMain {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = flowHttpRequest(materializer, actor);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
-                ConnectHttp.toHost("localhost", PORT),
+                ConnectHttp.toHost("localhost", 8080),
                 materializer
         );
         System.out.println("Server online at http://localhost:" + PORT + "/\nPress RETURN to stop...");
