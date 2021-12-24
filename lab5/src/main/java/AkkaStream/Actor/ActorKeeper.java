@@ -1,7 +1,7 @@
-package Actor;
+package AkkaStream.Actor;
 
-import Message.MessageCache;
-import Message.MessageRequest;
+import AkkaStream.Message.MessageCache;
+import AkkaStream.Message.MessageRequest;
 import akka.actor.AbstractActor;
 
 import java.util.HashMap;

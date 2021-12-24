@@ -1,4 +1,4 @@
-package Message;
+package AkkaStream.Message;
 
 public class MessageCache {
     private final String url;
