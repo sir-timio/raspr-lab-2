@@ -88,8 +88,9 @@ public class HttpFlow {
                 .map(res -> {
                     actorRef.tell(
                             new MessageCache(res.first(), res.second()),
-                            actorRef.noSender()
+                            ActorRef.noSender()
                     );
+                    return HttpResponse.create().withEntity(res.first() + ": " + res.second().toString());
                 })
     }
 }
