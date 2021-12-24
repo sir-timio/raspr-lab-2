@@ -32,6 +32,7 @@ public class AkkaMain {
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
+        int port = Integer.parseInt(args[0])
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = new AnonRouter(actorConfigKeeper, http)
                 .createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
