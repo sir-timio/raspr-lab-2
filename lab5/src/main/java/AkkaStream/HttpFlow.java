@@ -12,6 +12,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
+import java.time.Duration;
 import java.util.regex.Pattern;
 
 public class HttpFlow {
@@ -34,7 +35,7 @@ public class HttpFlow {
                         Patterns.ask(
                                 actorRef,
                                 new MessageRequest(request.first()),
-                                
+                                Duration.ofSeconds(TIMEOUT_SECONDS)
                         ))
     }
 }
