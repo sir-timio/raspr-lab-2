@@ -91,6 +91,6 @@ public class HttpFlow {
                             ActorRef.noSender()
                     );
                     return HttpResponse.create().withEntity(res.first() + ": " + res.second().toString());
-                })
+                });
     }
 }
