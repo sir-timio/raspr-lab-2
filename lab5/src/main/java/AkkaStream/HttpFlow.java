@@ -1,4 +1,4 @@
 package AkkaStream;
 
-public class HttpFlow {
+public class HttpFlow<HttpRequest, HttpResponse, NotUsed> {
 }
