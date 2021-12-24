@@ -1,12 +1,9 @@
 package AnonApp;
 import AnonApp.Message.MessageServers;
 import akka.actor.ActorRef;
-import com.sun.net.httpserver.HttpServer;
 import org.apache.zookeeper.*;
 
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.List;
 
 public class ZooWatcher implements Watcher {
     public static final String ZOO_HOST = "127.0.0.1";
