@@ -2,7 +2,7 @@ package AkkaStream;
 
 import java.io.IOException;
 import akka.actor.ActorSystem;
-
+import akka.actor.ActorRef;
 
 public class AkkaMain {
 
