@@ -63,7 +63,7 @@ public class AnonRouter {
                             Pair.create("url", url),
                             Pair.create("count", count.toString())
                     ));
-            return client.singleRequest(HttpRequest.create(uri);
+            return client.singleRequest(HttpRequest.create(uri.toString());
         });
     }
 }
