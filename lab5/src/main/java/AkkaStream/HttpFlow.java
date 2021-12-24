@@ -24,6 +24,9 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 import java.util.regex.Pattern;
 
+
+import org.asynchttpclient.Request;
+
 public class HttpFlow {
     public static final int TIMEOUT_SECONDS = 5;
     public static final int NUM_OF_WORKERS = 3;
