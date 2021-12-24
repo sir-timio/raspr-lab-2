@@ -10,18 +10,17 @@ import akka.http.javadsl.model.Uri;
 import akka.http.javadsl.server.Route;
 import akka.japi.Pair;
 import akka.pattern.Patterns;
-import org.apache.zookeeper.*;
+import org.apache.zookeeper.WatchedEvent;
+import org.apache.zookeeper.Watcher;
 
-import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
 import static akka.http.javadsl.server.Directives.*;
 
-public class AnonRouter implements Watcher {
+public class AnonRouter {
     private final ActorRef actorConfigKeeper;
     private final Http client;
-    private final String path;
 
     private static final Duration TIMEOUT = Duration.ofSeconds(5);
     private static final int ZERO_COUNT = 0;
@@ -29,17 +28,10 @@ public class AnonRouter implements Watcher {
     private static final String QUERY_URL = "testUrl";
     private static final String QUERY_COUNT = "count";
     private static final String PATH = "";
-    private static final String HOST = "127.0.0.1";
 
-    public AnonRouter(ActorRef actorConfigKeeper, Http client, ZooKeeper zooKeeper, String port) {
+    public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
-        this.path = HOST + ":" + port;
-        zooKeeper.create("/servers/" + path,
-                path.getBytes(StandardCharsets.UTF_8),
-                ZooDefs.Ids.OPEN_ACL_UNSAFE,
-                CreateMode.EPHEMERAL_SEQUENTIAL)
-
     }
 
     public Route createRoute() {
@@ -76,10 +68,6 @@ public class AnonRouter implements Watcher {
             return client.singleRequest(HttpRequest.create(uri.toString()));
         });
     }
-
-    @Override
-    public void process(WatchedEvent watchedEvent) {
-
-    }
+    
 }
 
