@@ -28,6 +28,10 @@ public class ZooWatcher implements Watcher {
         }
         actorConfigKeeper.tell(new MessageServers(servers), ActorRef.noSender());
     }
+
+    public void setZooKeeper(ZooKeeper zooKeeper){
+        this.zooKeeper = zooKeeper;
+    }
     @Override
     public void process(WatchedEvent watchedEvent) {
         List<String> servers;
