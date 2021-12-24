@@ -23,7 +23,7 @@ public class AnonRouter {
     private static final Duration TIMEOUT = Duration.ofSeconds(5);
     private static final int ZERO_COUNT = 0;
 
-    private static final String QUERY_URL = "testUrl";
+    private static final String QUERY_URL = "url";
     private static final String QUERY_COUNT = "count";
     private static final String PATH = "";
 
