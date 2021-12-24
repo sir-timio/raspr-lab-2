@@ -15,6 +15,8 @@ import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Sink;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
@@ -52,7 +54,10 @@ public class HttpFlow {
                         )
                     } else {
                         Sink<Integer, CompletionStage<Long>> fold = Sink.fold(0L, (Function2<Long, Integer, Long>) Long::sum);
-                        Sink.p
+                        Sink<Pair<String, Integer>, CompletionStage<Long>> sink = Flow
+                                .<Pair<String, Integer>>create()
+                                .mapConcat(req -> new ArrayList<>(Collections.nCopies(req.second(), req.first())))
+                                .mapAsync(req.)
                     }
                 })
     }
