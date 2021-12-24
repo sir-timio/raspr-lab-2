@@ -45,10 +45,12 @@ public class AkkaMain {
             e.printStackTrace();
             return;
         }
+        String url = HOST + ":" + port.toString();
         watcher.setZooKeeper(zooKeeper);
         try {
             zooKeeper.create("/servers/s",
-                    (HOST + ":" + port.toString()).getBytes(StandardCharsets.UTF_8)
+                    url.getBytes(),
+                    
                     )
         }
 
