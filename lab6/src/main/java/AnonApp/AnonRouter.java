@@ -2,6 +2,7 @@ package AnonApp;
 
 import akka.actor.ActorRef;
 import akka.http.javadsl.Http;
+import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.server.Route;
 
 import static akka.http.javadsl.server.Directives.*;
@@ -31,7 +32,9 @@ public class AnonRouter {
                                         parameter(QUERY_COUNT, (countRaw) -> {
                                             int count = Integer.parseInt(countRaw);
                                             if (count == ZERO_COUNT) {
-
+                                                return completeWithFuture(
+                                                        http.singleRequest(HttpRequest.create(url))
+                                                )
                                             }
                                         })))
                         ))
