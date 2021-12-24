@@ -34,7 +34,7 @@ public class AkkaMain {
             System.err.println("Usage: AnonApp <port>");
             return;
         }
-        Integer port = Integer.parseInt(args[0]);
+        int port = Integer.parseInt(args[0]);
 
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
@@ -48,7 +48,7 @@ public class AkkaMain {
             e.printStackTrace();
             return;
         }
-        String url = HOST + ":" + port.toString();
+        String url = HOST + ":" + Integer.toString(port);
         watcher.setZooKeeper(zooKeeper);
         try {
             zooKeeper.create("/servers/s",
