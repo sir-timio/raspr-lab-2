@@ -12,6 +12,7 @@ import akka.japi.Pair;
 import akka.pattern.Patterns;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.ZooKeeper;
 
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
@@ -31,10 +32,12 @@ public class AnonRouter implements Watcher {
     private static final String PATH = "";
     private static final String HOST = "127.0.0.1";
 
-    public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
+    public AnonRouter(ActorRef actorConfigKeeper, Http client, ZooKeeper zooKeeper, String port) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
-        this.path = HOST + ":" + port
+        this.path = HOST + ":" + port;
+        zooKeeper.create("/servers/" + path)
+
     }
 
     public Route createRoute() {
