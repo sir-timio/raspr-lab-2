@@ -4,13 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>zookeeper-labs</groupId>
     <artifactId>App</artifactId>
-    <configuration>
-        <archive>
-            <manifest>
-                <mainClass>AkkaMain</mainClass>
-            </manifest>
-        </archive>
-    </configuration>
+    
     <packaging>jar</packaging>
     <version>0</version>
     <properties>
