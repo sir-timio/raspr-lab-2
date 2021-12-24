@@ -70,9 +70,7 @@ public class HttpFlow {
                                                                                  .executeRequest(testRequest)
                                                                                  .toCompletableFuture();
                                     return responseFuture.thenCompose(
-                                            response -> {
-                                                
-                                            }
+                                            response -> { }
                                     )
                                 })
                     }
