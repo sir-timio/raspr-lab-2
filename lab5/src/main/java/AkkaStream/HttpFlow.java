@@ -70,7 +70,10 @@ public class HttpFlow {
                                                                                  .executeRequest(testRequest)
                                                                                  .toCompletableFuture();
                                     return responseFuture.thenCompose(
-                                            response -> { }
+                                            response -> {
+                                                return CompletableFuture.completedFuture(
+                                                        System.currentTimeMillis() - start)
+                                            }
                                     )
                                 })
                     }
