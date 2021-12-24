@@ -1,6 +1,7 @@
 package AnonApp;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.concurrent.CompletionStage;
 
@@ -30,7 +31,7 @@ public class AkkaMain {
             System.err.println("Usage: AnonApp <port>");
             return;
         }
-        int port = Integer.parseInt(args[0]);
+        Integer port = Integer.parseInt(args[0]);
 
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
@@ -47,6 +48,7 @@ public class AkkaMain {
         watcher.setZooKeeper(zooKeeper);
         try {
             zooKeeper.create("/servers/s",
+                    (HOST + ":" + port.toString()).getBytes(StandardCharsets.UTF_8)
                     )
         }
 
