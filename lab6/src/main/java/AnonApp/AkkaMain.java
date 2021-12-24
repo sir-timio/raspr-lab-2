@@ -22,7 +22,6 @@ import org.apache.zookeeper.ZooKeeper;
 
 public class AkkaMain {
 
-    private static final String PORT = "2181";
     private static final String HOST = "127.0.0.1";
     private static final int SESSION_TIMEOUT = 5000;
 
@@ -30,7 +29,6 @@ public class AkkaMain {
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
-
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
