@@ -33,8 +33,9 @@ public class AkkaMain {
     public static void main(String[] args) throws Exception {
         if (args.length != 1) {
             System.err.println("Usage: AnonApp <port>");
-            return;
+            System.exit(-1);
         }
+        BasicConfigurator.configure();
         int port = Integer.parseInt(args[0]);
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
