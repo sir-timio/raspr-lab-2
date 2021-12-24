@@ -4,14 +4,14 @@ import akka.actor.ActorRef;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.server.Route;
 
-import static akka.http.javadsl.server.Directives.route;
+import static akka.http.javadsl.server.Directives.*;
 
 public class AnonRouter {
     private final ActorRef actorConfigKeeper;
     private final Http client;
 
     private static final int TIMEOUT_SECONDS = 5;
-    private static final String ZERO_COUNT = "0";
+    private static final int ZERO_COUNT = 0;
 
     private static final String QUERY_URL = "testUrl";
     private static final String QUERY_COUNT = "count";
@@ -24,7 +24,17 @@ public class AnonRouter {
 
     public Route createRoute() {
         return route(
-                path("", ())
+                path(PATH, () ->
+                        route(
+                                get(() ->
+                                        parameter(QUERY_URL, (url) ->
+                                        parameter(QUERY_COUNT, (countRaw) -> {
+                                            int count = Integer.parseInt(countRaw);
+                                            if (count == ZERO_COUNT) {
+
+                                            }
+                                        })))
+                        ))
     }
 
 }
