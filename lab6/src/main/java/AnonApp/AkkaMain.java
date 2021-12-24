@@ -36,6 +36,9 @@ public class AkkaMain {
                     null
             );
             new ZooWatcher(actorConfigKeeper, zooKeeper);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(-1);
         }
 
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
