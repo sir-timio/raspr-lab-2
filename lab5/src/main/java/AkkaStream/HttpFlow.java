@@ -12,6 +12,7 @@ import akka.japi.function.Function2;
 import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+import akka.stream.javadsl.Keep;
 import akka.stream.javadsl.Sink;
 import org.asynchttpclient.AsyncHttpClient;
 import org.asynchttpclient.Dsl;
@@ -75,6 +76,7 @@ public class HttpFlow {
                                             .toCompletableFuture()
                                             .thenApply(response -> System.currentTimeMillis() - start)
                                 })
+                                .toMat(fold, Keep.right());
                     }
                 })
     }
