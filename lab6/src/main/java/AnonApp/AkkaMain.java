@@ -47,7 +47,7 @@ public class AkkaMain {
             e.printStackTrace();
             return;
         }
-        String url = HOST + ":" + port;
+        String url = String.format("%s:%d", HOST, port);
         watcher.setZooKeeper(zooKeeper);
         try {
             zooKeeper.create("/servers",
