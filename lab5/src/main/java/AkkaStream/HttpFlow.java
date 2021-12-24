@@ -14,6 +14,7 @@ import akka.stream.javadsl.Flow;
 
 import java.time.Duration;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
 import java.util.regex.Pattern;
 
 public class HttpFlow {
@@ -39,7 +40,14 @@ public class HttpFlow {
                                 Duration.ofSeconds(TIMEOUT_SECONDS)
                         )
                 .thenCompose(responseTime -> {
-                    if (((Optional<Long>) time).isPresent())
+                    if (((Optional<Long>) responseTime).isPresent()) {
+                        return CompletableFuture.completedFuture(
+                                new Pair<>(
+                                        request.first(),
+                                        
+                                )
+                        )
+                    }
                 })
     }
 }
