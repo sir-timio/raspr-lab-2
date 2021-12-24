@@ -18,7 +18,7 @@ public class ActorConfigKeeper extends AbstractActor{
                 .match(MessageServers.class,
                         msg -> sender()
                                 .tell(
-                                        servers.get(rand.nextInt(servers.size()))
+                                        servers.get(rand.nextInt(servers.size())),
                                         Actor.noSender()
                                 )
                 )
