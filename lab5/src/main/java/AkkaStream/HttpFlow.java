@@ -64,8 +64,16 @@ public class HttpFlow {
                                 .mapConcat(req -> new ArrayList<>(Collections.nCopies(req.second(), req.first())))
                                 .mapAsync(request.second(), url -> {
                                     long start = System.currentTimeMillis();
-                                    Request r = Dsl.get(url).build();
-                                    CompletableFuture<Response> 
+                                    Request testRequest = Dsl.get(url).build();
+                                    CompletableFuture<Response> responseFuture = Dsl
+                                                                                 .asyncHttpClient()
+                                                                                 .executeRequest(testRequest)
+                                                                                 .toCompletableFuture();
+                                    return responseFuture.thenCompose(
+                                            response -> {
+                                                
+                                            }
+                                    )
                                 })
                     }
                 })
