@@ -1,2 +1,4 @@
-package AnonApp;public class AkkaMain {
+package AnonApp;
+
+public class AkkaMain {
 }
