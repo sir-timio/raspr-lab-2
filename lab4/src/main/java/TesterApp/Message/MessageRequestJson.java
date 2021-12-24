@@ -1,4 +1,4 @@
-package TesterApp;
+package TesterApp.Message;
 
 public class MessageRequestJson {
     private final String packageID;

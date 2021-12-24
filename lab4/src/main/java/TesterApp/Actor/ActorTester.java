@@ -1,5 +1,7 @@
-package TesterApp;
+package TesterApp.Actor;
 
+import TesterApp.Actor.ActorRouter;
+import TesterApp.Test.TestResultStore;
 import akka.actor.AbstractActor;
 
 import javax.script.Invocable;
@@ -7,7 +9,6 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ActorTester extends AbstractActor {
     private static final String EVAL_ENGINE = "nashorn";

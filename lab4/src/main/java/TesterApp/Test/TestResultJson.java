@@ -1,4 +1,4 @@
-package TesterApp;
+package TesterApp.Test;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

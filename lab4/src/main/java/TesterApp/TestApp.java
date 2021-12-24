@@ -1,4 +1,7 @@
 package TesterApp;
+import TesterApp.Actor.ActorRouter;
+import TesterApp.Message.MessageRequestJson;
+import TesterApp.Message.MessageTestsPackage;
 import akka.NotUsed;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;

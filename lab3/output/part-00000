@@ -1,9 +1,3 @@
-Stat from: Newark to Manchester: 
-Max delay: 47.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
 Stat from: Anchorage to Cordova: 
 Max delay: 151.0
 delayed: 25.00%
@@ -28,6 +22,12 @@ delayed: 47.62%
 cancelled: 47.62%
 total: 21
 
+Stat from: Hartford to Washington: 
+Max delay: 5.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
+
 Stat from: Fort Myers to Grand Rapids: 
 Max delay: 5.0
 delayed: 100.00%
@@ -39,12 +39,6 @@ Max delay: 11.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
-
-Stat from: Hartford to Washington: 
-Max delay: 5.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
 
 Stat from: Monterey to Phoenix: 
 Max delay: 1.0
@@ -82,29 +76,29 @@ delayed: 60.00%
 cancelled: 60.00%
 total: 5
 
-Stat from: Sacramento to San Diego: 
-Max delay: 72.0
-delayed: 24.00%
-cancelled: 24.00%
-total: 25
-
 Stat from: Seattle to Dallas/Fort Worth: 
 Max delay: 57.0
 delayed: 37.04%
 cancelled: 37.04%
 total: 27
 
-Stat from: Cincinnati to Chicago: 
-Max delay: 94.0
-delayed: 45.45%
-cancelled: 45.45%
-total: 33
+Stat from: Sacramento to San Diego: 
+Max delay: 72.0
+delayed: 24.00%
+cancelled: 24.00%
+total: 25
 
 Stat from: Tampa to Latrobe: 
 Max delay: 94.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
+
+Stat from: Cincinnati to Chicago: 
+Max delay: 94.0
+delayed: 45.45%
+cancelled: 45.45%
+total: 33
 
 Stat from: Salt Lake City to New Orleans: 
 Max delay: 4.0
@@ -136,17 +130,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Newark to Houston: 
-Max delay: 59.0
-delayed: 41.38%
-cancelled: 41.38%
-total: 29
-
 Stat from: Atlanta to Phoenix: 
 Max delay: 38.0
 delayed: 22.22%
 cancelled: 22.22%
 total: 36
+
+Stat from: Newark to Houston: 
+Max delay: 59.0
+delayed: 41.38%
+cancelled: 41.38%
+total: 29
 
 Stat from: Pittsburgh to Los Angeles: 
 Max delay: 0.0
@@ -172,17 +166,17 @@ delayed: 57.14%
 cancelled: 57.14%
 total: 7
 
-Stat from: Detroit to Escanaba: 
-Max delay: 245.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
 Stat from: Oakland to New York: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 2
+
+Stat from: Detroit to Escanaba: 
+Max delay: 245.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
 
 Stat from: Newark to Dayton: 
 Max delay: 4.0
@@ -202,17 +196,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
-Stat from: Austin to Washington: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Chicago to Providence: 
 Max delay: 32.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
+
+Stat from: Austin to Washington: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Detroit to Washington: 
 Max delay: 71.0
@@ -250,17 +244,17 @@ delayed: 12.50%
 cancelled: 12.50%
 total: 8
 
-Stat from: Houston to Boise: 
-Max delay: 14.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
 Stat from: Boise to Salt Lake City: 
 Max delay: 53.0
 delayed: 27.27%
 cancelled: 27.27%
 total: 11
+
+Stat from: Houston to Boise: 
+Max delay: 14.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Houston to Tucson: 
 Max delay: 76.0
@@ -370,6 +364,12 @@ delayed: 70.00%
 cancelled: 70.00%
 total: 20
 
+Stat from: Hartford to Washington: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 6
+
 Stat from: Houston to Portland: 
 Max delay: 66.0
 delayed: 80.00%
@@ -382,11 +382,11 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 2
 
-Stat from: Hartford to Washington: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 6
+Stat from: Honolulu to Dallas/Fort Worth: 
+Max delay: 70.0
+delayed: 71.43%
+cancelled: 71.43%
+total: 7
 
 Stat from: Houston to Tulsa: 
 Max delay: 40.0
@@ -399,12 +399,6 @@ Max delay: 32.0
 delayed: 100.00%
 cancelled: 100.00%
 total: 6
-
-Stat from: Honolulu to Dallas/Fort Worth: 
-Max delay: 70.0
-delayed: 71.43%
-cancelled: 71.43%
-total: 7
 
 Stat from: Midland/Odessa to Dallas: 
 Max delay: 29.0
@@ -448,17 +442,17 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
-Stat from: Chicago to Los Angeles: 
-Max delay: 93.0
-delayed: 46.15%
-cancelled: 46.15%
-total: 13
-
 Stat from: Miami to Washington: 
 Max delay: 44.0
 delayed: 42.86%
 cancelled: 42.86%
 total: 28
+
+Stat from: Chicago to Los Angeles: 
+Max delay: 93.0
+delayed: 46.15%
+cancelled: 46.15%
+total: 13
 
 Stat from: San Francisco to Kona: 
 Max delay: 28.0
@@ -514,17 +508,17 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 6
 
-Stat from: San Francisco to Dallas/Fort Worth: 
-Max delay: 118.0
-delayed: 57.45%
-cancelled: 57.45%
-total: 47
-
 Stat from: Chicago to Mosinee: 
 Max delay: 150.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 12
+
+Stat from: San Francisco to Dallas/Fort Worth: 
+Max delay: 118.0
+delayed: 57.45%
+cancelled: 57.45%
+total: 47
 
 Stat from: Hayden to Washington: 
 Max delay: 0.0
@@ -562,17 +556,17 @@ delayed: 41.67%
 cancelled: 41.67%
 total: 12
 
-Stat from: Bozeman to Denver: 
-Max delay: 57.0
-delayed: 60.00%
-cancelled: 60.00%
-total: 5
-
 Stat from: Cincinnati to Fort Myers: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 2
+
+Stat from: Bozeman to Denver: 
+Max delay: 57.0
+delayed: 60.00%
+cancelled: 60.00%
+total: 5
 
 Stat from: New Orleans to Milwaukee: 
 Max delay: 0.0
@@ -604,17 +598,17 @@ delayed: 35.00%
 cancelled: 35.00%
 total: 20
 
-Stat from: Boston to Myrtle Beach: 
-Max delay: 16.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: Longview to Dallas/Fort Worth: 
 Max delay: 17.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 5
+
+Stat from: Boston to Myrtle Beach: 
+Max delay: 16.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Phoenix to Dallas/Fort Worth: 
 Max delay: 659.0
@@ -628,11 +622,11 @@ delayed: 70.00%
 cancelled: 70.00%
 total: 10
 
-Stat from: Los Angeles to Montrose/Delta: 
-Max delay: 137.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
+Stat from: New Bern/Morehead/Beaufort to Atlanta: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 6
 
 Stat from: Houston to Indianapolis: 
 Max delay: 45.0
@@ -640,11 +634,11 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 7
 
-Stat from: New Bern/Morehead/Beaufort to Atlanta: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 6
+Stat from: Los Angeles to Montrose/Delta: 
+Max delay: 137.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
 
 Stat from: Tampa to St. Louis: 
 Max delay: 11.0
@@ -772,17 +766,17 @@ delayed: 10.00%
 cancelled: 10.00%
 total: 10
 
-Stat from: Orlando to Kansas City: 
-Max delay: 41.0
-delayed: 85.71%
-cancelled: 85.71%
-total: 7
-
 Stat from: Washington to Greer: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
+
+Stat from: Orlando to Kansas City: 
+Max delay: 41.0
+delayed: 85.71%
+cancelled: 85.71%
+total: 7
 
 Stat from: Chicago to Albuquerque: 
 Max delay: 0.0
@@ -820,23 +814,23 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
-Stat from: Dallas/Fort Worth to Las Vegas: 
-Max delay: 210.0
-delayed: 30.95%
-cancelled: 30.95%
-total: 42
-
 Stat from: San Diego to Detroit: 
 Max delay: 10.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: New Orleans to San Diego: 
-Max delay: 55.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Dallas/Fort Worth to Las Vegas: 
+Max delay: 210.0
+delayed: 30.95%
+cancelled: 30.95%
+total: 42
+
+Stat from: Chicago to Santa Ana: 
+Max delay: 66.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 14
 
 Stat from: El Paso to Phoenix: 
 Max delay: 148.0
@@ -844,11 +838,11 @@ delayed: 31.25%
 cancelled: 31.25%
 total: 16
 
-Stat from: Chicago to Santa Ana: 
-Max delay: 66.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 14
+Stat from: New Orleans to San Diego: 
+Max delay: 55.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Sun Valley/Hailey/Ketchum to Denver: 
 Max delay: 0.0
@@ -904,6 +898,12 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
+Stat from: Chicago to Elmira/Corning: 
+Max delay: 64.0
+delayed: 83.33%
+cancelled: 83.33%
+total: 6
+
 Stat from: Sioux Falls to Chicago: 
 Max delay: 388.0
 delayed: 40.00%
@@ -916,13 +916,79 @@ delayed: 57.14%
 cancelled: 57.14%
 total: 7
 
-Stat from: Chicago to Elmira/Corning: 
-Max delay: 64.0
-delayed: 83.33%
-cancelled: 83.33%
+Stat from: Harlingen/San Benito to Austin: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 2
+
+Stat from: Houston to El Paso: 
+Max delay: 43.0
+delayed: 56.25%
+cancelled: 56.25%
+total: 16
+
+Stat from: Long Beach to Austin: 
+Max delay: 6.0
+delayed: 75.00%
+cancelled: 75.00%
+total: 4
+
+Stat from: San Antonio to Detroit: 
+Max delay: 22.0
+delayed: 75.00%
+cancelled: 75.00%
+total: 4
+
+Stat from: Miami to Norfolk: 
+Max delay: 6.0
+delayed: 50.00%
+cancelled: 50.00%
 total: 6
 
-Stat from: Harlingen/San Benito to Austin: 
+Stat from: Santa Ana to Sacramento: 
+Max delay: 116.0
+delayed: 41.18%
+cancelled: 41.18%
+total: 17
+
+Stat from: Aguadilla to Orlando: 
+Max delay: 8.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
+
+Stat from: New York to Chicago: 
+Max delay: 247.0
+delayed: 35.23%
+cancelled: 35.23%
+total: 88
+
+Stat from: Houston to Pensacola: 
+Max delay: 17.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 1
+
+Stat from: Austin to Detroit: 
+Max delay: 9.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
+
+Stat from: Phoenix to Buffalo: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
+
+Stat from: Muskegon to Chicago: 
+Max delay: 123.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
+
+Stat from: St. Louis to Cincinnati: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
@@ -933,78 +999,6 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
-
-Stat from: Cedar City to Salt Lake City: 
-Max delay: 25.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
-
-Stat from: Long Beach to Austin: 
-Max delay: 6.0
-delayed: 75.00%
-cancelled: 75.00%
-total: 4
-
-Stat from: Santa Ana to Sacramento: 
-Max delay: 116.0
-delayed: 41.18%
-cancelled: 41.18%
-total: 17
-
-Stat from: Houston to Pensacola: 
-Max delay: 17.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 1
-
-Stat from: Aguadilla to Orlando: 
-Max delay: 8.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
-Stat from: Houston to El Paso: 
-Max delay: 43.0
-delayed: 56.25%
-cancelled: 56.25%
-total: 16
-
-Stat from: New York to Chicago: 
-Max delay: 247.0
-delayed: 35.23%
-cancelled: 35.23%
-total: 88
-
-Stat from: San Antonio to Detroit: 
-Max delay: 22.0
-delayed: 75.00%
-cancelled: 75.00%
-total: 4
-
-Stat from: Phoenix to Buffalo: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
-Stat from: St. Louis to Cincinnati: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 2
-
-Stat from: Muskegon to Chicago: 
-Max delay: 123.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
-Stat from: Miami to Norfolk: 
-Max delay: 6.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 6
 
 Stat from: Kahului to Lihue: 
 Max delay: 25.0
@@ -1018,11 +1012,11 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 14
 
-Stat from: Austin to Detroit: 
-Max delay: 9.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
+Stat from: Cedar City to Salt Lake City: 
+Max delay: 25.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
 
 Stat from: Atlanta to Detroit: 
 Max delay: 40.0
@@ -1036,17 +1030,17 @@ delayed: 31.75%
 cancelled: 31.75%
 total: 63
 
-Stat from: Atlanta to Washington: 
-Max delay: 103.0
-delayed: 35.29%
-cancelled: 35.29%
-total: 68
-
 Stat from: Salt Lake City to Minneapolis: 
 Max delay: 11.0
 delayed: 46.67%
 cancelled: 46.67%
 total: 15
+
+Stat from: Atlanta to Washington: 
+Max delay: 103.0
+delayed: 35.29%
+cancelled: 35.29%
+total: 68
 
 Stat from: Fort Lauderdale to Jacksonville: 
 Max delay: 7.0
@@ -1060,29 +1054,11 @@ delayed: 60.00%
 cancelled: 60.00%
 total: 15
 
-Stat from: Chicago to Charlottesville: 
-Max delay: 173.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
-
-Stat from: Santa Ana to Houston: 
-Max delay: 58.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 3
-
-Stat from: Los Angeles to Houston: 
-Max delay: 39.0
-delayed: 72.73%
-cancelled: 72.73%
-total: 11
-
-Stat from: Newark to Chicago: 
-Max delay: 91.0
-delayed: 21.43%
-cancelled: 21.43%
-total: 14
+Stat from: Lafayette to Atlanta: 
+Max delay: 19.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 7
 
 Stat from: Charleston to Washington: 
 Max delay: 163.0
@@ -1090,11 +1066,41 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
+Stat from: Savannah to Chicago: 
+Max delay: 61.0
+delayed: 60.00%
+cancelled: 60.00%
+total: 5
+
+Stat from: Los Angeles to Houston: 
+Max delay: 39.0
+delayed: 72.73%
+cancelled: 72.73%
+total: 11
+
+Stat from: Santa Ana to Houston: 
+Max delay: 58.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 3
+
 Stat from: Baltimore to Seattle: 
 Max delay: 68.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
+
+Stat from: Chicago to Charlottesville: 
+Max delay: 173.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
+
+Stat from: Newark to Chicago: 
+Max delay: 91.0
+delayed: 21.43%
+cancelled: 21.43%
+total: 14
 
 Stat from: Memphis to Charlotte: 
 Max delay: 196.0
@@ -1102,35 +1108,23 @@ delayed: 53.85%
 cancelled: 53.85%
 total: 13
 
-Stat from: Savannah to Chicago: 
-Max delay: 61.0
-delayed: 60.00%
-cancelled: 60.00%
-total: 5
-
-Stat from: Lafayette to Atlanta: 
-Max delay: 19.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 7
-
 Stat from: Milwaukee to Orlando: 
 Max delay: 43.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 12
 
-Stat from: Rock Springs to Salt Lake City: 
-Max delay: 6.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: New York to Las Vegas: 
 Max delay: 80.0
 delayed: 31.03%
 cancelled: 31.03%
 total: 29
+
+Stat from: Rock Springs to Salt Lake City: 
+Max delay: 6.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Bellingham to Kahului: 
 Max delay: 0.0
@@ -1210,11 +1204,11 @@ delayed: 58.82%
 cancelled: 58.82%
 total: 17
 
-Stat from: Denver to Eugene: 
-Max delay: 48.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
+Stat from: Pittsburgh to Dallas/Fort Worth: 
+Max delay: 90.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 12
 
 Stat from: Phoenix to Sacramento: 
 Max delay: 66.0
@@ -1222,11 +1216,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 24
 
-Stat from: Pittsburgh to Dallas/Fort Worth: 
-Max delay: 90.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 12
+Stat from: Denver to Eugene: 
+Max delay: 48.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
 
 Stat from: Washington to Cincinnati: 
 Max delay: 68.0
@@ -1246,17 +1240,23 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
+Stat from: New York to Burlington: 
+Max delay: 75.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 9
+
 Stat from: Dallas to Chicago: 
 Max delay: 91.0
 delayed: 47.83%
 cancelled: 47.83%
 total: 23
 
-Stat from: New York to Burlington: 
-Max delay: 75.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 9
+Stat from: Chicago to Scranton/Wilkes-Barre: 
+Max delay: 20.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Charleston to Chicago: 
 Max delay: 36.0
@@ -1264,23 +1264,17 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
-Stat from: Omaha to Phoenix: 
-Max delay: 3.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 7
-
 Stat from: Austin to Salt Lake City: 
 Max delay: 1.0
 delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Chicago to Scranton/Wilkes-Barre: 
-Max delay: 20.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Omaha to Phoenix: 
+Max delay: 3.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 7
 
 Stat from: Charlotte to Tampa: 
 Max delay: 124.0
@@ -1306,11 +1300,11 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 2
 
-Stat from: Orlando to Las Vegas: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 6
+Stat from: Memphis to Chicago: 
+Max delay: 79.0
+delayed: 36.36%
+cancelled: 36.36%
+total: 22
 
 Stat from: Dallas/Fort Worth to Houston: 
 Max delay: 204.0
@@ -1318,23 +1312,29 @@ delayed: 53.49%
 cancelled: 53.49%
 total: 43
 
-Stat from: Memphis to Chicago: 
-Max delay: 79.0
-delayed: 36.36%
-cancelled: 36.36%
-total: 22
-
 Stat from: Las Vegas to Bellingham: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
+Stat from: Kahului to Bellingham: 
+Max delay: 3.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
+
 Stat from: Orlando to Latrobe: 
 Max delay: 27.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
+
+Stat from: Orlando to Las Vegas: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 6
 
 Stat from: Dallas/Fort Worth to Newark: 
 Max delay: 132.0
@@ -1359,12 +1359,6 @@ Max delay: 160.0
 delayed: 29.17%
 cancelled: 29.17%
 total: 48
-
-Stat from: Kahului to Bellingham: 
-Max delay: 3.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
 
 Stat from: Durango to Denver: 
 Max delay: 112.0
@@ -1396,6 +1390,12 @@ delayed: 34.55%
 cancelled: 34.55%
 total: 55
 
+Stat from: Daytona Beach to Atlanta: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
+
 Stat from: Des Moines to Denver: 
 Max delay: 100.0
 delayed: 55.56%
@@ -1408,23 +1408,23 @@ delayed: 40.00%
 cancelled: 40.00%
 total: 10
 
+Stat from: San Diego to New York: 
+Max delay: 72.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 10
+
 Stat from: New York to Fort Lauderdale: 
 Max delay: 152.0
 delayed: 26.53%
 cancelled: 26.53%
 total: 49
 
-Stat from: Daytona Beach to Atlanta: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
-Stat from: San Diego to New York: 
-Max delay: 72.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 10
+Stat from: Greensboro/High Point to New York: 
+Max delay: 46.0
+delayed: 26.67%
+cancelled: 26.67%
+total: 15
 
 Stat from: Minneapolis to Chicago: 
 Max delay: 175.0
@@ -1438,11 +1438,11 @@ delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
-Stat from: Greensboro/High Point to New York: 
-Max delay: 46.0
-delayed: 26.67%
-cancelled: 26.67%
-total: 15
+Stat from: Richmond to Newark: 
+Max delay: 16.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 9
 
 Stat from: Detroit to Kalamazoo: 
 Max delay: 122.0
@@ -1450,26 +1450,20 @@ delayed: 28.57%
 cancelled: 28.57%
 total: 7
 
-Stat from: Richmond to Newark: 
-Max delay: 16.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 9
-
 Stat from: Atlanta to New York: 
 Max delay: 90.0
 delayed: 68.42%
 cancelled: 68.42%
 total: 19
 
+Stat from: Mobile to Dallas/Fort Worth: 
+Max delay: 81.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 8
+
 Stat from: Chicago to St. Cloud: 
 Max delay: 76.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
-
-Stat from: Escanaba to Detroit: 
-Max delay: 514.0
 delayed: 40.00%
 cancelled: 40.00%
 total: 5
@@ -1480,17 +1474,23 @@ delayed: 35.00%
 cancelled: 35.00%
 total: 20
 
-Stat from: Mobile to Dallas/Fort Worth: 
-Max delay: 81.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 8
+Stat from: Escanaba to Detroit: 
+Max delay: 514.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
 
 Stat from: Phoenix to Spokane: 
 Max delay: 117.0
 delayed: 57.14%
 cancelled: 57.14%
 total: 7
+
+Stat from: Sitka to Juneau: 
+Max delay: 5.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
 
 Stat from: Seattle to Salt Lake City: 
 Max delay: 77.0
@@ -1503,12 +1503,6 @@ Max delay: 23.0
 delayed: 44.00%
 cancelled: 44.00%
 total: 25
-
-Stat from: Sitka to Juneau: 
-Max delay: 5.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
 
 Stat from: Hibbing to Minneapolis: 
 Max delay: 2.0
@@ -1606,6 +1600,12 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
+Stat from: Dickinson to Denver: 
+Max delay: 22.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
+
 Stat from: Nashville to New York: 
 Max delay: 134.0
 delayed: 39.29%
@@ -1617,12 +1617,6 @@ Max delay: 24.0
 delayed: 35.00%
 cancelled: 35.00%
 total: 20
-
-Stat from: Dickinson to Denver: 
-Max delay: 22.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
 
 Stat from: Bloomington/Normal to Orlando: 
 Max delay: 7.0
@@ -1660,11 +1654,11 @@ delayed: 24.14%
 cancelled: 24.14%
 total: 29
 
-Stat from: Philadelphia to New Orleans: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
+Stat from: Norfolk to Atlanta: 
+Max delay: 14.0
+delayed: 12.50%
+cancelled: 12.50%
+total: 16
 
 Stat from: St. Louis to Oklahoma City: 
 Max delay: 0.0
@@ -1678,11 +1672,11 @@ delayed: 46.15%
 cancelled: 46.15%
 total: 26
 
-Stat from: Norfolk to Atlanta: 
-Max delay: 14.0
-delayed: 12.50%
-cancelled: 12.50%
-total: 16
+Stat from: Philadelphia to New Orleans: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Denver to New York: 
 Max delay: 220.0
@@ -1702,11 +1696,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Minneapolis to Atlanta: 
-Max delay: 118.0
-delayed: 28.21%
-cancelled: 28.21%
-total: 39
+Stat from: Savannah to Atlanta: 
+Max delay: 132.0
+delayed: 19.05%
+cancelled: 19.05%
+total: 21
+
+Stat from: Sarasota/Bradenton to Boston: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Cedar Rapids/Iowa City to Minneapolis: 
 Max delay: 1.0
@@ -1714,17 +1714,11 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
-Stat from: San Diego to Houston: 
-Max delay: 51.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
-
-Stat from: Savannah to Atlanta: 
-Max delay: 132.0
-delayed: 19.05%
-cancelled: 19.05%
-total: 21
+Stat from: Minneapolis to Atlanta: 
+Max delay: 118.0
+delayed: 28.21%
+cancelled: 28.21%
+total: 39
 
 Stat from: Fargo to Denver: 
 Max delay: 301.0
@@ -1732,11 +1726,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 9
 
-Stat from: Sarasota/Bradenton to Boston: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
+Stat from: San Diego to Houston: 
+Max delay: 51.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: Cleveland to Dallas/Fort Worth: 
 Max delay: 110.0
@@ -1774,17 +1768,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: New Orleans to St. Louis: 
-Max delay: 4.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
 Stat from: Dallas/Fort Worth to College Station/Bryan: 
 Max delay: 40.0
 delayed: 68.75%
 cancelled: 68.75%
 total: 16
+
+Stat from: New Orleans to St. Louis: 
+Max delay: 4.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
 
 Stat from: Kansas City to Fort Lauderdale: 
 Max delay: 76.0
@@ -1804,17 +1798,17 @@ delayed: 36.36%
 cancelled: 36.36%
 total: 11
 
-Stat from: Sun Valley/Hailey/Ketchum to San Francisco: 
-Max delay: 46.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
-
 Stat from: Washington to Norfolk: 
 Max delay: 148.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
+
+Stat from: Sun Valley/Hailey/Ketchum to San Francisco: 
+Max delay: 46.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
 
 Stat from: Santa Ana to Chicago: 
 Max delay: 114.0
@@ -1840,11 +1834,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
-Stat from: Las Vegas to Dallas: 
-Max delay: 86.0
-delayed: 30.77%
-cancelled: 30.77%
-total: 13
+Stat from: Chicago to Chattanooga: 
+Max delay: 124.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Newark to Jacksonville: 
 Max delay: 32.0
@@ -1852,11 +1846,11 @@ delayed: 44.44%
 cancelled: 44.44%
 total: 9
 
-Stat from: Chicago to Chattanooga: 
-Max delay: 124.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Las Vegas to Dallas: 
+Max delay: 86.0
+delayed: 30.77%
+cancelled: 30.77%
+total: 13
 
 Stat from: Salt Lake City to Baltimore: 
 Max delay: 5.0
@@ -1876,17 +1870,17 @@ delayed: 38.89%
 cancelled: 38.89%
 total: 36
 
-Stat from: Detroit to Grand Rapids: 
-Max delay: 313.0
-delayed: 52.94%
-cancelled: 52.94%
-total: 17
-
 Stat from: St. Augustine to Washington: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
+
+Stat from: Detroit to Grand Rapids: 
+Max delay: 313.0
+delayed: 52.94%
+cancelled: 52.94%
+total: 17
 
 Stat from: Wichita to Dallas: 
 Max delay: 46.0
@@ -1906,12 +1900,6 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Baltimore to Portland: 
-Max delay: 41.0
-delayed: 71.43%
-cancelled: 71.43%
-total: 7
-
 Stat from: Washington to Boston: 
 Max delay: 179.0
 delayed: 38.89%
@@ -1924,16 +1912,22 @@ delayed: 55.56%
 cancelled: 55.56%
 total: 36
 
-Stat from: Detroit to Alpena: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 4
+Stat from: Baltimore to Portland: 
+Max delay: 41.0
+delayed: 71.43%
+cancelled: 71.43%
+total: 7
 
 Stat from: Santa Fe to Denver: 
 Max delay: 95.0
 delayed: 50.00%
 cancelled: 50.00%
+total: 4
+
+Stat from: Detroit to Alpena: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
 total: 4
 
 Stat from: Kahului to Denver: 
@@ -1990,17 +1984,17 @@ delayed: 27.27%
 cancelled: 27.27%
 total: 11
 
-Stat from: Chicago to Newark: 
-Max delay: 27.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 14
-
 Stat from: Minneapolis to Santa Ana: 
 Max delay: 5.0
 delayed: 10.00%
 cancelled: 10.00%
 total: 10
+
+Stat from: Newark to Minneapolis: 
+Max delay: 62.0
+delayed: 30.77%
+cancelled: 30.77%
+total: 13
 
 Stat from: San Jose to Las Vegas: 
 Max delay: 188.0
@@ -2008,11 +2002,11 @@ delayed: 64.29%
 cancelled: 64.29%
 total: 28
 
-Stat from: Islip to West Palm Beach/Palm Beach: 
-Max delay: 19.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 6
+Stat from: Aspen to Dallas/Fort Worth: 
+Max delay: 467.0
+delayed: 85.71%
+cancelled: 85.71%
+total: 7
 
 Stat from: Houston to Hobbs: 
 Max delay: 73.0
@@ -2020,11 +2014,17 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
-Stat from: Aspen to Dallas/Fort Worth: 
-Max delay: 467.0
-delayed: 85.71%
-cancelled: 85.71%
-total: 7
+Stat from: Islip to West Palm Beach/Palm Beach: 
+Max delay: 19.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 6
+
+Stat from: Chicago to Newark: 
+Max delay: 27.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 14
 
 Stat from: Kalamazoo to Chicago: 
 Max delay: 156.0
@@ -2061,12 +2061,6 @@ Max delay: 21.0
 delayed: 16.67%
 cancelled: 16.67%
 total: 6
-
-Stat from: Newark to Minneapolis: 
-Max delay: 62.0
-delayed: 30.77%
-cancelled: 30.77%
-total: 13
 
 Stat from: Santa Ana to San Jose: 
 Max delay: 43.0
@@ -2116,11 +2110,11 @@ delayed: 18.75%
 cancelled: 18.75%
 total: 16
 
-Stat from: Minneapolis to Flint: 
+Stat from: New York to Sarasota/Bradenton: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 1
+total: 3
 
 Stat from: Washington to Las Vegas: 
 Max delay: 20.0
@@ -2128,11 +2122,11 @@ delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
-Stat from: New York to Sarasota/Bradenton: 
+Stat from: Minneapolis to Flint: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 3
+total: 1
 
 Stat from: Hayden to Newark: 
 Max delay: 87.0
@@ -2182,14 +2176,14 @@ delayed: 29.41%
 cancelled: 29.41%
 total: 17
 
-Stat from: Albuquerque to Houston: 
-Max delay: 18.0
+Stat from: Grand Junction to Denver: 
+Max delay: 58.0
 delayed: 37.50%
 cancelled: 37.50%
 total: 8
 
-Stat from: Grand Junction to Denver: 
-Max delay: 58.0
+Stat from: Albuquerque to Houston: 
+Max delay: 18.0
 delayed: 37.50%
 cancelled: 37.50%
 total: 8
@@ -2224,29 +2218,23 @@ delayed: 47.06%
 cancelled: 47.06%
 total: 34
 
-Stat from: Jacksonville to Philadelphia: 
-Max delay: 2.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: Columbus to Newark: 
 Max delay: 61.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 12
 
-Stat from: St. Louis to Nashville: 
-Max delay: 37.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
-
 Stat from: Atlanta to Shreveport: 
 Max delay: 61.0
 delayed: 18.75%
 cancelled: 18.75%
 total: 16
+
+Stat from: St. Louis to Nashville: 
+Max delay: 37.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Miami to Orlando: 
 Max delay: 40.0
@@ -2260,23 +2248,29 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 16
 
+Stat from: Jacksonville to Philadelphia: 
+Max delay: 2.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
+
 Stat from: Charleston to Atlanta: 
 Max delay: 29.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 21
 
-Stat from: Yuma to Phoenix: 
-Max delay: 171.0
-delayed: 43.75%
-cancelled: 43.75%
-total: 16
-
 Stat from: Cincinnati to Fort Lauderdale: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 4
+
+Stat from: Yuma to Phoenix: 
+Max delay: 171.0
+delayed: 43.75%
+cancelled: 43.75%
+total: 16
 
 Stat from: Indianapolis to New York: 
 Max delay: 203.0
@@ -2374,11 +2368,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Sacramento to Burbank: 
-Max delay: 183.0
-delayed: 30.00%
-cancelled: 30.00%
-total: 20
+Stat from: Pensacola to Chicago: 
+Max delay: 95.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 1
 
 Stat from: Kansas City to Albuquerque: 
 Max delay: 0.0
@@ -2404,11 +2398,11 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
-Stat from: Pensacola to Chicago: 
-Max delay: 95.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 1
+Stat from: Sacramento to Burbank: 
+Max delay: 183.0
+delayed: 30.00%
+cancelled: 30.00%
+total: 20
 
 Stat from: Omaha to New York: 
 Max delay: 20.0
@@ -2470,11 +2464,11 @@ delayed: 43.48%
 cancelled: 43.48%
 total: 23
 
-Stat from: Orlando to Pittsburgh: 
-Max delay: 24.0
-delayed: 38.46%
-cancelled: 38.46%
-total: 13
+Stat from: Minneapolis to New Orleans: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 2
 
 Stat from: Columbus to New York: 
 Max delay: 78.0
@@ -2482,17 +2476,17 @@ delayed: 31.25%
 cancelled: 31.25%
 total: 16
 
-Stat from: Orlando to Baltimore: 
-Max delay: 93.0
-delayed: 53.33%
-cancelled: 53.33%
-total: 30
+Stat from: Miami to Washington: 
+Max delay: 79.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 8
 
-Stat from: Minneapolis to New Orleans: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 2
+Stat from: Kahului to Oakland: 
+Max delay: 156.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
 
 Stat from: Seattle to New Orleans: 
 Max delay: 0.0
@@ -2500,17 +2494,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Chicago to Las Vegas: 
-Max delay: 84.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 21
-
-Stat from: San Diego to Los Angeles: 
-Max delay: 462.0
-delayed: 45.61%
-cancelled: 45.61%
-total: 57
+Stat from: Orlando to Pittsburgh: 
+Max delay: 24.0
+delayed: 38.46%
+cancelled: 38.46%
+total: 13
 
 Stat from: Dallas/Fort Worth to Aspen: 
 Max delay: 45.0
@@ -2518,23 +2506,35 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
+Stat from: Orlando to Baltimore: 
+Max delay: 93.0
+delayed: 53.33%
+cancelled: 53.33%
+total: 30
+
+Stat from: Chicago to Las Vegas: 
+Max delay: 84.0
+delayed: 14.29%
+cancelled: 14.29%
+total: 21
+
 Stat from: Orlando to Detroit: 
 Max delay: 96.0
 delayed: 18.52%
 cancelled: 18.52%
 total: 27
 
+Stat from: San Diego to Los Angeles: 
+Max delay: 462.0
+delayed: 45.61%
+cancelled: 45.61%
+total: 57
+
 Stat from: Salt Lake City to Nashville: 
 Max delay: 45.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
-
-Stat from: Miami to Washington: 
-Max delay: 79.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 8
 
 Stat from: San Antonio to Philadelphia: 
 Max delay: 2.0
@@ -2554,17 +2554,17 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 10
 
-Stat from: Myrtle Beach to Atlantic City: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Orlando to New York: 
 Max delay: 156.0
 delayed: 52.50%
 cancelled: 52.50%
 total: 40
+
+Stat from: Myrtle Beach to Atlantic City: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: San Diego to Orlando: 
 Max delay: 28.0
@@ -2578,17 +2578,17 @@ delayed: 21.21%
 cancelled: 21.21%
 total: 33
 
-Stat from: Las Vegas to Tulsa: 
-Max delay: 61.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
 Stat from: Dallas/Fort Worth to Abilene: 
 Max delay: 76.0
 delayed: 41.67%
 cancelled: 41.67%
 total: 24
+
+Stat from: Las Vegas to Tulsa: 
+Max delay: 61.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Portland to Tucson: 
 Max delay: 29.0
@@ -2614,29 +2614,29 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
-Stat from: Akron to New York: 
-Max delay: 9.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
-
 Stat from: Minneapolis to Los Angeles: 
 Max delay: 95.0
 delayed: 34.78%
 cancelled: 34.78%
 total: 23
 
-Stat from: St. Louis to Chicago: 
-Max delay: 48.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 18
+Stat from: Akron to New York: 
+Max delay: 9.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
 
 Stat from: Newark to Greer: 
 Max delay: 13.0
 delayed: 20.00%
 cancelled: 20.00%
 total: 5
+
+Stat from: St. Louis to Chicago: 
+Max delay: 48.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 18
 
 Stat from: Dothan to Atlanta: 
 Max delay: 54.0
@@ -2728,11 +2728,11 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
-Stat from: San Antonio to Dallas: 
-Max delay: 47.0
-delayed: 35.71%
-cancelled: 35.71%
-total: 28
+Stat from: Salt Lake City to Chicago: 
+Max delay: 79.0
+delayed: 45.00%
+cancelled: 45.00%
+total: 20
 
 Stat from: Jamestown to Denver: 
 Max delay: 74.0
@@ -2740,17 +2740,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Houston to New Orleans: 
-Max delay: 199.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 30
+Stat from: Pittsburgh to Fort Myers: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 6
 
-Stat from: Salt Lake City to Chicago: 
-Max delay: 79.0
-delayed: 45.00%
-cancelled: 45.00%
-total: 20
+Stat from: San Antonio to Dallas: 
+Max delay: 47.0
+delayed: 35.71%
+cancelled: 35.71%
+total: 28
 
 Stat from: Houston to Charlotte: 
 Max delay: 224.0
@@ -2776,17 +2776,23 @@ delayed: 44.44%
 cancelled: 44.44%
 total: 9
 
-Stat from: Fargo to Salt Lake City: 
-Max delay: 5.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: Kansas City to Houston: 
 Max delay: 75.0
 delayed: 31.25%
 cancelled: 31.25%
 total: 16
+
+Stat from: Little Rock to Detroit: 
+Max delay: 12.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
+
+Stat from: Houston to New Orleans: 
+Max delay: 199.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 30
 
 Stat from: Raleigh/Durham to Detroit: 
 Max delay: 39.0
@@ -2794,14 +2800,8 @@ delayed: 12.50%
 cancelled: 12.50%
 total: 8
 
-Stat from: Pittsburgh to Fort Myers: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 6
-
-Stat from: Little Rock to Detroit: 
-Max delay: 12.0
+Stat from: Fargo to Salt Lake City: 
+Max delay: 5.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
@@ -2817,12 +2817,6 @@ Max delay: 200.0
 delayed: 27.27%
 cancelled: 27.27%
 total: 22
-
-Stat from: Kahului to Oakland: 
-Max delay: 156.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
 
 Stat from: Sitka to Ketchikan: 
 Max delay: 35.0
@@ -2848,17 +2842,17 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Albuquerque to Dallas: 
-Max delay: 69.0
-delayed: 75.00%
-cancelled: 75.00%
-total: 16
-
 Stat from: Chicago to Fort Myers: 
 Max delay: 484.0
 delayed: 71.43%
 cancelled: 71.43%
 total: 14
+
+Stat from: Albuquerque to Dallas: 
+Max delay: 69.0
+delayed: 75.00%
+cancelled: 75.00%
+total: 16
 
 Stat from: Washington to Phoenix: 
 Max delay: 10.0
@@ -2878,24 +2872,6 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
-Stat from: Fort Myers to Newark: 
-Max delay: 23.0
-delayed: 20.00%
-cancelled: 20.00%
-total: 10
-
-Stat from: Oakland to Chicago: 
-Max delay: 1.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
-Stat from: Salt Lake City to Los Angeles: 
-Max delay: 149.0
-delayed: 43.48%
-cancelled: 43.48%
-total: 46
-
 Stat from: Chicago to Burlington: 
 Max delay: 89.0
 delayed: 50.00%
@@ -2908,11 +2884,23 @@ delayed: 36.00%
 cancelled: 36.00%
 total: 25
 
+Stat from: Salt Lake City to Los Angeles: 
+Max delay: 149.0
+delayed: 43.48%
+cancelled: 43.48%
+total: 46
+
 Stat from: Dallas/Fort Worth to Hartford: 
 Max delay: 28.0
 delayed: 83.33%
 cancelled: 83.33%
 total: 6
+
+Stat from: Oakland to Chicago: 
+Max delay: 1.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Nashville to Houston: 
 Max delay: 59.0
@@ -2926,6 +2914,12 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
+Stat from: Fort Myers to Newark: 
+Max delay: 23.0
+delayed: 20.00%
+cancelled: 20.00%
+total: 10
+
 Stat from: Detroit to Cedar Rapids/Iowa City: 
 Max delay: 9.0
 delayed: 11.11%
@@ -2938,17 +2932,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Fort Lauderdale to Detroit: 
-Max delay: 58.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 28
-
 Stat from: San Jose to Honolulu: 
 Max delay: 17.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 5
+
+Stat from: Fort Lauderdale to Detroit: 
+Max delay: 58.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 28
 
 Stat from: Fort Lauderdale to Newburgh/Poughkeepsie: 
 Max delay: 41.0
@@ -3082,11 +3076,11 @@ delayed: 52.38%
 cancelled: 52.38%
 total: 21
 
-Stat from: Houston to Fort Lauderdale: 
-Max delay: 46.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 5
+Stat from: Burbank to New York: 
+Max delay: 132.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Dallas to Fort Lauderdale: 
 Max delay: 35.0
@@ -3094,11 +3088,11 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 8
 
-Stat from: Burbank to New York: 
-Max delay: 132.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Houston to Fort Lauderdale: 
+Max delay: 46.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 5
 
 Stat from: Dallas/Fort Worth to Fort Lauderdale: 
 Max delay: 107.0
@@ -3268,6 +3262,12 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
+Stat from: Birmingham to Detroit: 
+Max delay: 32.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
+
 Stat from: Chicago to Fort Myers: 
 Max delay: 98.0
 delayed: 27.27%
@@ -3280,18 +3280,6 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
-Stat from: Birmingham to Detroit: 
-Max delay: 32.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
-
-Stat from: Orlando to Louisville: 
-Max delay: 22.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: Washington to West Palm Beach/Palm Beach: 
 Max delay: 0.0
 delayed: 0.00%
@@ -3303,6 +3291,12 @@ Max delay: 19.0
 delayed: 28.57%
 cancelled: 28.57%
 total: 21
+
+Stat from: Orlando to Louisville: 
+Max delay: 22.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Tucson to Chicago: 
 Max delay: 1.0
@@ -3358,17 +3352,17 @@ delayed: 14.29%
 cancelled: 14.29%
 total: 14
 
-Stat from: San Francisco to Milwaukee: 
-Max delay: 12.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 3
-
 Stat from: New York to Phoenix: 
 Max delay: 183.0
 delayed: 41.18%
 cancelled: 41.18%
 total: 17
+
+Stat from: San Francisco to Milwaukee: 
+Max delay: 12.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 3
 
 Stat from: Nome to Anchorage: 
 Max delay: 18.0
@@ -3382,29 +3376,29 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Jacksonville to Chicago: 
-Max delay: 4.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: New York to Orlando: 
 Max delay: 101.0
 delayed: 38.10%
 cancelled: 38.10%
 total: 42
 
-Stat from: Sacramento to Los Angeles: 
-Max delay: 72.0
-delayed: 44.23%
-cancelled: 44.23%
-total: 52
+Stat from: Roswell to Dallas/Fort Worth: 
+Max delay: 350.0
+delayed: 62.50%
+cancelled: 62.50%
+total: 8
 
-Stat from: Oakland to Spokane: 
+Stat from: Roanoke to Chicago: 
+Max delay: 6.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
+
+Stat from: Fort Myers to Latrobe: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 2
+total: 1
 
 Stat from: Kansas City to Dallas/Fort Worth: 
 Max delay: 97.0
@@ -3412,17 +3406,17 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 21
 
-Stat from: Islip to Tampa: 
-Max delay: 85.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
+Stat from: Washington to Providence: 
+Max delay: 95.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
-Stat from: Fort Myers to Latrobe: 
+Stat from: Oakland to Spokane: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 1
+total: 2
 
 Stat from: Long Beach to New York: 
 Max delay: 31.0
@@ -3436,23 +3430,23 @@ delayed: 45.45%
 cancelled: 45.45%
 total: 11
 
-Stat from: Tucson to San Francisco: 
-Max delay: 85.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 10
-
-Stat from: Baltimore to Tampa: 
-Max delay: 70.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 18
-
-Stat from: Roanoke to Chicago: 
-Max delay: 6.0
+Stat from: Jacksonville to Chicago: 
+Max delay: 4.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
+
+Stat from: Islip to Tampa: 
+Max delay: 85.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
+
+Stat from: Dallas/Fort Worth to Lawton/Fort Sill: 
+Max delay: 45.0
+delayed: 38.46%
+cancelled: 38.46%
+total: 13
 
 Stat from: Fort Myers to Boston: 
 Max delay: 170.0
@@ -3460,23 +3454,23 @@ delayed: 42.11%
 cancelled: 42.11%
 total: 19
 
-Stat from: Roswell to Dallas/Fort Worth: 
-Max delay: 350.0
-delayed: 62.50%
-cancelled: 62.50%
-total: 8
+Stat from: Tucson to San Francisco: 
+Max delay: 85.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 10
 
-Stat from: Washington to Providence: 
-Max delay: 95.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
+Stat from: Sacramento to Los Angeles: 
+Max delay: 72.0
+delayed: 44.23%
+cancelled: 44.23%
+total: 52
 
-Stat from: Dallas/Fort Worth to Lawton/Fort Sill: 
-Max delay: 45.0
-delayed: 38.46%
-cancelled: 38.46%
-total: 13
+Stat from: Baltimore to Tampa: 
+Max delay: 70.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 18
 
 Stat from: Newark to Burlington: 
 Max delay: 0.0
@@ -3646,17 +3640,23 @@ delayed: 60.00%
 cancelled: 60.00%
 total: 10
 
-Stat from: Tampa to Charlotte: 
-Max delay: 30.0
-delayed: 32.00%
-cancelled: 32.00%
-total: 25
+Stat from: Manchester to Newark: 
+Max delay: 19.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
 
 Stat from: Los Angeles to Dallas/Fort Worth: 
 Max delay: 190.0
 delayed: 35.94%
 cancelled: 35.94%
 total: 64
+
+Stat from: Tampa to Charlotte: 
+Max delay: 30.0
+delayed: 32.00%
+cancelled: 32.00%
+total: 25
 
 Stat from: Seattle to Hayden: 
 Max delay: 20.0
@@ -3682,26 +3682,8 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Manchester to Newark: 
-Max delay: 19.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
 Stat from: Springfield to Denver: 
 Max delay: 65.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
-Stat from: Nashville to Charlotte: 
-Max delay: 35.0
-delayed: 55.56%
-cancelled: 55.56%
-total: 9
-
-Stat from: El Paso to Chicago: 
-Max delay: 50.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
@@ -3711,6 +3693,18 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 6
+
+Stat from: El Paso to Chicago: 
+Max delay: 50.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
+Stat from: Nashville to Charlotte: 
+Max delay: 35.0
+delayed: 55.56%
+cancelled: 55.56%
+total: 9
 
 Stat from: Omaha to Detroit: 
 Max delay: 14.0
@@ -4024,17 +4018,17 @@ delayed: 45.71%
 cancelled: 45.71%
 total: 35
 
-Stat from: Tampa to Chicago: 
-Max delay: 43.0
-delayed: 69.23%
-cancelled: 69.23%
-total: 13
-
 Stat from: Los Angeles to Boston: 
 Max delay: 241.0
 delayed: 46.67%
 cancelled: 46.67%
 total: 30
+
+Stat from: Tampa to Chicago: 
+Max delay: 43.0
+delayed: 69.23%
+cancelled: 69.23%
+total: 13
 
 Stat from: Hibbing to International Falls: 
 Max delay: 33.0
@@ -4048,17 +4042,17 @@ delayed: 55.00%
 cancelled: 55.00%
 total: 20
 
+Stat from: La Crosse to Chicago: 
+Max delay: 47.0
+delayed: 22.22%
+cancelled: 22.22%
+total: 9
+
 Stat from: Salt Lake City to Omaha: 
 Max delay: 13.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
-
-Stat from: Fort Lauderdale to Dallas: 
-Max delay: 39.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 7
 
 Stat from: Milwaukee to Phoenix: 
 Max delay: 87.0
@@ -4078,11 +4072,11 @@ delayed: 70.00%
 cancelled: 70.00%
 total: 10
 
-Stat from: La Crosse to Chicago: 
-Max delay: 47.0
-delayed: 22.22%
-cancelled: 22.22%
-total: 9
+Stat from: Fort Lauderdale to Dallas: 
+Max delay: 39.0
+delayed: 14.29%
+cancelled: 14.29%
+total: 7
 
 Stat from: Las Vegas to Burbank: 
 Max delay: 70.0
@@ -4102,14 +4096,20 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
-Stat from: Dallas to Albuquerque: 
-Max delay: 78.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
-
 Stat from: Charlotte Amalie to Atlanta: 
 Max delay: 18.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
+
+Stat from: New York to Baltimore: 
+Max delay: 38.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
+Stat from: New York to Charleston: 
+Max delay: 4.0
 delayed: 16.67%
 cancelled: 16.67%
 total: 6
@@ -4132,17 +4132,11 @@ delayed: 43.75%
 cancelled: 43.75%
 total: 16
 
-Stat from: New York to Baltimore: 
-Max delay: 38.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
-Stat from: New York to Charleston: 
-Max delay: 4.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
+Stat from: Dallas to Albuquerque: 
+Max delay: 78.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: Atlanta to Newark: 
 Max delay: 151.0
@@ -4150,11 +4144,11 @@ delayed: 31.67%
 cancelled: 31.67%
 total: 60
 
-Stat from: San Diego to Chicago: 
-Max delay: 25.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 12
+Stat from: Pittsburgh to Newark: 
+Max delay: 15.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Las Vegas to Seattle: 
 Max delay: 156.0
@@ -4162,11 +4156,11 @@ delayed: 40.48%
 cancelled: 40.48%
 total: 42
 
-Stat from: San Diego to Austin: 
-Max delay: 41.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 3
+Stat from: San Diego to Chicago: 
+Max delay: 25.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 12
 
 Stat from: Chicago to Little Rock: 
 Max delay: 10.0
@@ -4174,11 +4168,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Pittsburgh to Newark: 
-Max delay: 15.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
+Stat from: San Diego to Austin: 
+Max delay: 41.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 3
 
 Stat from: New Orleans to Baltimore: 
 Max delay: 234.0
@@ -4216,6 +4210,12 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
+Stat from: Richmond to Houston: 
+Max delay: 47.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
+
 Stat from: Tucson to Portland: 
 Max delay: 138.0
 delayed: 33.33%
@@ -4227,12 +4227,6 @@ Max delay: 84.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
-
-Stat from: Richmond to Houston: 
-Max delay: 47.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
 
 Stat from: Denver to Medford: 
 Max delay: 84.0
@@ -4252,6 +4246,12 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 10
 
+Stat from: Oakland to Kona: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
+
 Stat from: Houston to Boston: 
 Max delay: 116.0
 delayed: 30.00%
@@ -4264,11 +4264,11 @@ delayed: 14.29%
 cancelled: 14.29%
 total: 7
 
-Stat from: Oakland to Kona: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
+Stat from: New York to Greensboro/High Point: 
+Max delay: 307.0
+delayed: 41.18%
+cancelled: 41.18%
+total: 17
 
 Stat from: Albuquerque to Dallas/Fort Worth: 
 Max delay: 27.0
@@ -4281,12 +4281,6 @@ Max delay: 13.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
-
-Stat from: New York to Greensboro/High Point: 
-Max delay: 307.0
-delayed: 41.18%
-cancelled: 41.18%
-total: 17
 
 Stat from: Denver to Kansas City: 
 Max delay: 236.0
@@ -4366,17 +4360,17 @@ delayed: 53.85%
 cancelled: 53.85%
 total: 13
 
-Stat from: Denver to Jackson: 
-Max delay: 107.0
-delayed: 81.82%
-cancelled: 81.82%
-total: 11
-
 Stat from: Detroit to Peoria: 
 Max delay: 217.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
+
+Stat from: Denver to Jackson: 
+Max delay: 107.0
+delayed: 81.82%
+cancelled: 81.82%
+total: 11
 
 Stat from: Knoxville to Denver: 
 Max delay: 99.0
@@ -4414,17 +4408,17 @@ delayed: 58.33%
 cancelled: 58.33%
 total: 12
 
-Stat from: Sacramento to Ontario: 
-Max delay: 30.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 18
-
 Stat from: Atlanta to Raleigh/Durham: 
 Max delay: 94.0
 delayed: 34.78%
 cancelled: 34.78%
 total: 46
+
+Stat from: Sacramento to Ontario: 
+Max delay: 30.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 18
 
 Stat from: Oakland to Seattle: 
 Max delay: 54.0
@@ -4450,17 +4444,11 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 7
 
-Stat from: Buffalo to Phoenix: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 4
-
-Stat from: Chicago to Salt Lake City: 
-Max delay: 167.0
-delayed: 54.17%
-cancelled: 54.17%
-total: 24
+Stat from: Dallas/Fort Worth to Birmingham: 
+Max delay: 60.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: Newark to Memphis: 
 Max delay: 102.0
@@ -4486,11 +4474,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 6
 
-Stat from: Dallas/Fort Worth to Birmingham: 
-Max delay: 60.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
+Stat from: Chicago to Salt Lake City: 
+Max delay: 167.0
+delayed: 54.17%
+cancelled: 54.17%
+total: 24
 
 Stat from: Minneapolis to Sioux Falls: 
 Max delay: 110.0
@@ -4503,6 +4491,12 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 3
+
+Stat from: Buffalo to Phoenix: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 4
 
 Stat from: Greer to Newark: 
 Max delay: 20.0
@@ -4540,17 +4534,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Orlando to Flint: 
-Max delay: 2.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: Milwaukee to Denver: 
 Max delay: 90.0
 delayed: 45.00%
 cancelled: 45.00%
 total: 20
+
+Stat from: Orlando to Flint: 
+Max delay: 2.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Phoenix to Philadelphia: 
 Max delay: 96.0
@@ -4618,17 +4612,17 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 12
 
-Stat from: Newark to Chicago: 
-Max delay: 213.0
-delayed: 47.62%
-cancelled: 47.62%
-total: 21
-
 Stat from: New York to New Orleans: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 6
+
+Stat from: Newark to Chicago: 
+Max delay: 213.0
+delayed: 47.62%
+cancelled: 47.62%
+total: 21
 
 Stat from: Asheville to Atlanta: 
 Max delay: 220.0
@@ -4648,17 +4642,17 @@ delayed: 38.89%
 cancelled: 38.89%
 total: 18
 
-Stat from: Salt Lake City to Oakland: 
-Max delay: 33.0
-delayed: 19.23%
-cancelled: 19.23%
-total: 26
-
 Stat from: Shreveport to Dallas/Fort Worth: 
 Max delay: 152.0
 delayed: 71.43%
 cancelled: 71.43%
 total: 21
+
+Stat from: Salt Lake City to Oakland: 
+Max delay: 33.0
+delayed: 19.23%
+cancelled: 19.23%
+total: 26
 
 Stat from: Albuquerque to San Francisco: 
 Max delay: 41.0
@@ -4672,23 +4666,17 @@ delayed: 35.29%
 cancelled: 35.29%
 total: 34
 
-Stat from: Charlotte to Las Vegas: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 13
-
 Stat from: Minneapolis to San Francisco: 
 Max delay: 183.0
 delayed: 28.57%
 cancelled: 28.57%
 total: 21
 
-Stat from: Raleigh/Durham to Charlotte: 
-Max delay: 22.0
-delayed: 31.25%
-cancelled: 31.25%
-total: 32
+Stat from: Charlotte to Las Vegas: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 13
 
 Stat from: Atlanta to Manchester: 
 Max delay: 0.0
@@ -4696,17 +4684,23 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
+Stat from: Juneau to Seattle: 
+Max delay: 6.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
+
 Stat from: Little Rock to Chicago: 
 Max delay: 8.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Juneau to Seattle: 
-Max delay: 6.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+Stat from: Raleigh/Durham to Charlotte: 
+Max delay: 22.0
+delayed: 31.25%
+cancelled: 31.25%
+total: 32
 
 Stat from: San Francisco to Philadelphia: 
 Max delay: 154.0
@@ -4774,11 +4768,11 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 16
 
-Stat from: Denver to Philadelphia: 
-Max delay: 125.0
-delayed: 36.84%
-cancelled: 36.84%
-total: 19
+Stat from: Christiansted to San Juan: 
+Max delay: 44.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 3
 
 Stat from: Washington to Atlanta: 
 Max delay: 300.0
@@ -4804,11 +4798,11 @@ delayed: 87.50%
 cancelled: 87.50%
 total: 8
 
-Stat from: Christiansted to San Juan: 
-Max delay: 44.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 3
+Stat from: Denver to Philadelphia: 
+Max delay: 125.0
+delayed: 36.84%
+cancelled: 36.84%
+total: 19
 
 Stat from: Pittsburgh to Boston: 
 Max delay: 76.0
@@ -4936,17 +4930,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
-Stat from: Newark to Portland: 
-Max delay: 14.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
-
 Stat from: Dallas/Fort Worth to Fort Myers: 
 Max delay: 96.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 12
+
+Stat from: Newark to Portland: 
+Max delay: 14.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Lubbock to Houston: 
 Max delay: 169.0
@@ -4984,13 +4978,13 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 14
 
-Stat from: Amarillo to Las Vegas: 
+Stat from: Honolulu to Pago Pago: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
-Stat from: Honolulu to Pago Pago: 
+Stat from: Amarillo to Las Vegas: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
@@ -5008,17 +5002,11 @@ delayed: 48.65%
 cancelled: 48.65%
 total: 37
 
-Stat from: Las Vegas to Salt Lake City: 
-Max delay: 109.0
-delayed: 46.88%
-cancelled: 46.88%
-total: 32
-
-Stat from: Chicago to Richmond: 
-Max delay: 175.0
-delayed: 53.85%
-cancelled: 53.85%
-total: 13
+Stat from: Fayetteville to Atlanta: 
+Max delay: 85.0
+delayed: 22.22%
+cancelled: 22.22%
+total: 18
 
 Stat from: Miami to Hartford: 
 Max delay: 23.0
@@ -5026,11 +5014,17 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
-Stat from: Fayetteville to Atlanta: 
-Max delay: 85.0
-delayed: 22.22%
-cancelled: 22.22%
-total: 18
+Stat from: Chicago to Richmond: 
+Max delay: 175.0
+delayed: 53.85%
+cancelled: 53.85%
+total: 13
+
+Stat from: Las Vegas to Salt Lake City: 
+Max delay: 109.0
+delayed: 46.88%
+cancelled: 46.88%
+total: 32
 
 Stat from: Buffalo to New York: 
 Max delay: 91.0
@@ -5086,11 +5080,11 @@ delayed: 37.50%
 cancelled: 37.50%
 total: 8
 
-Stat from: Denver to Midland/Odessa: 
-Max delay: 79.0
-delayed: 37.50%
-cancelled: 37.50%
-total: 8
+Stat from: Houston to Fayetteville: 
+Max delay: 89.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
 Stat from: Nashville to Phoenix: 
 Max delay: 0.0
@@ -5098,16 +5092,16 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 4
 
-Stat from: Houston to Fayetteville: 
-Max delay: 89.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
-
 Stat from: Chicago to Harrisburg: 
 Max delay: 124.0
 delayed: 50.00%
 cancelled: 50.00%
+total: 8
+
+Stat from: Denver to Midland/Odessa: 
+Max delay: 79.0
+delayed: 37.50%
+cancelled: 37.50%
 total: 8
 
 Stat from: San Jose to Los Angeles: 
@@ -5260,17 +5254,17 @@ delayed: 36.36%
 cancelled: 36.36%
 total: 11
 
-Stat from: Philadelphia to Indianapolis: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 4
-
 Stat from: Chicago to Memphis: 
 Max delay: 56.0
 delayed: 28.00%
 cancelled: 28.00%
 total: 25
+
+Stat from: Philadelphia to Indianapolis: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 4
 
 Stat from: White Plains to Chicago: 
 Max delay: 172.0
@@ -5302,11 +5296,11 @@ delayed: 40.00%
 cancelled: 40.00%
 total: 10
 
-Stat from: New Orleans to Austin: 
-Max delay: 34.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
+Stat from: Jacksonville to New York: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Cleveland to Fort Lauderdale: 
 Max delay: 15.0
@@ -5314,11 +5308,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
-Stat from: Los Angeles to Colorado Springs: 
-Max delay: 36.0
-delayed: 83.33%
-cancelled: 83.33%
-total: 6
+Stat from: Pago Pago to Honolulu: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Fort Lauderdale to Chicago: 
 Max delay: 146.0
@@ -5332,11 +5326,11 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
-Stat from: Jacksonville to New York: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
+Stat from: Columbus to New York: 
+Max delay: 126.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
 
 Stat from: Rochester to Orlando: 
 Max delay: 0.0
@@ -5344,10 +5338,10 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Pago Pago to Honolulu: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
+Stat from: Chicago to Trenton: 
+Max delay: 95.0
+delayed: 100.00%
+cancelled: 100.00%
 total: 1
 
 Stat from: Orlando to Milwaukee: 
@@ -5362,17 +5356,17 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 6
 
-Stat from: Chicago to Trenton: 
-Max delay: 95.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 1
-
-Stat from: Columbus to New York: 
-Max delay: 126.0
-delayed: 16.67%
-cancelled: 16.67%
+Stat from: Los Angeles to Colorado Springs: 
+Max delay: 36.0
+delayed: 83.33%
+cancelled: 83.33%
 total: 6
+
+Stat from: New Orleans to Austin: 
+Max delay: 34.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Dallas/Fort Worth to Louisville: 
 Max delay: 96.0
@@ -5398,17 +5392,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 6
 
-Stat from: Salt Lake City to Phoenix: 
-Max delay: 79.0
-delayed: 19.57%
-cancelled: 19.57%
-total: 46
-
 Stat from: Peoria to Detroit: 
 Max delay: 13.0
 delayed: 75.00%
 cancelled: 75.00%
 total: 4
+
+Stat from: Salt Lake City to Phoenix: 
+Max delay: 79.0
+delayed: 19.57%
+cancelled: 19.57%
+total: 46
 
 Stat from: West Palm Beach/Palm Beach to Newark: 
 Max delay: 153.0
@@ -5470,12 +5464,6 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Grand Rapids to Fort Myers: 
-Max delay: 4.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: Chicago to Marquette: 
 Max delay: 175.0
 delayed: 33.33%
@@ -5487,6 +5475,12 @@ Max delay: 96.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 8
+
+Stat from: Grand Rapids to Fort Myers: 
+Max delay: 4.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Eugene to Denver: 
 Max delay: 21.0
@@ -5518,17 +5512,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Boise to Los Angeles: 
-Max delay: 79.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 7
-
 Stat from: Atlanta to Albany: 
 Max delay: 34.0
 delayed: 62.50%
 cancelled: 62.50%
 total: 8
+
+Stat from: Boise to Los Angeles: 
+Max delay: 79.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 7
 
 Stat from: Miami to Greensboro/High Point: 
 Max delay: 21.0
@@ -5542,17 +5536,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
+Stat from: Rapid City to Dallas/Fort Worth: 
+Max delay: 124.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
+
 Stat from: Las Vegas to Oklahoma City: 
 Max delay: 73.0
 delayed: 62.50%
 cancelled: 62.50%
 total: 8
-
-Stat from: Chicago to Kansas City: 
-Max delay: 136.0
-delayed: 28.00%
-cancelled: 28.00%
-total: 25
 
 Stat from: Fort Lauderdale to Washington: 
 Max delay: 60.0
@@ -5560,17 +5554,11 @@ delayed: 80.00%
 cancelled: 80.00%
 total: 5
 
-Stat from: Rapid City to Dallas/Fort Worth: 
-Max delay: 124.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
-
-Stat from: Baltimore to Islip: 
-Max delay: 72.0
-delayed: 21.43%
-cancelled: 21.43%
-total: 14
+Stat from: Chicago to Kansas City: 
+Max delay: 136.0
+delayed: 28.00%
+cancelled: 28.00%
+total: 25
 
 Stat from: Las Vegas to Reno: 
 Max delay: 51.0
@@ -5595,6 +5583,12 @@ Max delay: 46.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 6
+
+Stat from: Minneapolis to Billings: 
+Max delay: 38.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
 
 Stat from: San Francisco to Redding: 
 Max delay: 134.0
@@ -5626,29 +5620,29 @@ delayed: 56.25%
 cancelled: 56.25%
 total: 16
 
-Stat from: Minneapolis to Billings: 
-Max delay: 38.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
 Stat from: New Orleans to Washington: 
 Max delay: 41.0
 delayed: 16.67%
 cancelled: 16.67%
 total: 6
 
-Stat from: Fayetteville to Dallas/Fort Worth: 
-Max delay: 242.0
-delayed: 61.11%
-cancelled: 61.11%
-total: 18
+Stat from: Baltimore to Islip: 
+Max delay: 72.0
+delayed: 21.43%
+cancelled: 21.43%
+total: 14
 
 Stat from: Kotzebue to Anchorage: 
 Max delay: 375.0
 delayed: 20.00%
 cancelled: 20.00%
 total: 5
+
+Stat from: Rochester to Washington: 
+Max delay: 37.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 3
 
 Stat from: Los Angeles to Santa Fe: 
 Max delay: 22.0
@@ -5668,17 +5662,17 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
-Stat from: Rochester to Washington: 
-Max delay: 37.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 3
+Stat from: Fayetteville to Dallas/Fort Worth: 
+Max delay: 242.0
+delayed: 61.11%
+cancelled: 61.11%
+total: 18
 
-Stat from: Chicago to Newark: 
-Max delay: 317.0
-delayed: 35.48%
-cancelled: 35.48%
-total: 31
+Stat from: Atlanta to Hayden: 
+Max delay: 18.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Las Vegas to Orlando: 
 Max delay: 0.0
@@ -5692,11 +5686,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Atlanta to Hayden: 
-Max delay: 18.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+Stat from: Chicago to Newark: 
+Max delay: 317.0
+delayed: 35.48%
+cancelled: 35.48%
+total: 31
 
 Stat from: Niagara Falls to Fort Lauderdale: 
 Max delay: 53.0
@@ -5722,17 +5716,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 4
 
-Stat from: Honolulu to Lihue: 
-Max delay: 28.0
-delayed: 38.89%
-cancelled: 38.89%
-total: 54
-
-Stat from: Denver to Helena: 
-Max delay: 28.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
+Stat from: Detroit to Oklahoma City: 
+Max delay: 41.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Fresno to Dallas/Fort Worth: 
 Max delay: 958.0
@@ -5740,11 +5728,17 @@ delayed: 75.00%
 cancelled: 75.00%
 total: 4
 
-Stat from: Detroit to Oklahoma City: 
-Max delay: 41.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Denver to Helena: 
+Max delay: 28.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
+
+Stat from: Honolulu to Lihue: 
+Max delay: 28.0
+delayed: 38.89%
+cancelled: 38.89%
+total: 54
 
 Stat from: Salt Lake City to San Diego: 
 Max delay: 103.0
@@ -5782,23 +5776,23 @@ delayed: 26.67%
 cancelled: 26.67%
 total: 15
 
+Stat from: Tampa to New York: 
+Max delay: 147.0
+delayed: 46.43%
+cancelled: 46.43%
+total: 28
+
 Stat from: Houston to Memphis: 
 Max delay: 46.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Houston to Charleston: 
-Max delay: 13.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 1
-
-Stat from: Las Vegas to Chicago: 
-Max delay: 76.0
-delayed: 55.00%
-cancelled: 55.00%
-total: 20
+Stat from: Fort Lauderdale to Worcester: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Las Vegas to Portland: 
 Max delay: 185.0
@@ -5812,11 +5806,11 @@ delayed: 31.25%
 cancelled: 31.25%
 total: 32
 
-Stat from: Fort Lauderdale to Worcester: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
+Stat from: Las Vegas to Chicago: 
+Max delay: 76.0
+delayed: 55.00%
+cancelled: 55.00%
+total: 20
 
 Stat from: Detroit to Minneapolis: 
 Max delay: 41.0
@@ -5836,23 +5830,17 @@ delayed: 41.67%
 cancelled: 41.67%
 total: 12
 
-Stat from: Phoenix to Montrose/Delta: 
-Max delay: 24.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
-
 Stat from: Washington to Cleveland: 
 Max delay: 132.0
 delayed: 62.50%
 cancelled: 62.50%
 total: 8
 
-Stat from: Tampa to New York: 
-Max delay: 147.0
-delayed: 46.43%
-cancelled: 46.43%
-total: 28
+Stat from: Phoenix to Montrose/Delta: 
+Max delay: 24.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
 
 Stat from: Chicago to Ontario: 
 Max delay: 36.0
@@ -5865,6 +5853,12 @@ Max delay: 84.0
 delayed: 75.00%
 cancelled: 75.00%
 total: 12
+
+Stat from: Houston to Charleston: 
+Max delay: 13.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 1
 
 Stat from: New York to Minneapolis: 
 Max delay: 55.0
@@ -5884,17 +5878,23 @@ delayed: 62.50%
 cancelled: 62.50%
 total: 8
 
+Stat from: San Diego to Kahului: 
+Max delay: 31.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
+
 Stat from: Phoenix to New York: 
 Max delay: 109.0
 delayed: 55.56%
 cancelled: 55.56%
 total: 18
 
-Stat from: San Diego to Kahului: 
-Max delay: 31.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
+Stat from: Atlanta to Lafayette: 
+Max delay: 35.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 9
 
 Stat from: Baltimore to Albany: 
 Max delay: 103.0
@@ -5914,22 +5914,10 @@ delayed: 16.67%
 cancelled: 16.67%
 total: 6
 
-Stat from: Albuquerque to Oakland: 
-Max delay: 20.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
-
 Stat from: Long Beach to Sacramento: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 5
-
-Stat from: Denver to Jamestown: 
-Max delay: 104.0
-delayed: 80.00%
-cancelled: 80.00%
 total: 5
 
 Stat from: New York to Louisville: 
@@ -5938,23 +5926,29 @@ delayed: 55.56%
 cancelled: 55.56%
 total: 9
 
-Stat from: Denver to Santa Fe: 
-Max delay: 22.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
 Stat from: Juneau to Sitka: 
 Max delay: 81.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 10
 
-Stat from: Atlanta to Lafayette: 
-Max delay: 35.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 9
+Stat from: Denver to Santa Fe: 
+Max delay: 22.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
+
+Stat from: Denver to Jamestown: 
+Max delay: 104.0
+delayed: 80.00%
+cancelled: 80.00%
+total: 5
+
+Stat from: Albuquerque to Oakland: 
+Max delay: 20.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Montrose/Delta to San Francisco: 
 Max delay: 0.0
@@ -5968,6 +5962,12 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 6
 
+Stat from: Newburgh/Poughkeepsie to Orlando: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
+
 Stat from: Salt Lake City to Austin: 
 Max delay: 8.0
 delayed: 50.00%
@@ -5979,12 +5979,6 @@ Max delay: 11.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
-
-Stat from: Newburgh/Poughkeepsie to Orlando: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
 
 Stat from: Kona to Los Angeles: 
 Max delay: 62.0
@@ -6052,17 +6046,23 @@ delayed: 72.73%
 cancelled: 72.73%
 total: 11
 
-Stat from: Nashville to Washington: 
-Max delay: 65.0
-delayed: 11.11%
-cancelled: 11.11%
-total: 9
+Stat from: Dallas/Fort Worth to Des Moines: 
+Max delay: 167.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 14
 
 Stat from: Los Angeles to Reno: 
 Max delay: 149.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 15
+
+Stat from: Nashville to Washington: 
+Max delay: 65.0
+delayed: 11.11%
+cancelled: 11.11%
+total: 9
 
 Stat from: Santa Barbara to Los Angeles: 
 Max delay: 37.0
@@ -6076,11 +6076,11 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 3
 
-Stat from: Denver to Burbank: 
-Max delay: 192.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 14
+Stat from: Lansing to Chicago: 
+Max delay: 30.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 6
 
 Stat from: Raleigh/Durham to Denver: 
 Max delay: 2.0
@@ -6093,12 +6093,6 @@ Max delay: 270.0
 delayed: 20.00%
 cancelled: 20.00%
 total: 5
-
-Stat from: Lansing to Chicago: 
-Max delay: 30.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 6
 
 Stat from: Detroit to Washington: 
 Max delay: 20.0
@@ -6136,17 +6130,17 @@ delayed: 30.43%
 cancelled: 30.43%
 total: 23
 
+Stat from: Denver to Burbank: 
+Max delay: 192.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 14
+
 Stat from: Chicago to Madison: 
 Max delay: 251.0
 delayed: 53.33%
 cancelled: 53.33%
 total: 30
-
-Stat from: Dallas/Fort Worth to Des Moines: 
-Max delay: 167.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 14
 
 Stat from: Montgomery to Atlanta: 
 Max delay: 204.0
@@ -6159,6 +6153,12 @@ Max delay: 114.0
 delayed: 65.38%
 cancelled: 65.38%
 total: 26
+
+Stat from: Detroit to Nashville: 
+Max delay: 63.0
+delayed: 46.15%
+cancelled: 46.15%
+total: 13
 
 Stat from: Atlanta to Indianapolis: 
 Max delay: 132.0
@@ -6177,12 +6177,6 @@ Max delay: 147.0
 delayed: 44.12%
 cancelled: 44.12%
 total: 34
-
-Stat from: Detroit to Nashville: 
-Max delay: 63.0
-delayed: 46.15%
-cancelled: 46.15%
-total: 13
 
 Stat from: Atlanta to Little Rock: 
 Max delay: 31.0
@@ -6256,23 +6250,23 @@ delayed: 37.50%
 cancelled: 37.50%
 total: 8
 
+Stat from: Dallas/Fort Worth to Jackson/Vicksburg: 
+Max delay: 93.0
+delayed: 59.09%
+cancelled: 59.09%
+total: 22
+
+Stat from: Dallas/Fort Worth to Peoria: 
+Max delay: 30.0
+delayed: 87.50%
+cancelled: 87.50%
+total: 8
+
 Stat from: Phoenix to Austin: 
 Max delay: 22.0
 delayed: 46.67%
 cancelled: 46.67%
 total: 15
-
-Stat from: Tucson to Phoenix: 
-Max delay: 105.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
-Stat from: Newark to Denver: 
-Max delay: 45.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 27
 
 Stat from: Charlotte to Providence: 
 Max delay: 34.0
@@ -6304,11 +6298,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 6
 
-Stat from: Dallas/Fort Worth to Jackson/Vicksburg: 
-Max delay: 93.0
-delayed: 59.09%
-cancelled: 59.09%
-total: 22
+Stat from: Tucson to Phoenix: 
+Max delay: 105.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
 
 Stat from: Pittsburgh to Tampa: 
 Max delay: 106.0
@@ -6316,11 +6310,11 @@ delayed: 40.00%
 cancelled: 40.00%
 total: 5
 
-Stat from: Dallas/Fort Worth to Peoria: 
-Max delay: 30.0
-delayed: 87.50%
-cancelled: 87.50%
-total: 8
+Stat from: Newark to Denver: 
+Max delay: 45.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 27
 
 Stat from: Grand Island to Dallas/Fort Worth: 
 Max delay: 30.0
@@ -6346,17 +6340,17 @@ delayed: 40.00%
 cancelled: 40.00%
 total: 5
 
-Stat from: Phoenix to Boston: 
-Max delay: 20.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
-
 Stat from: Palm Springs to Portland: 
 Max delay: 9.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 6
+
+Stat from: Phoenix to Boston: 
+Max delay: 20.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: Charlotte to San Juan: 
 Max delay: 28.0
@@ -6364,17 +6358,17 @@ delayed: 57.14%
 cancelled: 57.14%
 total: 7
 
-Stat from: New York to Chicago: 
-Max delay: 182.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 15
-
 Stat from: Fort Lauderdale to Boston: 
 Max delay: 21.0
 delayed: 23.81%
 cancelled: 23.81%
 total: 21
+
+Stat from: New York to Chicago: 
+Max delay: 182.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 15
 
 Stat from: Baltimore to Flint: 
 Max delay: 0.0
@@ -6382,17 +6376,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 4
 
-Stat from: Los Angeles to Hilo: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
 Stat from: Washington to Pittsburgh: 
 Max delay: 312.0
 delayed: 27.27%
 cancelled: 27.27%
 total: 11
+
+Stat from: Los Angeles to Hilo: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Seattle to Baltimore: 
 Max delay: 0.0
@@ -6418,29 +6412,29 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
-Stat from: Rochester to Chicago: 
-Max delay: 132.0
-delayed: 54.55%
-cancelled: 54.55%
-total: 11
-
-Stat from: Atlanta to Cleveland: 
-Max delay: 13.0
-delayed: 36.84%
-cancelled: 36.84%
-total: 19
-
 Stat from: Trenton to Detroit: 
 Max delay: 190.0
 delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
+Stat from: Rochester to Chicago: 
+Max delay: 132.0
+delayed: 54.55%
+cancelled: 54.55%
+total: 11
+
 Stat from: Savannah to Dallas/Fort Worth: 
 Max delay: 24.0
 delayed: 55.56%
 cancelled: 55.56%
 total: 9
+
+Stat from: Atlanta to Cleveland: 
+Max delay: 13.0
+delayed: 36.84%
+cancelled: 36.84%
+total: 19
 
 Stat from: Fort Myers to Hartford: 
 Max delay: 26.0
@@ -6454,17 +6448,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Los Angeles to Lihue: 
-Max delay: 189.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
-
 Stat from: Omaha to Newark: 
 Max delay: 83.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
+
+Stat from: Los Angeles to Lihue: 
+Max delay: 189.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: Boston to Salt Lake City: 
 Max delay: 12.0
@@ -6478,17 +6472,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Reno to Houston: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
 Stat from: Minneapolis to Fargo: 
 Max delay: 40.0
 delayed: 40.00%
 cancelled: 40.00%
 total: 15
+
+Stat from: Reno to Houston: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Newark to Portland: 
 Max delay: 0.0
@@ -6520,17 +6514,17 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 7
 
-Stat from: Boston to Chicago: 
-Max delay: 82.0
-delayed: 23.53%
-cancelled: 23.53%
-total: 51
-
 Stat from: Miami to Memphis: 
 Max delay: 19.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
+
+Stat from: Boston to Chicago: 
+Max delay: 82.0
+delayed: 23.53%
+cancelled: 23.53%
+total: 51
 
 Stat from: Washington to New York: 
 Max delay: 53.0
@@ -6574,17 +6568,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Portland to Newark: 
-Max delay: 2.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: Phoenix to Los Angeles: 
 Max delay: 93.0
 delayed: 42.86%
 cancelled: 42.86%
 total: 56
+
+Stat from: Portland to Newark: 
+Max delay: 2.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: San Jose to New York: 
 Max delay: 3.0
@@ -6652,11 +6646,11 @@ delayed: 54.55%
 cancelled: 54.55%
 total: 11
 
-Stat from: Portland to Sacramento: 
-Max delay: 17.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 12
+Stat from: Baltimore to Birmingham: 
+Max delay: 96.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
 Stat from: Las Vegas to Boise: 
 Max delay: 20.0
@@ -6682,6 +6676,12 @@ delayed: 38.46%
 cancelled: 38.46%
 total: 13
 
+Stat from: Portland to Sacramento: 
+Max delay: 17.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 12
+
 Stat from: Atlanta to St. Louis: 
 Max delay: 74.0
 delayed: 35.71%
@@ -6694,11 +6694,11 @@ delayed: 54.55%
 cancelled: 54.55%
 total: 11
 
-Stat from: Baltimore to Birmingham: 
-Max delay: 96.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
+Stat from: Newark to Madison: 
+Max delay: 11.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: New Orleans to Los Angeles: 
 Max delay: 41.0
@@ -6706,23 +6706,11 @@ delayed: 18.75%
 cancelled: 18.75%
 total: 16
 
-Stat from: Newark to Madison: 
-Max delay: 11.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: Little Rock to Denver: 
 Max delay: 10.0
 delayed: 25.00%
 cancelled: 25.00%
 total: 4
-
-Stat from: Denver to Memphis: 
-Max delay: 24.0
-delayed: 83.33%
-cancelled: 83.33%
-total: 6
 
 Stat from: Raleigh/Durham to Miami: 
 Max delay: 19.0
@@ -6736,17 +6724,11 @@ delayed: 16.67%
 cancelled: 16.67%
 total: 6
 
-Stat from: Grand Rapids to Orlando: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
-Stat from: Minneapolis to Dallas/Fort Worth: 
-Max delay: 104.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 25
+Stat from: Dayton to Atlanta: 
+Max delay: 9.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 12
 
 Stat from: Kahului to San Diego: 
 Max delay: 0.0
@@ -6754,11 +6736,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Dayton to Atlanta: 
-Max delay: 9.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 12
+Stat from: Minneapolis to Dallas/Fort Worth: 
+Max delay: 104.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 25
+
+Stat from: Denver to Memphis: 
+Max delay: 24.0
+delayed: 83.33%
+cancelled: 83.33%
+total: 6
 
 Stat from: Shreveport to Denver: 
 Max delay: 14.0
@@ -6772,23 +6760,17 @@ delayed: 54.17%
 cancelled: 54.17%
 total: 48
 
-Stat from: Columbus to Minneapolis: 
-Max delay: 13.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
-
 Stat from: San Juan to Miami: 
 Max delay: 89.0
 delayed: 40.91%
 cancelled: 40.91%
 total: 22
 
-Stat from: Phoenix to Omaha: 
-Max delay: 42.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 15
+Stat from: Columbus to Minneapolis: 
+Max delay: 13.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Los Angeles to Atlanta: 
 Max delay: 44.0
@@ -6796,29 +6778,41 @@ delayed: 47.06%
 cancelled: 47.06%
 total: 34
 
-Stat from: Tampa to Buffalo: 
-Max delay: 44.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 8
-
 Stat from: Baltimore to Detroit: 
 Max delay: 165.0
 delayed: 47.06%
 cancelled: 47.06%
 total: 17
 
-Stat from: Chicago to Wichita: 
-Max delay: 186.0
+Stat from: Grand Rapids to Orlando: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
+
+Stat from: Tampa to Buffalo: 
+Max delay: 44.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 8
+
+Stat from: Phoenix to Omaha: 
+Max delay: 42.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 15
 
 Stat from: Washington to Richmond: 
 Max delay: 50.0
 delayed: 25.00%
 cancelled: 25.00%
 total: 4
+
+Stat from: Chicago to Wichita: 
+Max delay: 186.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 8
 
 Stat from: Phoenix to San Diego: 
 Max delay: 49.0
@@ -6898,17 +6892,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: South Bend to Minneapolis: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Dallas/Fort Worth to Lake Charles: 
 Max delay: 43.0
 delayed: 42.86%
 cancelled: 42.86%
 total: 7
+
+Stat from: South Bend to Minneapolis: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Charlotte to Detroit: 
 Max delay: 96.0
@@ -6934,11 +6928,11 @@ delayed: 48.78%
 cancelled: 48.78%
 total: 82
 
-Stat from: Denver to Houston: 
-Max delay: 29.0
-delayed: 37.50%
-cancelled: 37.50%
-total: 16
+Stat from: New Orleans to Seattle: 
+Max delay: 19.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Newark to Greensboro/High Point: 
 Max delay: 67.0
@@ -6946,29 +6940,29 @@ delayed: 57.14%
 cancelled: 57.14%
 total: 7
 
+Stat from: Dallas/Fort Worth to Boston: 
+Max delay: 53.0
+delayed: 39.13%
+cancelled: 39.13%
+total: 23
+
+Stat from: Denver to Houston: 
+Max delay: 29.0
+delayed: 37.50%
+cancelled: 37.50%
+total: 16
+
 Stat from: Atlanta to Pensacola: 
 Max delay: 27.0
 delayed: 18.75%
 cancelled: 18.75%
 total: 16
 
-Stat from: New Orleans to Seattle: 
-Max delay: 19.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
 Stat from: Fort Lauderdale to Charlotte: 
 Max delay: 11.0
 delayed: 16.67%
 cancelled: 16.67%
 total: 12
-
-Stat from: Dallas/Fort Worth to Boston: 
-Max delay: 53.0
-delayed: 39.13%
-cancelled: 39.13%
-total: 23
 
 Stat from: Los Angeles to Oakland: 
 Max delay: 91.0
@@ -7042,17 +7036,17 @@ delayed: 13.64%
 cancelled: 13.64%
 total: 22
 
+Stat from: Hartford to Miami: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
+
 Stat from: Memphis to Houston: 
 Max delay: 66.0
 delayed: 25.00%
 cancelled: 25.00%
 total: 8
-
-Stat from: St. Louis to Dallas: 
-Max delay: 121.0
-delayed: 36.84%
-cancelled: 36.84%
-total: 19
 
 Stat from: San Juan to New York: 
 Max delay: 156.0
@@ -7060,23 +7054,23 @@ delayed: 34.04%
 cancelled: 34.04%
 total: 47
 
-Stat from: Washington to Phoenix: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
 Stat from: West Palm Beach/Palm Beach to Washington: 
 Max delay: 48.0
 delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
-Stat from: Honolulu to Chicago: 
-Max delay: 5.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
+Stat from: St. Louis to Dallas: 
+Max delay: 121.0
+delayed: 36.84%
+cancelled: 36.84%
+total: 19
+
+Stat from: Washington to Phoenix: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Chicago to Nashville: 
 Max delay: 391.0
@@ -7096,29 +7090,29 @@ delayed: 24.14%
 cancelled: 24.14%
 total: 29
 
-Stat from: Hartford to Miami: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: San Antonio to Salt Lake City: 
 Max delay: 7.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Memphis to Orlando: 
+Stat from: Honolulu to Chicago: 
 Max delay: 5.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Garden City to Dallas/Fort Worth: 
 Max delay: 46.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 6
+
+Stat from: Memphis to Orlando: 
+Max delay: 5.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Wichita to Denver: 
 Max delay: 38.0
@@ -7210,17 +7204,17 @@ delayed: 35.00%
 cancelled: 35.00%
 total: 40
 
-Stat from: San Francisco to Bend/Redmond: 
-Max delay: 98.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
-
 Stat from: Atlanta to Akron: 
 Max delay: 40.0
 delayed: 26.09%
 cancelled: 26.09%
 total: 23
+
+Stat from: San Francisco to Bend/Redmond: 
+Max delay: 98.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
 Stat from: Denver to West Palm Beach/Palm Beach: 
 Max delay: 0.0
@@ -7228,29 +7222,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
-Stat from: Charlotte to Norfolk: 
-Max delay: 22.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 9
-
 Stat from: Manhattan/Ft. Riley to Chicago: 
 Max delay: 106.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 5
-
-Stat from: Kansas City to Charlotte: 
-Max delay: 24.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 14
-
-Stat from: Atlanta to Trenton: 
-Max delay: 24.0
-delayed: 75.00%
-cancelled: 75.00%
-total: 4
 
 Stat from: Long Beach to Las Vegas: 
 Max delay: 58.0
@@ -7258,17 +7234,29 @@ delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
+Stat from: Kansas City to Charlotte: 
+Max delay: 24.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 14
+
+Stat from: Charlotte to Norfolk: 
+Max delay: 22.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 9
+
+Stat from: Atlanta to Trenton: 
+Max delay: 24.0
+delayed: 75.00%
+cancelled: 75.00%
+total: 4
+
 Stat from: Aspen to Atlanta: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 3
-
-Stat from: Burbank to Portland: 
-Max delay: 9.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 8
 
 Stat from: Minneapolis to Missoula: 
 Max delay: 0.0
@@ -7282,17 +7270,17 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 3
 
+Stat from: Burbank to Portland: 
+Max delay: 9.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 8
+
 Stat from: Chicago to Oakland: 
 Max delay: 69.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
-
-Stat from: Oklahoma City to Chicago: 
-Max delay: 30.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 7
 
 Stat from: Minneapolis to Charlotte: 
 Max delay: 170.0
@@ -7300,11 +7288,17 @@ delayed: 29.17%
 cancelled: 29.17%
 total: 24
 
-Stat from: Denver to St. George: 
-Max delay: 27.0
-delayed: 33.33%
-cancelled: 33.33%
+Stat from: Worcester to Orlando: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
 total: 3
+
+Stat from: Oklahoma City to Chicago: 
+Max delay: 30.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 7
 
 Stat from: Valparaiso to Dallas/Fort Worth: 
 Max delay: 67.0
@@ -7318,11 +7312,11 @@ delayed: 37.50%
 cancelled: 37.50%
 total: 80
 
-Stat from: Colorado Springs to Los Angeles: 
-Max delay: 144.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
+Stat from: Denver to St. George: 
+Max delay: 27.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Philadelphia to Houston: 
 Max delay: 76.0
@@ -7330,11 +7324,11 @@ delayed: 70.00%
 cancelled: 70.00%
 total: 10
 
-Stat from: Worcester to Orlando: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
+Stat from: Colorado Springs to Los Angeles: 
+Max delay: 144.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
 
 Stat from: Aspen to Minneapolis: 
 Max delay: 109.0
@@ -7360,17 +7354,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Wichita to Las Vegas: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 4
-
 Stat from: West Palm Beach/Palm Beach to Washington: 
 Max delay: 228.0
 delayed: 30.00%
 cancelled: 30.00%
 total: 10
+
+Stat from: Wichita to Las Vegas: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 4
 
 Stat from: San Diego to Sacramento: 
 Max delay: 54.0
@@ -7402,11 +7396,11 @@ delayed: 36.96%
 cancelled: 36.96%
 total: 46
 
-Stat from: South Bend to Chicago: 
-Max delay: 275.0
-delayed: 72.73%
-cancelled: 72.73%
-total: 11
+Stat from: New York to Cincinnati: 
+Max delay: 3.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Lexington to Houston: 
 Max delay: 45.0
@@ -7414,17 +7408,17 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
+Stat from: South Bend to Chicago: 
+Max delay: 275.0
+delayed: 72.73%
+cancelled: 72.73%
+total: 11
+
 Stat from: Hartford to Baltimore: 
 Max delay: 119.0
 delayed: 38.89%
 cancelled: 38.89%
 total: 18
-
-Stat from: New York to Cincinnati: 
-Max delay: 3.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
 
 Stat from: Houston to Greer: 
 Max delay: 13.0
@@ -7450,17 +7444,17 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
-Stat from: Chicago to New York: 
-Max delay: 153.0
-delayed: 61.90%
-cancelled: 61.90%
-total: 21
-
 Stat from: San Francisco to New York: 
 Max delay: 157.0
 delayed: 42.86%
 cancelled: 42.86%
 total: 70
+
+Stat from: Chicago to New York: 
+Max delay: 153.0
+delayed: 61.90%
+cancelled: 61.90%
+total: 21
 
 Stat from: Birmingham to New York: 
 Max delay: 22.0
@@ -7480,17 +7474,17 @@ delayed: 42.86%
 cancelled: 42.86%
 total: 7
 
-Stat from: San Francisco to Washington: 
-Max delay: 104.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 30
-
 Stat from: San Jose to Dallas/Fort Worth: 
 Max delay: 99.0
 delayed: 57.14%
 cancelled: 57.14%
 total: 14
+
+Stat from: San Francisco to Washington: 
+Max delay: 104.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 30
 
 Stat from: Denver to Portland: 
 Max delay: 143.0
@@ -7510,6 +7504,12 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
+Stat from: Dallas/Fort Worth to Waco: 
+Max delay: 74.0
+delayed: 52.94%
+cancelled: 52.94%
+total: 17
+
 Stat from: Chicago to Greer: 
 Max delay: 54.0
 delayed: 57.14%
@@ -7521,12 +7521,6 @@ Max delay: 310.0
 delayed: 42.86%
 cancelled: 42.86%
 total: 14
-
-Stat from: Dallas/Fort Worth to Waco: 
-Max delay: 74.0
-delayed: 52.94%
-cancelled: 52.94%
-total: 17
 
 Stat from: Houston to Gulfport/Biloxi: 
 Max delay: 113.0
@@ -7540,23 +7534,17 @@ delayed: 10.00%
 cancelled: 10.00%
 total: 10
 
-Stat from: Boise to San Francisco: 
-Max delay: 201.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 14
-
-Stat from: Orlando to Nashville: 
-Max delay: 123.0
-delayed: 55.56%
-cancelled: 55.56%
-total: 9
-
 Stat from: Madison to Detroit: 
 Max delay: 19.0
 delayed: 40.00%
 cancelled: 40.00%
 total: 10
+
+Stat from: Boise to San Francisco: 
+Max delay: 201.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 14
 
 Stat from: Latrobe to Tampa: 
 Max delay: 31.0
@@ -7581,6 +7569,12 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 2
+
+Stat from: Orlando to Nashville: 
+Max delay: 123.0
+delayed: 55.56%
+cancelled: 55.56%
+total: 9
 
 Stat from: Atlanta to Allentown/Bethlehem/Easton: 
 Max delay: 23.0
@@ -7642,10 +7636,10 @@ delayed: 36.36%
 cancelled: 36.36%
 total: 11
 
-Stat from: San Diego to New Orleans: 
-Max delay: 59.0
-delayed: 66.67%
-cancelled: 66.67%
+Stat from: Miami to Eagle: 
+Max delay: 63.0
+delayed: 33.33%
+cancelled: 33.33%
 total: 3
 
 Stat from: Portland to Seattle: 
@@ -7660,6 +7654,12 @@ delayed: 47.83%
 cancelled: 47.83%
 total: 23
 
+Stat from: San Diego to New Orleans: 
+Max delay: 59.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
 Stat from: Charlotte to New Orleans: 
 Max delay: 49.0
 delayed: 33.33%
@@ -7672,11 +7672,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: New Orleans to Phoenix: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
+Stat from: Valparaiso to Houston: 
+Max delay: 70.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 7
 
 Stat from: Hartford to West Palm Beach/Palm Beach: 
 Max delay: 141.0
@@ -7684,11 +7684,11 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
-Stat from: Valparaiso to Houston: 
-Max delay: 70.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 7
+Stat from: Dallas/Fort Worth to Columbus: 
+Max delay: 99.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 14
 
 Stat from: Fort Lauderdale to Buffalo: 
 Max delay: 36.0
@@ -7720,11 +7720,11 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
-Stat from: Miami to Eagle: 
-Max delay: 63.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+Stat from: New Orleans to Phoenix: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Butte to Salt Lake City: 
 Max delay: 0.0
@@ -7744,23 +7744,17 @@ delayed: 11.11%
 cancelled: 11.11%
 total: 9
 
-Stat from: Baltimore to San Juan: 
-Max delay: 5.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
 Stat from: Minneapolis to Sacramento: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
-Stat from: Chicago to Tampa: 
-Max delay: 26.0
-delayed: 38.46%
-cancelled: 38.46%
-total: 13
+Stat from: Baltimore to San Juan: 
+Max delay: 5.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Los Angeles to Miami: 
 Max delay: 105.0
@@ -7798,17 +7792,17 @@ delayed: 46.15%
 cancelled: 46.15%
 total: 13
 
-Stat from: Dallas/Fort Worth to Columbus: 
-Max delay: 99.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 14
-
 Stat from: Denver to Boston: 
 Max delay: 158.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 15
+
+Stat from: Chicago to Tampa: 
+Max delay: 26.0
+delayed: 38.46%
+cancelled: 38.46%
+total: 13
 
 Stat from: Los Angeles to Eugene: 
 Max delay: 5.0
@@ -8014,10 +8008,10 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 30
 
-Stat from: Tucson to Seattle: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
+Stat from: Seattle to Kahului: 
+Max delay: 40.0
+delayed: 60.00%
+cancelled: 60.00%
 total: 5
 
 Stat from: Houston to Colorado Springs: 
@@ -8026,10 +8020,10 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 10
 
-Stat from: Seattle to Kahului: 
-Max delay: 40.0
-delayed: 60.00%
-cancelled: 60.00%
+Stat from: Tucson to Seattle: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
 total: 5
 
 Stat from: San Jose to Burbank: 
@@ -8086,11 +8080,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 9
 
-Stat from: Phoenix to Charlotte: 
-Max delay: 242.0
-delayed: 34.78%
-cancelled: 34.78%
-total: 23
+Stat from: Raleigh/Durham to Boston: 
+Max delay: 59.0
+delayed: 27.27%
+cancelled: 27.27%
+total: 11
 
 Stat from: Flint to Chicago: 
 Max delay: 135.0
@@ -8098,11 +8092,11 @@ delayed: 38.89%
 cancelled: 38.89%
 total: 18
 
-Stat from: Raleigh/Durham to Boston: 
-Max delay: 59.0
-delayed: 27.27%
-cancelled: 27.27%
-total: 11
+Stat from: Phoenix to Charlotte: 
+Max delay: 242.0
+delayed: 34.78%
+cancelled: 34.78%
+total: 23
 
 Stat from: Bellingham to Honolulu: 
 Max delay: 0.0
@@ -8128,29 +8122,29 @@ delayed: 36.36%
 cancelled: 36.36%
 total: 11
 
-Stat from: Palm Springs to Houston: 
-Max delay: 28.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
 Stat from: Portland to Palm Springs: 
 Max delay: 4.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
-Stat from: Memphis to Minneapolis: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
+Stat from: Palm Springs to Houston: 
+Max delay: 28.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Scranton/Wilkes-Barre to Chicago: 
 Max delay: 18.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
+
+Stat from: Memphis to Minneapolis: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Philadelphia to Denver: 
 Max delay: 56.0
@@ -8182,17 +8176,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
+Stat from: San Juan to Washington: 
+Max delay: 6.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
 Stat from: Chicago to Cleveland: 
 Max delay: 326.0
 delayed: 60.47%
 cancelled: 60.47%
 total: 43
-
-Stat from: Chicago to New York: 
-Max delay: 151.0
-delayed: 41.33%
-cancelled: 41.33%
-total: 75
 
 Stat from: Houston to Corpus Christi: 
 Max delay: 41.0
@@ -8206,11 +8200,11 @@ delayed: 32.00%
 cancelled: 32.00%
 total: 75
 
-Stat from: San Juan to Washington: 
-Max delay: 6.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Chicago to New York: 
+Max delay: 151.0
+delayed: 41.33%
+cancelled: 41.33%
+total: 75
 
 Stat from: Little Rock to Houston: 
 Max delay: 71.0
@@ -8248,16 +8242,16 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Los Angeles to San Antonio: 
-Max delay: 68.0
+Stat from: Dallas/Fort Worth to Charleston/Dunbar: 
+Max delay: 12.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
+
+Stat from: Dallas/Fort Worth to Fargo: 
+Max delay: 13.0
 delayed: 33.33%
 cancelled: 33.33%
-total: 12
-
-Stat from: Greer to Chicago: 
-Max delay: 43.0
-delayed: 66.67%
-cancelled: 66.67%
 total: 3
 
 Stat from: Denver to Tucson: 
@@ -8266,23 +8260,23 @@ delayed: 55.56%
 cancelled: 55.56%
 total: 18
 
-Stat from: Dallas/Fort Worth to Charleston/Dunbar: 
-Max delay: 12.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
-
 Stat from: Atlanta to Brunswick: 
 Max delay: 187.0
 delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
-Stat from: Dallas/Fort Worth to Fargo: 
-Max delay: 13.0
+Stat from: Greer to Chicago: 
+Max delay: 43.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
+Stat from: Los Angeles to San Antonio: 
+Max delay: 68.0
 delayed: 33.33%
 cancelled: 33.33%
-total: 3
+total: 12
 
 Stat from: Seattle to Oakland: 
 Max delay: 165.0
@@ -8308,17 +8302,17 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 4
 
-Stat from: St. Louis to Milwaukee: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Washington to Hartford: 
 Max delay: 34.0
 delayed: 16.67%
 cancelled: 16.67%
 total: 6
+
+Stat from: St. Louis to Milwaukee: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Green Bay to Atlanta: 
 Max delay: 0.0
@@ -8344,17 +8338,11 @@ delayed: 41.67%
 cancelled: 41.67%
 total: 24
 
-Stat from: Eau Claire to Chicago: 
-Max delay: 31.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
-
-Stat from: Denver to Bakersfield: 
-Max delay: 96.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
+Stat from: Boston to San Francisco: 
+Max delay: 179.0
+delayed: 40.91%
+cancelled: 40.91%
+total: 22
 
 Stat from: Sacramento to Honolulu: 
 Max delay: 17.0
@@ -8362,11 +8350,11 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 3
 
-Stat from: Boston to San Francisco: 
-Max delay: 179.0
-delayed: 40.91%
-cancelled: 40.91%
-total: 22
+Stat from: Denver to Bakersfield: 
+Max delay: 96.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
 
 Stat from: Valdosta to Atlanta: 
 Max delay: 90.0
@@ -8379,6 +8367,12 @@ Max delay: 35.0
 delayed: 75.00%
 cancelled: 75.00%
 total: 4
+
+Stat from: Eau Claire to Chicago: 
+Max delay: 31.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
 
 Stat from: Santa Ana to Oakland: 
 Max delay: 65.0
@@ -8410,11 +8404,11 @@ delayed: 30.00%
 cancelled: 30.00%
 total: 10
 
-Stat from: Charlotte to St. Louis: 
-Max delay: 7.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 10
+Stat from: Dallas/Fort Worth to Jacksonville: 
+Max delay: 99.0
+delayed: 41.67%
+cancelled: 41.67%
+total: 12
 
 Stat from: Greer to Atlanta: 
 Max delay: 115.0
@@ -8428,11 +8422,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Dallas/Fort Worth to Jacksonville: 
-Max delay: 99.0
-delayed: 41.67%
-cancelled: 41.67%
-total: 12
+Stat from: Charlotte to St. Louis: 
+Max delay: 7.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 10
 
 Stat from: Wilmington to Orlando: 
 Max delay: 165.0
@@ -8470,12 +8464,6 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
-Stat from: Elko to Salt Lake City: 
-Max delay: 6.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
 Stat from: Cincinnati to Minneapolis: 
 Max delay: 25.0
 delayed: 50.00%
@@ -8487,6 +8475,12 @@ Max delay: 21.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
+
+Stat from: Elko to Salt Lake City: 
+Max delay: 6.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
 
 Stat from: Atlanta to Killeen: 
 Max delay: 148.0
@@ -8500,17 +8494,17 @@ delayed: 40.91%
 cancelled: 40.91%
 total: 22
 
-Stat from: Reno to San Diego: 
-Max delay: 14.0
-delayed: 22.22%
-cancelled: 22.22%
-total: 9
-
 Stat from: Bloomington/Normal to Dallas/Fort Worth: 
 Max delay: 23.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 6
+
+Stat from: Reno to San Diego: 
+Max delay: 14.0
+delayed: 22.22%
+cancelled: 22.22%
+total: 9
 
 Stat from: Charleston to Chicago: 
 Max delay: 1.0
@@ -8536,17 +8530,29 @@ delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
-Stat from: Salt Lake City to Colorado Springs: 
-Max delay: 12.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
+Stat from: Newark to Raleigh/Durham: 
+Max delay: 10.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: Dallas/Fort Worth to Santa Ana: 
 Max delay: 52.0
 delayed: 31.03%
 cancelled: 31.03%
 total: 29
+
+Stat from: Salt Lake City to Colorado Springs: 
+Max delay: 12.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
+
+Stat from: Detroit to Fort Wayne: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Detroit to Fort Lauderdale: 
 Max delay: 131.0
@@ -8560,17 +8566,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 16
 
-Stat from: Orlando to Islip: 
-Max delay: 240.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 10
-
 Stat from: Newark to Pittsburgh: 
 Max delay: 5.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
+
+Stat from: Orlando to Islip: 
+Max delay: 240.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 10
 
 Stat from: Chicago to Des Moines: 
 Max delay: 88.0
@@ -8584,12 +8590,6 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
-Stat from: Detroit to Fort Wayne: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Miami to Tallahassee: 
 Max delay: 16.0
 delayed: 20.00%
@@ -8602,23 +8602,17 @@ delayed: 19.05%
 cancelled: 19.05%
 total: 21
 
-Stat from: Baltimore to Los Angeles: 
-Max delay: 10.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
-
 Stat from: Meridian to Hattiesburg/Laurel: 
 Max delay: 14.0
 delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Newark to Raleigh/Durham: 
+Stat from: Baltimore to Los Angeles: 
 Max delay: 10.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
 
 Stat from: Nashville to Cincinnati: 
 Max delay: 44.0
@@ -8626,17 +8620,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Jackson to Denver: 
-Max delay: 100.0
-delayed: 80.00%
-cancelled: 80.00%
-total: 10
-
 Stat from: Oakland to Long Beach: 
 Max delay: 5.0
 delayed: 22.22%
 cancelled: 22.22%
 total: 9
+
+Stat from: Jackson to Denver: 
+Max delay: 100.0
+delayed: 80.00%
+cancelled: 80.00%
+total: 10
 
 Stat from: Dallas to Las Vegas: 
 Max delay: 113.0
@@ -8692,11 +8686,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Houston to Seattle: 
-Max delay: 123.0
-delayed: 53.33%
-cancelled: 53.33%
-total: 15
+Stat from: San Francisco to Detroit: 
+Max delay: 46.0
+delayed: 36.36%
+cancelled: 36.36%
+total: 11
 
 Stat from: Cleveland to Las Vegas: 
 Max delay: 29.0
@@ -8710,23 +8704,17 @@ delayed: 77.78%
 cancelled: 77.78%
 total: 9
 
-Stat from: San Francisco to Monterey: 
-Max delay: 186.0
-delayed: 61.54%
-cancelled: 61.54%
-total: 13
+Stat from: Houston to Seattle: 
+Max delay: 123.0
+delayed: 53.33%
+cancelled: 53.33%
+total: 15
 
 Stat from: Charlotte to Pittsburgh: 
 Max delay: 89.0
 delayed: 38.71%
 cancelled: 38.71%
 total: 31
-
-Stat from: San Francisco to Detroit: 
-Max delay: 46.0
-delayed: 36.36%
-cancelled: 36.36%
-total: 11
 
 Stat from: Los Angeles to Cincinnati: 
 Max delay: 8.0
@@ -8763,6 +8751,12 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 3
+
+Stat from: San Francisco to Monterey: 
+Max delay: 186.0
+delayed: 61.54%
+cancelled: 61.54%
+total: 13
 
 Stat from: Buffalo to Detroit: 
 Max delay: 79.0
@@ -8908,17 +8902,17 @@ delayed: 28.57%
 cancelled: 28.57%
 total: 7
 
+Stat from: Atlanta to Charlottesville: 
+Max delay: 102.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 7
+
 Stat from: Salt Lake City to Bozeman: 
 Max delay: 214.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 10
-
-Stat from: Amarillo to Dallas: 
-Max delay: 32.0
-delayed: 27.27%
-cancelled: 27.27%
-total: 11
 
 Stat from: San Francisco to Sun Valley/Hailey/Ketchum: 
 Max delay: 27.0
@@ -8926,11 +8920,11 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 3
 
-Stat from: Atlanta to Charlottesville: 
-Max delay: 102.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 7
+Stat from: Amarillo to Dallas: 
+Max delay: 32.0
+delayed: 27.27%
+cancelled: 27.27%
+total: 11
 
 Stat from: Denver to Raleigh/Durham: 
 Max delay: 9.0
@@ -8944,29 +8938,17 @@ delayed: 30.00%
 cancelled: 30.00%
 total: 20
 
-Stat from: Houston to Washington: 
-Max delay: 12.0
-delayed: 18.18%
-cancelled: 18.18%
-total: 11
+Stat from: Chicago to Fort Lauderdale: 
+Max delay: 36.0
+delayed: 21.74%
+cancelled: 21.74%
+total: 23
 
-Stat from: Sacramento to Houston: 
-Max delay: 30.0
-delayed: 22.22%
-cancelled: 22.22%
-total: 9
-
-Stat from: La Crosse to Minneapolis: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
-Stat from: Baltimore to Providence: 
-Max delay: 25.0
-delayed: 37.50%
-cancelled: 37.50%
-total: 16
+Stat from: Dallas/Fort Worth to Albuquerque: 
+Max delay: 42.0
+delayed: 61.54%
+cancelled: 61.54%
+total: 13
 
 Stat from: Dallas/Fort Worth to Austin: 
 Max delay: 123.0
@@ -8974,8 +8956,26 @@ delayed: 53.49%
 cancelled: 53.49%
 total: 43
 
-Stat from: Nashville to New Orleans: 
-Max delay: 31.0
+Stat from: Houston to Washington: 
+Max delay: 12.0
+delayed: 18.18%
+cancelled: 18.18%
+total: 11
+
+Stat from: Baltimore to Providence: 
+Max delay: 25.0
+delayed: 37.50%
+cancelled: 37.50%
+total: 16
+
+Stat from: La Crosse to Minneapolis: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
+
+Stat from: Sacramento to Houston: 
+Max delay: 30.0
 delayed: 22.22%
 cancelled: 22.22%
 total: 9
@@ -8992,11 +8992,11 @@ delayed: 51.43%
 cancelled: 51.43%
 total: 35
 
-Stat from: Chicago to Fort Lauderdale: 
-Max delay: 36.0
-delayed: 21.74%
-cancelled: 21.74%
-total: 23
+Stat from: Nashville to New Orleans: 
+Max delay: 31.0
+delayed: 22.22%
+cancelled: 22.22%
+total: 9
 
 Stat from: Houston to Corpus Christi: 
 Max delay: 89.0
@@ -9015,12 +9015,6 @@ Max delay: 731.0
 delayed: 35.71%
 cancelled: 35.71%
 total: 42
-
-Stat from: Dallas/Fort Worth to Albuquerque: 
-Max delay: 42.0
-delayed: 61.54%
-cancelled: 61.54%
-total: 13
 
 Stat from: Baltimore to Las Vegas: 
 Max delay: 167.0
@@ -9106,11 +9100,11 @@ delayed: 34.38%
 cancelled: 34.38%
 total: 64
 
-Stat from: Raleigh/Durham to St. Louis: 
-Max delay: 11.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 2
+Stat from: Lafayette to Denver: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: San Francisco to Sacramento: 
 Max delay: 135.0
@@ -9118,11 +9112,11 @@ delayed: 59.09%
 cancelled: 59.09%
 total: 22
 
-Stat from: Lafayette to Denver: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
+Stat from: Raleigh/Durham to St. Louis: 
+Max delay: 11.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Chicago to Des Moines: 
 Max delay: 130.0
@@ -9208,11 +9202,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 7
 
-Stat from: Chicago to Washington: 
-Max delay: 3.0
+Stat from: Chicago to Flint: 
+Max delay: 171.0
 delayed: 20.00%
 cancelled: 20.00%
-total: 5
+total: 15
 
 Stat from: San Juan to Tampa: 
 Max delay: 161.0
@@ -9220,29 +9214,11 @@ delayed: 46.15%
 cancelled: 46.15%
 total: 13
 
-Stat from: Eugene to Los Angeles: 
-Max delay: 8.0
-delayed: 20.00%
-cancelled: 20.00%
-total: 5
-
 Stat from: Los Angeles to Orlando: 
 Max delay: 26.0
 delayed: 30.43%
 cancelled: 30.43%
 total: 23
-
-Stat from: Kalamazoo to Detroit: 
-Max delay: 63.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
-
-Stat from: Tulsa to Atlanta: 
-Max delay: 41.0
-delayed: 18.75%
-cancelled: 18.75%
-total: 16
 
 Stat from: Manhattan/Ft. Riley to Dallas/Fort Worth: 
 Max delay: 65.0
@@ -9250,17 +9226,35 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 9
 
+Stat from: Tulsa to Atlanta: 
+Max delay: 41.0
+delayed: 18.75%
+cancelled: 18.75%
+total: 16
+
+Stat from: Kalamazoo to Detroit: 
+Max delay: 63.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
+
+Stat from: Chicago to Washington: 
+Max delay: 3.0
+delayed: 20.00%
+cancelled: 20.00%
+total: 5
+
 Stat from: Santa Barbara to Seattle: 
 Max delay: 52.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Chicago to Flint: 
-Max delay: 171.0
+Stat from: Eugene to Los Angeles: 
+Max delay: 8.0
 delayed: 20.00%
 cancelled: 20.00%
-total: 15
+total: 5
 
 Stat from: Detroit to White Plains: 
 Max delay: 0.0
@@ -9268,17 +9262,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 7
 
-Stat from: San Francisco to Montrose/Delta: 
-Max delay: 5.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 1
-
 Stat from: Portland to Atlanta: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 2
+
+Stat from: San Francisco to Montrose/Delta: 
+Max delay: 5.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 1
 
 Stat from: Chicago to Salt Lake City: 
 Max delay: 46.0
@@ -9316,17 +9310,17 @@ delayed: 62.50%
 cancelled: 62.50%
 total: 8
 
-Stat from: Louisville to Phoenix: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 2
-
 Stat from: Seattle to Miami: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 3
+
+Stat from: Louisville to Phoenix: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 2
 
 Stat from: Midland/Odessa to Houston: 
 Max delay: 248.0
@@ -9466,17 +9460,17 @@ delayed: 43.75%
 cancelled: 43.75%
 total: 16
 
-Stat from: Dallas to Wichita: 
-Max delay: 69.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 6
-
 Stat from: Houston to Dallas/Fort Worth: 
 Max delay: 94.0
 delayed: 43.48%
 cancelled: 43.48%
 total: 46
+
+Stat from: Dallas to Wichita: 
+Max delay: 69.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 6
 
 Stat from: Tampa to Akron: 
 Max delay: 0.0
@@ -9502,17 +9496,17 @@ delayed: 28.57%
 cancelled: 28.57%
 total: 7
 
-Stat from: Ontario to Phoenix: 
-Max delay: 25.0
-delayed: 36.67%
-cancelled: 36.67%
-total: 30
-
 Stat from: Ontario to Seattle: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 6
+
+Stat from: Ontario to Phoenix: 
+Max delay: 25.0
+delayed: 36.67%
+cancelled: 36.67%
+total: 30
 
 Stat from: Chicago to Grand Rapids: 
 Max delay: 122.0
@@ -9592,17 +9586,17 @@ delayed: 72.73%
 cancelled: 72.73%
 total: 11
 
-Stat from: Chicago to Detroit: 
-Max delay: 180.0
-delayed: 44.90%
-cancelled: 44.90%
-total: 49
-
 Stat from: St. Louis to Seattle: 
 Max delay: 48.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
+
+Stat from: Chicago to Detroit: 
+Max delay: 180.0
+delayed: 44.90%
+cancelled: 44.90%
+total: 49
 
 Stat from: Chicago to Denver: 
 Max delay: 371.0
@@ -9610,20 +9604,14 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 42
 
-Stat from: St. Louis to Boston: 
-Max delay: 24.0
-delayed: 60.00%
-cancelled: 60.00%
-total: 5
-
 Stat from: Dallas/Fort Worth to Durango: 
 Max delay: 40.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
 
-Stat from: Kansas City to Nashville: 
-Max delay: 9.0
+Stat from: St. Louis to Boston: 
+Max delay: 24.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 5
@@ -9633,6 +9621,12 @@ Max delay: 95.0
 delayed: 55.56%
 cancelled: 55.56%
 total: 9
+
+Stat from: Kansas City to Nashville: 
+Max delay: 9.0
+delayed: 60.00%
+cancelled: 60.00%
+total: 5
 
 Stat from: Indianapolis to Minneapolis: 
 Max delay: 8.0
@@ -9676,6 +9670,12 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 4
 
+Stat from: San Antonio to Houston: 
+Max delay: 355.0
+delayed: 55.00%
+cancelled: 55.00%
+total: 20
+
 Stat from: Las Vegas to Kansas City: 
 Max delay: 27.0
 delayed: 38.46%
@@ -9688,12 +9688,6 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Sacramento to Portland: 
-Max delay: 138.0
-delayed: 63.64%
-cancelled: 63.64%
-total: 11
-
 Stat from: Denver to Lincoln: 
 Max delay: 123.0
 delayed: 62.50%
@@ -9705,6 +9699,12 @@ Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 6
+
+Stat from: Sacramento to Portland: 
+Max delay: 138.0
+delayed: 63.64%
+cancelled: 63.64%
+total: 11
 
 Stat from: Saginaw/Bay City/Midland to Detroit: 
 Max delay: 4.0
@@ -9735,12 +9735,6 @@ Max delay: 65.0
 delayed: 100.00%
 cancelled: 100.00%
 total: 3
-
-Stat from: San Antonio to Houston: 
-Max delay: 355.0
-delayed: 55.00%
-cancelled: 55.00%
-total: 20
 
 Stat from: Memphis to Baltimore: 
 Max delay: 8.0
@@ -9886,6 +9880,12 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
+Stat from: Louisville to Dallas/Fort Worth: 
+Max delay: 32.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
 Stat from: Salt Lake City to Portland: 
 Max delay: 19.0
 delayed: 33.33%
@@ -9897,12 +9897,6 @@ Max delay: 101.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 9
-
-Stat from: Louisville to Dallas/Fort Worth: 
-Max delay: 32.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
 
 Stat from: Dallas/Fort Worth to Manhattan/Ft. Riley: 
 Max delay: 111.0
@@ -10048,17 +10042,17 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 6
 
-Stat from: Minneapolis to Moline: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
 Stat from: Newark to Knoxville: 
 Max delay: 32.0
 delayed: 100.00%
 cancelled: 100.00%
 total: 2
+
+Stat from: Minneapolis to Moline: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Salt Lake City to Moab: 
 Max delay: 0.0
@@ -10120,17 +10114,11 @@ delayed: 45.45%
 cancelled: 45.45%
 total: 11
 
-Stat from: Moline to Denver: 
-Max delay: 4.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
-
-Stat from: San Diego to Dallas: 
-Max delay: 9.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
+Stat from: Atlanta to Gainesville: 
+Max delay: 86.0
+delayed: 52.94%
+cancelled: 52.94%
+total: 17
 
 Stat from: Tulsa to Detroit: 
 Max delay: 7.0
@@ -10138,11 +10126,17 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
-Stat from: Atlanta to Gainesville: 
-Max delay: 86.0
-delayed: 52.94%
-cancelled: 52.94%
-total: 17
+Stat from: San Diego to Dallas: 
+Max delay: 9.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
+
+Stat from: Moline to Denver: 
+Max delay: 4.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Saginaw/Bay City/Midland to Minneapolis: 
 Max delay: 0.0
@@ -10252,6 +10246,12 @@ delayed: 63.64%
 cancelled: 63.64%
 total: 11
 
+Stat from: Madison to Atlanta: 
+Max delay: 9.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
+
 Stat from: Denver to Gillette: 
 Max delay: 56.0
 delayed: 66.67%
@@ -10269,12 +10269,6 @@ Max delay: 42.0
 delayed: 21.43%
 cancelled: 21.43%
 total: 28
-
-Stat from: Madison to Atlanta: 
-Max delay: 9.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
 
 Stat from: Houston to New York: 
 Max delay: 0.0
@@ -10294,6 +10288,12 @@ delayed: 48.15%
 cancelled: 48.15%
 total: 27
 
+Stat from: Phoenix to Miami: 
+Max delay: 237.0
+delayed: 71.43%
+cancelled: 71.43%
+total: 7
+
 Stat from: Buffalo to Las Vegas: 
 Max delay: 0.0
 delayed: 0.00%
@@ -10306,29 +10306,23 @@ delayed: 16.67%
 cancelled: 16.67%
 total: 6
 
-Stat from: Phoenix to Miami: 
-Max delay: 237.0
-delayed: 71.43%
-cancelled: 71.43%
-total: 7
-
 Stat from: Columbus to Phoenix: 
 Max delay: 21.0
 delayed: 23.08%
 cancelled: 23.08%
 total: 13
 
-Stat from: Houston to Omaha: 
-Max delay: 36.0
-delayed: 42.86%
-cancelled: 42.86%
-total: 14
-
 Stat from: Atlanta to Santa Ana: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 8
+
+Stat from: Houston to Omaha: 
+Max delay: 36.0
+delayed: 42.86%
+cancelled: 42.86%
+total: 14
 
 Stat from: Meridian to Dallas/Fort Worth: 
 Max delay: 1.0
@@ -10348,11 +10342,11 @@ delayed: 66.67%
 cancelled: 66.67%
 total: 6
 
-Stat from: Chicago to Albany: 
-Max delay: 77.0
-delayed: 60.00%
-cancelled: 60.00%
-total: 5
+Stat from: Fort Lauderdale to Richmond: 
+Max delay: 52.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
 
 Stat from: San Francisco to Las Vegas: 
 Max delay: 227.0
@@ -10360,23 +10354,29 @@ delayed: 34.92%
 cancelled: 34.92%
 total: 63
 
+Stat from: Chicago to Albany: 
+Max delay: 77.0
+delayed: 60.00%
+cancelled: 60.00%
+total: 5
+
 Stat from: Houston to Savannah: 
 Max delay: 68.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: Baltimore to Hartford: 
-Max delay: 293.0
-delayed: 54.55%
-cancelled: 54.55%
-total: 22
-
 Stat from: Bismarck/Mandan to Dallas/Fort Worth: 
 Max delay: 14.0
 delayed: 66.67%
 cancelled: 66.67%
 total: 3
+
+Stat from: Baltimore to Hartford: 
+Max delay: 293.0
+delayed: 54.55%
+cancelled: 54.55%
+total: 22
 
 Stat from: Detroit to Lansing: 
 Max delay: 0.0
@@ -10396,11 +10396,11 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 5
 
-Stat from: Las Vegas to Santa Ana: 
-Max delay: 63.0
-delayed: 20.00%
-cancelled: 20.00%
-total: 20
+Stat from: Columbia to Dallas/Fort Worth: 
+Max delay: 32.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 8
 
 Stat from: Dallas/Fort Worth to Sioux Falls: 
 Max delay: 57.0
@@ -10408,11 +10408,11 @@ delayed: 80.00%
 cancelled: 80.00%
 total: 10
 
-Stat from: Columbia to Dallas/Fort Worth: 
-Max delay: 32.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 8
+Stat from: Las Vegas to Santa Ana: 
+Max delay: 63.0
+delayed: 20.00%
+cancelled: 20.00%
+total: 20
 
 Stat from: Los Angeles to Pittsburgh: 
 Max delay: 12.0
@@ -10420,11 +10420,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
-Stat from: Fort Lauderdale to Richmond: 
-Max delay: 52.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
+Stat from: Greensboro/High Point to Chicago: 
+Max delay: 13.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
 
 Stat from: Houston to Phoenix: 
 Max delay: 36.0
@@ -10450,17 +10450,17 @@ delayed: 58.33%
 cancelled: 58.33%
 total: 12
 
+Stat from: Kona to Oakland: 
+Max delay: 120.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
 Stat from: Chicago to Knoxville: 
 Max delay: 117.0
 delayed: 52.94%
 cancelled: 52.94%
 total: 17
-
-Stat from: Detroit to St. Louis: 
-Max delay: 27.0
-delayed: 30.00%
-cancelled: 30.00%
-total: 10
 
 Stat from: Dallas/Fort Worth to Washington: 
 Max delay: 31.0
@@ -10468,17 +10468,11 @@ delayed: 55.56%
 cancelled: 55.56%
 total: 9
 
-Stat from: Kona to Oakland: 
-Max delay: 120.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 3
-
-Stat from: Greensboro/High Point to Chicago: 
-Max delay: 13.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
+Stat from: Detroit to St. Louis: 
+Max delay: 27.0
+delayed: 30.00%
+cancelled: 30.00%
+total: 10
 
 Stat from: Chicago to Minneapolis: 
 Max delay: 153.0
@@ -10522,17 +10516,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
-Stat from: Brainerd to International Falls: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
 Stat from: Wrangell to Ketchikan: 
 Max delay: 15.0
 delayed: 25.00%
 cancelled: 25.00%
 total: 4
+
+Stat from: Brainerd to International Falls: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Washington to Detroit: 
 Max delay: 43.0
@@ -10576,23 +10570,17 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 1
 
-Stat from: Minneapolis to Rhinelander: 
-Max delay: 49.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
-
 Stat from: Tampa to New York: 
 Max delay: 166.0
 delayed: 46.43%
 cancelled: 46.43%
 total: 28
 
-Stat from: Las Vegas to Sacramento: 
-Max delay: 48.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 24
+Stat from: Cleveland to Washington: 
+Max delay: 89.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
 Stat from: Washington to Jacksonville: 
 Max delay: 6.0
@@ -10600,11 +10588,17 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 1
 
-Stat from: Cleveland to Washington: 
-Max delay: 89.0
-delayed: 57.14%
-cancelled: 57.14%
-total: 7
+Stat from: Minneapolis to Rhinelander: 
+Max delay: 49.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
+
+Stat from: Las Vegas to Sacramento: 
+Max delay: 48.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 24
 
 Stat from: Pittsburgh to Chicago: 
 Max delay: 34.0
@@ -10630,10 +10624,10 @@ delayed: 37.50%
 cancelled: 37.50%
 total: 8
 
-Stat from: Oakland to Dallas/Fort Worth: 
-Max delay: 18.0
-delayed: 66.67%
-cancelled: 66.67%
+Stat from: Boston to Charleston: 
+Max delay: 38.0
+delayed: 33.33%
+cancelled: 33.33%
 total: 3
 
 Stat from: Tampa to Miami: 
@@ -10642,17 +10636,17 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 20
 
-Stat from: Orlando to Grand Rapids: 
-Max delay: 141.0
-delayed: 57.14%
-cancelled: 57.14%
+Stat from: New Orleans to New York: 
+Max delay: 80.0
+delayed: 14.29%
+cancelled: 14.29%
 total: 7
 
-Stat from: Boston to Charleston: 
-Max delay: 38.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+Stat from: Houston to Alexandria: 
+Max delay: 3.0
+delayed: 16.67%
+cancelled: 16.67%
+total: 6
 
 Stat from: Santa Ana to Houston: 
 Max delay: 18.0
@@ -10660,11 +10654,17 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Houston to Alexandria: 
-Max delay: 3.0
-delayed: 16.67%
-cancelled: 16.67%
-total: 6
+Stat from: Oakland to Dallas/Fort Worth: 
+Max delay: 18.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 3
+
+Stat from: New York to Kansas City: 
+Max delay: 44.0
+delayed: 14.29%
+cancelled: 14.29%
+total: 7
 
 Stat from: Birmingham to Houston: 
 Max delay: 151.0
@@ -10684,17 +10684,17 @@ delayed: 27.78%
 cancelled: 27.78%
 total: 18
 
-Stat from: New York to Kansas City: 
-Max delay: 44.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 7
-
-Stat from: San Antonio to Newark: 
+Stat from: San Jose to Lihue: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
-total: 1
+total: 2
+
+Stat from: Atlanta to Buffalo: 
+Max delay: 17.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 18
 
 Stat from: Charlotte Amalie to Washington: 
 Max delay: 199.0
@@ -10702,11 +10702,11 @@ delayed: 60.00%
 cancelled: 60.00%
 total: 5
 
-Stat from: Boise to Phoenix: 
-Max delay: 19.0
-delayed: 27.27%
-cancelled: 27.27%
-total: 11
+Stat from: San Antonio to Dallas/Fort Worth: 
+Max delay: 157.0
+delayed: 22.22%
+cancelled: 22.22%
+total: 45
 
 Stat from: Nashville to Fort Lauderdale: 
 Max delay: 0.0
@@ -10726,11 +10726,11 @@ delayed: 38.10%
 cancelled: 38.10%
 total: 21
 
-Stat from: Atlanta to Buffalo: 
-Max delay: 17.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 18
+Stat from: San Antonio to Newark: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
 
 Stat from: Orlando to Washington: 
 Max delay: 172.0
@@ -10750,6 +10750,12 @@ delayed: 31.37%
 cancelled: 31.37%
 total: 51
 
+Stat from: Dallas/Fort Worth to Colorado Springs: 
+Max delay: 38.0
+delayed: 66.67%
+cancelled: 66.67%
+total: 6
+
 Stat from: Hartford to Atlanta: 
 Max delay: 111.0
 delayed: 34.62%
@@ -10762,11 +10768,11 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Dallas/Fort Worth to Colorado Springs: 
-Max delay: 38.0
-delayed: 66.67%
-cancelled: 66.67%
-total: 6
+Stat from: Houston to Charleston/Dunbar: 
+Max delay: 17.0
+delayed: 100.00%
+cancelled: 100.00%
+total: 2
 
 Stat from: Fort Lauderdale to Dallas/Fort Worth: 
 Max delay: 15.0
@@ -10780,11 +10786,11 @@ delayed: 51.61%
 cancelled: 51.61%
 total: 31
 
-Stat from: Washington to New York: 
-Max delay: 170.0
-delayed: 52.63%
-cancelled: 52.63%
-total: 19
+Stat from: Boston to New York: 
+Max delay: 111.0
+delayed: 41.46%
+cancelled: 41.46%
+total: 41
 
 Stat from: Fort Myers to New York: 
 Max delay: 68.0
@@ -10792,10 +10798,16 @@ delayed: 40.00%
 cancelled: 40.00%
 total: 5
 
-Stat from: Midland/Odessa to Houston: 
-Max delay: 119.0
-delayed: 9.09%
-cancelled: 9.09%
+Stat from: Washington to New York: 
+Max delay: 170.0
+delayed: 52.63%
+cancelled: 52.63%
+total: 19
+
+Stat from: Boise to Phoenix: 
+Max delay: 19.0
+delayed: 27.27%
+cancelled: 27.27%
 total: 11
 
 Stat from: Albuquerque to Chicago: 
@@ -10816,41 +10828,29 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 4
 
-Stat from: San Jose to Lihue: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 2
-
 Stat from: Norfolk to Houston: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 2
 
-Stat from: Houston to Charleston/Dunbar: 
-Max delay: 17.0
-delayed: 100.00%
-cancelled: 100.00%
-total: 2
+Stat from: Orlando to Grand Rapids: 
+Max delay: 141.0
+delayed: 57.14%
+cancelled: 57.14%
+total: 7
 
-Stat from: San Antonio to Dallas/Fort Worth: 
-Max delay: 157.0
-delayed: 22.22%
-cancelled: 22.22%
-total: 45
+Stat from: Midland/Odessa to Houston: 
+Max delay: 119.0
+delayed: 9.09%
+cancelled: 9.09%
+total: 11
 
-Stat from: Boston to New York: 
-Max delay: 111.0
-delayed: 41.46%
-cancelled: 41.46%
-total: 41
-
-Stat from: Houston to Midland/Odessa: 
-Max delay: 12.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 14
+Stat from: Detroit to Salt Lake City: 
+Max delay: 54.0
+delayed: 31.58%
+cancelled: 31.58%
+total: 19
 
 Stat from: Detroit to Tampa: 
 Max delay: 76.0
@@ -10864,11 +10864,11 @@ delayed: 45.00%
 cancelled: 45.00%
 total: 20
 
-Stat from: Detroit to Salt Lake City: 
-Max delay: 54.0
-delayed: 31.58%
-cancelled: 31.58%
-total: 19
+Stat from: Houston to Midland/Odessa: 
+Max delay: 12.0
+delayed: 14.29%
+cancelled: 14.29%
+total: 14
 
 Stat from: Omaha to Salt Lake City: 
 Max delay: 16.0
@@ -10881,12 +10881,6 @@ Max delay: 26.0
 delayed: 23.08%
 cancelled: 23.08%
 total: 13
-
-Stat from: New Orleans to New York: 
-Max delay: 80.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 7
 
 Stat from: Chicago to Colorado Springs: 
 Max delay: 123.0
@@ -10942,17 +10936,17 @@ delayed: 47.06%
 cancelled: 47.06%
 total: 17
 
-Stat from: Chicago to Birmingham: 
-Max delay: 26.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
-
 Stat from: Chicago to Houston: 
 Max delay: 284.0
 delayed: 60.00%
 cancelled: 60.00%
 total: 30
+
+Stat from: Chicago to Birmingham: 
+Max delay: 26.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Atlanta to Green Bay: 
 Max delay: 73.0
@@ -11038,11 +11032,11 @@ delayed: 76.47%
 cancelled: 76.47%
 total: 17
 
-Stat from: Little Rock to Las Vegas: 
-Max delay: 66.0
+Stat from: Boston to Cleveland: 
+Max delay: 19.0
 delayed: 50.00%
 cancelled: 50.00%
-total: 2
+total: 6
 
 Stat from: Orlando to Buffalo: 
 Max delay: 10.0
@@ -11056,11 +11050,11 @@ delayed: 25.00%
 cancelled: 25.00%
 total: 8
 
-Stat from: Boston to Cleveland: 
-Max delay: 19.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 6
+Stat from: Palm Springs to Minneapolis: 
+Max delay: 11.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 3
 
 Stat from: Fort Myers to Philadelphia: 
 Max delay: 68.0
@@ -11068,11 +11062,11 @@ delayed: 22.22%
 cancelled: 22.22%
 total: 9
 
-Stat from: Palm Springs to Minneapolis: 
-Max delay: 11.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 3
+Stat from: Little Rock to Las Vegas: 
+Max delay: 66.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 2
 
 Stat from: Newark to Buffalo: 
 Max delay: 83.0
@@ -11110,17 +11104,17 @@ delayed: 38.10%
 cancelled: 38.10%
 total: 21
 
-Stat from: Charlotte to Fort Lauderdale: 
-Max delay: 15.0
-delayed: 34.48%
-cancelled: 34.48%
-total: 29
-
 Stat from: Raleigh/Durham to Washington: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
+
+Stat from: Charlotte to Fort Lauderdale: 
+Max delay: 15.0
+delayed: 34.48%
+cancelled: 34.48%
+total: 29
 
 Stat from: Houston to Lake Charles: 
 Max delay: 22.0
@@ -11152,11 +11146,11 @@ delayed: 62.50%
 cancelled: 62.50%
 total: 16
 
-Stat from: Los Angeles to San Luis Obispo: 
-Max delay: 123.0
-delayed: 26.32%
-cancelled: 26.32%
-total: 19
+Stat from: Boston to Buffalo: 
+Max delay: 5.0
+delayed: 14.29%
+cancelled: 14.29%
+total: 7
 
 Stat from: New York to Washington: 
 Max delay: 43.0
@@ -11176,11 +11170,11 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 44
 
-Stat from: Boston to Buffalo: 
-Max delay: 5.0
-delayed: 14.29%
-cancelled: 14.29%
-total: 7
+Stat from: Los Angeles to San Luis Obispo: 
+Max delay: 123.0
+delayed: 26.32%
+cancelled: 26.32%
+total: 19
 
 Stat from: Phoenix to Columbus: 
 Max delay: 168.0
@@ -11206,6 +11200,12 @@ delayed: 100.00%
 cancelled: 100.00%
 total: 2
 
+Stat from: Dallas/Fort Worth to Mobile: 
+Max delay: 90.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 10
+
 Stat from: Des Moines to Minneapolis: 
 Max delay: 98.0
 delayed: 20.00%
@@ -11216,12 +11216,6 @@ Stat from: West Palm Beach/Palm Beach to Baltimore:
 Max delay: 123.0
 delayed: 50.00%
 cancelled: 50.00%
-total: 10
-
-Stat from: Dallas/Fort Worth to Mobile: 
-Max delay: 90.0
-delayed: 40.00%
-cancelled: 40.00%
 total: 10
 
 Stat from: Chicago to Little Rock: 
@@ -11320,23 +11314,29 @@ delayed: 38.89%
 cancelled: 38.89%
 total: 18
 
-Stat from: Phoenix to Washington: 
-Max delay: 69.0
-delayed: 30.00%
-cancelled: 30.00%
-total: 10
-
 Stat from: Atlanta to Rochester: 
 Max delay: 8.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
 
+Stat from: Atlanta to Fayetteville: 
+Max delay: 43.0
+delayed: 28.57%
+cancelled: 28.57%
+total: 14
+
 Stat from: New York to Burbank: 
 Max delay: 22.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 3
+
+Stat from: Phoenix to Washington: 
+Max delay: 69.0
+delayed: 30.00%
+cancelled: 30.00%
+total: 10
 
 Stat from: Raleigh/Durham to Orlando: 
 Max delay: 20.0
@@ -11349,12 +11349,6 @@ Max delay: 54.0
 delayed: 36.36%
 cancelled: 36.36%
 total: 11
-
-Stat from: Atlanta to Fayetteville: 
-Max delay: 43.0
-delayed: 28.57%
-cancelled: 28.57%
-total: 14
 
 Stat from: Charlotte to Newark: 
 Max delay: 82.0
@@ -11464,6 +11458,12 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
+Stat from: Norfolk to Newark: 
+Max delay: 220.0
+delayed: 25.00%
+cancelled: 25.00%
+total: 4
+
 Stat from: El Paso to Las Vegas: 
 Max delay: 155.0
 delayed: 60.00%
@@ -11476,35 +11476,35 @@ delayed: 20.00%
 cancelled: 20.00%
 total: 5
 
-Stat from: Norfolk to Newark: 
-Max delay: 220.0
-delayed: 25.00%
-cancelled: 25.00%
-total: 4
-
 Stat from: San Francisco to Miami: 
 Max delay: 170.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 10
 
-Stat from: Columbus to Charlotte: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
-Stat from: Dallas to Washington: 
-Max delay: 111.0
-delayed: 27.27%
-cancelled: 27.27%
-total: 22
+Stat from: Atlanta to Norfolk: 
+Max delay: 23.0
+delayed: 17.65%
+cancelled: 17.65%
+total: 17
 
 Stat from: Minneapolis to Tucson: 
 Max delay: 0.0
 delayed: 0.00%
 cancelled: 0.00%
 total: 1
+
+Stat from: Atlanta to Montrose/Delta: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 1
+
+Stat from: Columbus to Charlotte: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Los Angeles to Bend/Redmond: 
 Max delay: 2.0
@@ -11530,17 +11530,11 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 27
 
-Stat from: Atlanta to Montrose/Delta: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 1
-
-Stat from: Atlanta to Norfolk: 
-Max delay: 23.0
-delayed: 17.65%
-cancelled: 17.65%
-total: 17
+Stat from: Dallas to Washington: 
+Max delay: 111.0
+delayed: 27.27%
+cancelled: 27.27%
+total: 22
 
 Stat from: Fort Lauderdale to Tampa: 
 Max delay: 29.0
@@ -11572,29 +11566,29 @@ delayed: 28.57%
 cancelled: 28.57%
 total: 21
 
-Stat from: Baltimore to Charleston: 
-Max delay: 30.0
-delayed: 27.27%
-cancelled: 27.27%
-total: 11
-
 Stat from: Detroit to New York: 
 Max delay: 119.0
 delayed: 48.78%
 cancelled: 48.78%
 total: 41
 
-Stat from: Los Angeles to Oklahoma City: 
-Max delay: 63.0
-delayed: 75.00%
-cancelled: 75.00%
-total: 4
+Stat from: Baltimore to Charleston: 
+Max delay: 30.0
+delayed: 27.27%
+cancelled: 27.27%
+total: 11
 
 Stat from: Houston to Detroit: 
 Max delay: 164.0
 delayed: 47.62%
 cancelled: 47.62%
 total: 21
+
+Stat from: Los Angeles to Oklahoma City: 
+Max delay: 63.0
+delayed: 75.00%
+cancelled: 75.00%
+total: 4
 
 Stat from: Cleveland to Minneapolis: 
 Max delay: 20.0
@@ -11674,17 +11668,17 @@ delayed: 33.33%
 cancelled: 33.33%
 total: 6
 
-Stat from: Las Vegas to Houston: 
-Max delay: 110.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 10
-
 Stat from: Tulsa to Dallas/Fort Worth: 
 Max delay: 27.0
 delayed: 33.33%
 cancelled: 33.33%
 total: 24
+
+Stat from: Las Vegas to Houston: 
+Max delay: 110.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 10
 
 Stat from: Louisville to Las Vegas: 
 Max delay: 0.0
@@ -11698,17 +11692,17 @@ delayed: 62.50%
 cancelled: 62.50%
 total: 8
 
-Stat from: Boise to Chicago: 
-Max delay: 7.0
-delayed: 50.00%
-cancelled: 50.00%
-total: 4
-
 Stat from: Washington to Greensboro/High Point: 
 Max delay: 29.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 6
+
+Stat from: Boise to Chicago: 
+Max delay: 7.0
+delayed: 50.00%
+cancelled: 50.00%
+total: 4
 
 Stat from: Toledo to Chicago: 
 Max delay: 138.0
@@ -11722,11 +11716,11 @@ delayed: 30.43%
 cancelled: 30.43%
 total: 23
 
-Stat from: Burbank to Sacramento: 
-Max delay: 86.0
-delayed: 31.58%
-cancelled: 31.58%
-total: 19
+Stat from: San Juan to Chicago: 
+Max delay: 55.0
+delayed: 44.44%
+cancelled: 44.44%
+total: 9
 
 Stat from: San Antonio to Tampa: 
 Max delay: 2.0
@@ -11734,17 +11728,23 @@ delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
+Stat from: Grand Rapids to Dallas/Fort Worth: 
+Max delay: 52.0
+delayed: 58.33%
+cancelled: 58.33%
+total: 12
+
+Stat from: Burbank to Sacramento: 
+Max delay: 86.0
+delayed: 31.58%
+cancelled: 31.58%
+total: 19
+
 Stat from: Houston to Oklahoma City: 
 Max delay: 37.0
 delayed: 30.00%
 cancelled: 30.00%
 total: 10
-
-Stat from: San Juan to Chicago: 
-Max delay: 55.0
-delayed: 44.44%
-cancelled: 44.44%
-total: 9
 
 Stat from: Los Angeles to Charlotte: 
 Max delay: 29.0
@@ -11752,11 +11752,11 @@ delayed: 81.25%
 cancelled: 81.25%
 total: 16
 
-Stat from: Bemidji to Minneapolis: 
-Max delay: 9.0
-delayed: 33.33%
-cancelled: 33.33%
-total: 6
+Stat from: Detroit to Tulsa: 
+Max delay: 0.0
+delayed: 0.00%
+cancelled: 0.00%
+total: 3
 
 Stat from: Cincinnati to Miami: 
 Max delay: 10.0
@@ -11782,29 +11782,17 @@ delayed: 45.45%
 cancelled: 45.45%
 total: 11
 
-Stat from: Detroit to Tulsa: 
-Max delay: 0.0
-delayed: 0.00%
-cancelled: 0.00%
-total: 3
-
 Stat from: Chicago to Pittsburgh: 
 Max delay: 38.0
 delayed: 23.08%
 cancelled: 23.08%
 total: 13
 
-Stat from: Grand Rapids to Dallas/Fort Worth: 
-Max delay: 52.0
-delayed: 58.33%
-cancelled: 58.33%
-total: 12
-
-Stat from: New York to Charlotte: 
-Max delay: 184.0
-delayed: 38.46%
-cancelled: 38.46%
-total: 26
+Stat from: Bemidji to Minneapolis: 
+Max delay: 9.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
 
 Stat from: Newark to Syracuse: 
 Max delay: 0.0
@@ -11812,17 +11800,23 @@ delayed: 0.00%
 cancelled: 0.00%
 total: 3
 
+Stat from: Newark to Manchester: 
+Max delay: 47.0
+delayed: 33.33%
+cancelled: 33.33%
+total: 6
+
 Stat from: Oklahoma City to Detroit: 
 Max delay: 187.0
 delayed: 50.00%
 cancelled: 50.00%
 total: 2
 
-Stat from: Phoenix to Baltimore: 
-Max delay: 32.0
-delayed: 63.64%
-cancelled: 63.64%
-total: 11
+Stat from: New York to Charlotte: 
+Max delay: 184.0
+delayed: 38.46%
+cancelled: 38.46%
+total: 26
 
 Stat from: Phoenix to Ontario: 
 Max delay: 97.0
@@ -11836,17 +11830,23 @@ delayed: 7.69%
 cancelled: 7.69%
 total: 13
 
-Stat from: Charlotte to San Antonio: 
-Max delay: 23.0
-delayed: 40.00%
-cancelled: 40.00%
-total: 5
-
 Stat from: Minneapolis to Detroit: 
 Max delay: 7.0
 delayed: 5.88%
 cancelled: 5.88%
 total: 17
+
+Stat from: Phoenix to Baltimore: 
+Max delay: 32.0
+delayed: 63.64%
+cancelled: 63.64%
+total: 11
+
+Stat from: Charlotte to San Antonio: 
+Max delay: 23.0
+delayed: 40.00%
+cancelled: 40.00%
+total: 5
 
 Stat from: Flint to Tampa: 
 Max delay: 0.0

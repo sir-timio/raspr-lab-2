@@ -1,5 +1,8 @@
-package TesterApp;
+package TesterApp.Actor;
 
+import TesterApp.Message.MessageRequestJson;
+import TesterApp.Message.MessageResponseJson;
+import TesterApp.Test.TestResultStore;
 import akka.actor.AbstractActor;
 
 import java.util.*;

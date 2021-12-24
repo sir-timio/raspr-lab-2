@@ -1,5 +1,8 @@
-package TesterApp;
+package TesterApp.Actor;
 
+import TesterApp.Message.MessageRequestJson;
+import TesterApp.Message.MessageTestsPackage;
+import TesterApp.Test.TestJson;
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.Props;
@@ -43,7 +46,7 @@ public class ActorRouter extends AbstractActor {
                             String functionName = m.getFunctionName();
 
                             for (TestJson test: m.getTests()) {
-                                router.route(new MessageTest(packageId, jsScript,
+                                router.route(new Message.MessageTest(packageId, jsScript,
                                                             functionName, test), keeper);
                             }
                         }
@@ -55,37 +58,4 @@ public class ActorRouter extends AbstractActor {
                 .build();
     }
 
-    static class MessageTest {
-        private final String packageId;
-        private final String jsScript;
-        private final String functionName;
-        private final TestJson test;
-
-        @JsonCreator
-        public MessageTest(@JsonProperty("packageId") String packageID,
-                           @JsonProperty("jsScript") String jsScript,
-                           @JsonProperty("functionName") String functionName,
-                           @JsonProperty("test") TestJson test) {
-            this.packageId = packageID;
-            this.functionName = functionName;
-            this.jsScript = jsScript;
-            this.test = test;
-        }
-
-        protected String getPackageId() {
-            return packageId;
-        }
-
-        protected String getJsScript() {
-            return jsScript;
-        }
-
-        protected String getFunctionName() {
-            return functionName;
-        }
-
-        protected TestJson getTest() {
-            return test;
-        }
-    }
 }
