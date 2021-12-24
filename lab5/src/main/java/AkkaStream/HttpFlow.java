@@ -58,9 +58,9 @@ public class HttpFlow {
                         return CompletableFuture.completedFuture(
                                 new Pair<>(
                                         request.first(),
-                                        ((Optional<Long>) responseTime).get();
+                                        ((Optional<Long>) responseTime).get()
                                 )
-                        )
+                        );
                     } else {
                         Sink<Integer, CompletionStage<Long>> fold = Sink.fold(0L, (Function2<Long, Integer, Long>) Long::sum);
                         Sink<Pair<String, Integer>, CompletionStage<Long>> sink = Flow
