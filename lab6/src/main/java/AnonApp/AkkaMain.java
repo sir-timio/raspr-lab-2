@@ -64,7 +64,7 @@ public class AkkaMain {
                     CreateMode.EPHEMERAL_SEQUENTIAL);
         } catch (Exception e) {
             e.printStackTrace();
-            System.out(-1);
+            System.exit(-1);
         }
 
         final Http http = Http.get(system);
