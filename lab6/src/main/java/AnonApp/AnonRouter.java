@@ -15,6 +15,7 @@ public class AnonRouter {
 
     private static final String QUERY_URL = "testUrl";
     private static final String QUERY_COUNT = "count";
+    private static final String PATH = "";
 
     public AnonRouter(ActorRef actorConfigKeeper, Http client) {
         this.actorConfigKeeper = actorConfigKeeper;
@@ -23,11 +24,7 @@ public class AnonRouter {
 
     public Route createRoute() {
         return route(
-                get(() ->
-                        parameter(URL_PARAM)
-                        )
-
-        )
+                path("", ())
     }
 
 }
