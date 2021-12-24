@@ -1,4 +1,5 @@
 package AnonApp;
+import AnonApp.Message.MessageServers;
 import akka.actor.ActorRef;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.Watcher;
@@ -6,6 +7,7 @@ import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 public class ZooWatcher implements Watcher {
     public static final String ZOO_HOST = "127.0.0.1";
@@ -20,7 +22,11 @@ public class ZooWatcher implements Watcher {
         this.actorConfigKeeper = actorConfigKeeper;
         this.zooKeeper = zooKeeper;
 
-        
+        ArrayList<String> servers = new ArrayList<>();
+        for (String s : zooKeeper.getChildren(SERVERS_PATH, this)) {
+            servers.add(new String(zooKeeper.getData(SERVERS_PATH + "/" + s, false, null)));
+        }
+        actorConfigKeeper.tell(new MessageServers(servers), ActorRef.noSender());
     }
 
 }
