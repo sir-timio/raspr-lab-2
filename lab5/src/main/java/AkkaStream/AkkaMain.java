@@ -1,2 +1,4 @@
-package AkkaStream;public class AkkaMain {
+package AkkaStream;
+
+public class AkkaMain {
 }
