@@ -1,2 +1,6 @@
-package AkkaStream.Message;public class MessageGetRandom {
+package AkkaStream.Message;
+
+public class MessageGetRandom {
+
+    public MessageGetRandom() {}
 }
