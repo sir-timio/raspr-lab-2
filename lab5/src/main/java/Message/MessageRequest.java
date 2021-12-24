@@ -1,2 +1,4 @@
-package Message;public class MessageRequest {
+package Message;
+
+public class MessageRequest {
 }
