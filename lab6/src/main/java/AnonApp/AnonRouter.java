@@ -68,6 +68,6 @@ public class AnonRouter {
             return client.singleRequest(HttpRequest.create(uri.toString()));
         });
     }
-    
+
 }
 
