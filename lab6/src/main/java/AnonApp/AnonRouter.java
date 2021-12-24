@@ -54,6 +54,7 @@ public class AnonRouter {
                 new MessageGetRandom(),
                 TIMEOUT
         )
+        .thenCompose()
     }
 }
 
