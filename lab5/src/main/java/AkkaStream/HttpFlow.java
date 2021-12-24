@@ -36,6 +36,7 @@ public class HttpFlow {
                                 actorRef,
                                 new MessageRequest(request.first()),
                                 Duration.ofSeconds(TIMEOUT_SECONDS)
-                        ))
+                        )
+                .thenCompose()
     }
 }
