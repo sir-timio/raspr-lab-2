@@ -5,10 +5,11 @@ import akka.actor.AbstractActor;
 import akka.japi.pf.ReceiveBuilder;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class ActorConfigKeeper extends AbstractActor{
     private ArrayList<String> servers;
-    
+    private Random rand = new Random();
 
     @Override
     public Receive createReceive() {
