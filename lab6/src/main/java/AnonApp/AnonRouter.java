@@ -21,6 +21,7 @@ import static akka.http.javadsl.server.Directives.*;
 public class AnonRouter implements Watcher {
     private final ActorRef actorConfigKeeper;
     private final Http client;
+    private final String path;
 
     private static final Duration TIMEOUT = Duration.ofSeconds(5);
     private static final int ZERO_COUNT = 0;
@@ -29,7 +30,7 @@ public class AnonRouter implements Watcher {
     private static final String QUERY_COUNT = "count";
     private static final String PATH = "";
 
-    public AnonRouter(ActorRef actorConfigKeeper, Http client) {
+    public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
     }
