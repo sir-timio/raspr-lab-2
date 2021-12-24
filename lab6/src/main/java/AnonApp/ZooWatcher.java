@@ -1,7 +1,11 @@
 package AnonApp;
 import akka.actor.ActorRef;
+import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.Watcher;
+import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
+
+import java.nio.charset.StandardCharsets;
 
 public class ZooWatcher implements Watcher {
     public static final String ZOO_HOST = "127.0.0.1";
@@ -18,11 +22,15 @@ public class ZooWatcher implements Watcher {
                 SESSION_TIMEOUT,
                 this
         );
+        this.actorConfigKeeper = actorConfigKeeper
 
         String akkaUrl = "http://" + host + ":" + port;
         zooKeeper.create(
                 SERVERS_PATH,
-        )
+                akkaUrl.getBytes(StandardCharsets.UTF_8),
+                ZooDefs.Ids.OPEN_ACL_UNSAFE,
+                CreateMode.EPHEMERAL_SEQUENTIAL
+        );
     }
 
 }
