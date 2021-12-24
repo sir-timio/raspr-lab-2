@@ -34,6 +34,8 @@ public class ZooWatcher implements Watcher {
         try {
             zooKeeper.getChildren(SERVERS_PATH, this);
             sendServers();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
