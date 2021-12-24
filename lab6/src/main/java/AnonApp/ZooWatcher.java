@@ -21,7 +21,7 @@ public class ZooWatcher implements Watcher {
 
         String akkaUrl = "http://" + host + ":" + port;
         zooKeeper.create(
-                "/servers"
+                SERVERS_PATH,
         )
     }
 
