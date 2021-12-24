@@ -1,6 +1,7 @@
 package AnonApp;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.concurrent.CompletionStage;
 
 import AnonApp.Actor.ActorConfigKeeper;
@@ -41,16 +42,16 @@ public class AkkaMain {
             System.exit(-1);
         }
 
+        ArrayList<CompletionStage<ServerBinding>> bindings = new ArrayList<>();
+        System.out.println("Servers online at\n");
+        f
+
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
                 ConnectHttp.toHost("localhost", 8080),
                 materializer
         );
-        System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
-        System.in.read();
-        binding
-                .thenCompose(ServerBinding::unbind)
-                .thenAccept(unbound -> system.terminate());
+
     }
 
 
