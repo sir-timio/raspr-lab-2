@@ -1,5 +1,6 @@
 package AkkaStream;
 
+import AkkaStream.Message.MessageCache;
 import AkkaStream.Message.MessageRequest;
 import akka.NotUsed;
 import akka.actor.Actor;
@@ -83,6 +84,12 @@ public class HttpFlow {
                                 .run(materializer)
                                 .thenApply(sum -> new Pair<>(request.first(), sum / request.second()));
                     }
+                }))
+                .map(res -> {
+                    actorRef.tell(
+                            new MessageCache(res.first(), res.second()),
+                            actorRef.noSender()
+                    );
                 })
     }
 }
