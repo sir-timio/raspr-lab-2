@@ -9,7 +9,7 @@ import static akka.http.javadsl.server.Directives.route;
 public class AnonRouter {
     private final ActorRef actorConfigKeeper;
     private final Http client;
-    
+
     private static final int TIMEOUT_SECONDS = 5;
     private static final String ZERO_COUNT = "0";
 
@@ -21,6 +21,7 @@ public class AnonRouter {
     public Route createRoute() {
         return route(
                 get(() ->
+                        parameter(URL_PARAM)
                         )
 
         )
