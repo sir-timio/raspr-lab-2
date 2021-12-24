@@ -7,7 +7,7 @@
     <configuration>
         <archive>
             <manifest>
-                <mainClass>AnonApp</mainClass>
+                <mainClass>AkkaMain</mainClass>
             </manifest>
         </archive>
     </configuration>
