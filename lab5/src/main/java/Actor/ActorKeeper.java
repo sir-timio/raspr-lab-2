@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Optional;
 
 public class ActorKeeper extends AbstractActor {
-    private Map<String, Long> results = new HashMap<>();
+    private final Map<String, Long> results = new HashMap<>();
 
     @Override
     public Receive createReceive() {
