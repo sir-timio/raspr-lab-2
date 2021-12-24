@@ -22,9 +22,8 @@ public class ActorKeeper extends AbstractActor {
                 )
                 .match(
                         MessageCache.class,
-                        message -> sender().tell(
-                                
-                        )
+                        message -> results.put(message.getUrl(), message.getResponseTime())
                 )
+                .build();
     }
 }
