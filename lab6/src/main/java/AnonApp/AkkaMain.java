@@ -66,6 +66,7 @@ public class AkkaMain {
                 .createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
                 ConnectHttp.toHost(HOST, port), materializer);
+        http.bindAndHandle()
 
     }
 }
