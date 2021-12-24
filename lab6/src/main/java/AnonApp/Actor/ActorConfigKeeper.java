@@ -1,7 +1,7 @@
-package AkkaStream.Actor;
+package AnonApp.Actor;
 
-import AkkaStream.Message.MessageGetRandom;
-import AkkaStream.Message.MessageServers;
+import AnonApp.Message.MessageGetRandom;
+import AnonApp.Message.MessageServers;
 import akka.actor.AbstractActor;
 import akka.actor.Actor;
 import akka.japi.pf.ReceiveBuilder;

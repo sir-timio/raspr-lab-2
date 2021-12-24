@@ -1,4 +1,4 @@
-package AkkaStream.Message;
+package AnonApp.Message;
 
 import java.util.ArrayList;
 

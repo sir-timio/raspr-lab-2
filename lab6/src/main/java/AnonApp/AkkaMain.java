@@ -1,8 +1,9 @@
-package AkkaStream;
+package AnonApp;
 
 import java.io.IOException;
 import java.util.concurrent.CompletionStage;
 
+import AnonApp.Actor.ActorConfigKeeper;
 import akka.actor.ActorSystem;
 import akka.actor.ActorRef;
 import akka.actor.Props;
@@ -17,7 +18,7 @@ public class AkkaMain {
     public static void main(String[] args) throws IOException {
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
-        ActorRef actor = system.actorOf(Props.create(ActorKeeper.class));
+        ActorRef actor = system.actorOf(Props.create(ActorConfigKeeper.class));
 
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
