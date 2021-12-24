@@ -11,6 +11,7 @@ import akka.http.javadsl.ConnectHttp;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.ServerBinding;
 import akka.stream.ActorMaterializer;
+import org.apache.zookeeper.ZooKeeper;
 
 
 public class AkkaMain {
@@ -22,11 +23,21 @@ public class AkkaMain {
     public static void main(String[] args) throws IOException {
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
-        ActorRef actor = system.actorOf(Props.create(ActorConfigKeeper.class));
+        ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
 
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
-//        final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = new AnonRouter()
+        ZooKeeper zooKeeper = null;
+
+        try {
+            zooKeeper = new ZooKeeper(
+                    HOST + ":" + PORT,
+                    SESSION_TIMEOUT,
+                    null
+            );
+            new ZooWatcher(actorConfigKeeper, zooKeeper);
+        }
+
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
                 ConnectHttp.toHost("localhost", 8080),
