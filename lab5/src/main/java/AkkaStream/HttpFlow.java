@@ -10,8 +10,9 @@ import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 
 public class HttpFlow {
-    public static final TIMEOUT = 5;
-    public static final NUM_OF_WORKERS = 3;
+    public static final int TIMEOUT_SECONDS = 5;
+    public static final int NUM_OF_WORKERS = 3;
+    private static final String QUERY_URL = ""
 
     public static Flow<HttpRequest, HttpResponse, NotUsed> httpFlow(
             ActorMaterializer materializer, ActorRef actorRef
@@ -19,7 +20,7 @@ public class HttpFlow {
         return Flow.of(HttpRequest.class)
                 .map(request -> {
                     Query query request.getUri().query();
-                    return new P
+                    String url = query.get("")
                 })
     }
 }
