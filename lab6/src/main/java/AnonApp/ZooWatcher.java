@@ -35,7 +35,6 @@ public class ZooWatcher implements Watcher {
 
     @Override
     public void process(WatchedEvent watchedEvent) {
-        List<String> servers;
         try {
             zooKeeper.getChildren(SERVERS_PATH, this);
             sendServers();
