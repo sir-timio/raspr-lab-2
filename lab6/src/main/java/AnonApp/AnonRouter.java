@@ -10,13 +10,14 @@ import akka.http.javadsl.model.Uri;
 import akka.http.javadsl.server.Route;
 import akka.japi.Pair;
 import akka.pattern.Patterns;
+import org.apache.zookeeper.Watcher;
 
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
 import static akka.http.javadsl.server.Directives.*;
 
-public class AnonRouter {
+public class AnonRouter implements Watcher {
     private final ActorRef actorConfigKeeper;
     private final Http client;
 
