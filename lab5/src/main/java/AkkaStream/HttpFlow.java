@@ -1,13 +1,18 @@
 package AkkaStream;
 
+import AkkaStream.Message.MessageRequest;
 import akka.NotUsed;
 import akka.actor.Actor;
 import akka.actor.ActorRef;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.model.Query;
+import akka.japi.Pair;
+import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
+
+import java.util.regex.Pattern;
 
 public class HttpFlow {
     public static final int TIMEOUT_SECONDS = 5;
@@ -25,5 +30,11 @@ public class HttpFlow {
                     int count = Integer.parseInt(query.get(QUERY_COUNT).get());
                     return new Pair<>(url, count);
                 })
+                .mapAsync(NUM_OF_WORKERS, request ->
+                        Patterns.ask(
+                                actorRef,
+                                new MessageRequest(request.first()),
+                                
+                        ))
     }
 }
