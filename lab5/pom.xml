@@ -8,6 +8,7 @@
     <groupId>akka-labs</groupId>
     <artifactId>AkkaStream</artifactId>
     <packaging>jar</packaging>
+    <version>0</version>
     <properties>
         <akka.version>2.5.26</akka.version>
         <maven.compiler.source>1.8</maven.compiler.source>
