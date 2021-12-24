@@ -21,7 +21,7 @@ public class HttpFlow {
         return Flow.of(HttpRequest.class)
                 .map(request -> {
                     Query query request.getUri().query();
-                    String url = query.get()
+                    String url = query.get(QUERY_URL).get()
                 })
     }
 }
