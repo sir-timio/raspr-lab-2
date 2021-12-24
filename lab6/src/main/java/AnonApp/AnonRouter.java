@@ -33,7 +33,7 @@ public class AnonRouter {
                                             int count = Integer.parseInt(countRaw);
                                             if (count == ZERO_COUNT) {
                                                 return completeWithFuture(
-                                                        http.singleRequest(HttpRequest.create(url))
+                                                        client.singleRequest(HttpRequest.create(url))
                                                 )
                                             }
                                         })))
