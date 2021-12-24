@@ -21,6 +21,7 @@ public class AkkaMain {
 
     public static void main(String[] args) throws IOException {
         System.out.println("start!");
+
         ActorSystem system = ActorSystem.create("routes");
         ActorRef actor = system.actorOf(Props.create(ActorKeeper.class));
 
