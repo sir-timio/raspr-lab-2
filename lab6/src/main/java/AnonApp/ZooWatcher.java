@@ -13,7 +13,7 @@ public class ZooWatcher implements Watcher {
     public ZooWatcher(ActorRef actorConfigKeeper, String host, Integer port) throws Exception {
         this.zooKeeper = new ZooKeeper(
                 ZOO_HOST + ": " + ZOO_PORT,
-                10,
+                SESSION_TIMEOUT,
                 this
         )
     }
