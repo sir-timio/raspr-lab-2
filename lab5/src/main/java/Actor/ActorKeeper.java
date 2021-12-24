@@ -1,5 +1,6 @@
 package Actor;
 
+import Message.MessageCache;
 import Message.MessageRequest;
 import akka.actor.AbstractActor;
 
@@ -20,7 +21,10 @@ public class ActorKeeper extends AbstractActor {
                                 self())
                 )
                 .match(
-
+                        MessageCache.class,
+                        message -> sender().tell(
+                                
+                        )
                 )
     }
 }
