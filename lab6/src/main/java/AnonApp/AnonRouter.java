@@ -5,7 +5,10 @@ import akka.actor.ActorRef;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
+import akka.http.javadsl.model.Query;
+import akka.http.javadsl.model.Uri;
 import akka.http.javadsl.server.Route;
+import akka.japi.Pair;
 import akka.pattern.Patterns;
 
 import java.time.Duration;
@@ -48,13 +51,20 @@ public class AnonRouter {
                         )));
     }
 
-    private CompletionStage<HttpResponse> sendNext(String url, int count) {
+    private CompletionStage<HttpResponse> sendNext(String url, Integer count) {
         return Patterns.ask(
                 actorConfigKeeper,
                 new MessageGetRandom(),
                 TIMEOUT
         )
-        .thenCompose()
+        .thenCompose(server -> {
+            Uri uri = Uri.create((String) server)
+                    .query(Query.create(
+                            Pair.create("url", url),
+                            Pair.create("count", count.toString())
+                    ));
+            return client.singleRequest(HttpRequest.create(String.valueOf(uri)))
+        });
     }
 }
 
