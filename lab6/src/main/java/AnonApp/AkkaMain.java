@@ -35,7 +35,7 @@ public class AkkaMain {
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
 
-
+        ZooWatcher watcher = new ZooWatcher(actorConfigKeeper);
         ZooKeeper zooKeeper = null;
         try {
             zooKeeper = new ZooKeeper(HOST,SESSION_TIMEOUT, )
