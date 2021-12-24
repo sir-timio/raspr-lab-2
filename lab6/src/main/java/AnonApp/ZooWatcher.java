@@ -30,7 +30,6 @@ public class ZooWatcher implements Watcher {
     @Override
     public void process(WatchedEvent watchedEvent) {
         try {
-            zooKeeper.getChildren(SERVERS_PATH, this);
             sendServers();
         } catch (Exception e) {
             e.printStackTrace();
