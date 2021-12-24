@@ -34,6 +34,13 @@ public class AkkaMain {
 
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
+
+        
+        ZooKeeper zooKeeper = null;
+        try {
+            zooKeeper = new ZooKeeper(HOST,SESSION_TIMEOUT, )
+        }
+
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
