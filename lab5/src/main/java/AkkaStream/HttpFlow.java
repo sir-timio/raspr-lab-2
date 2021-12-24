@@ -65,7 +65,7 @@ public class HttpFlow {
                                 .mapAsync(request.second(), url -> {
                                     long start = System.currentTimeMillis();
                                     Request r = Dsl.get(url).build();
-                                    CompletableFuture<Response>
+                                    CompletableFuture<Response> 
                                 })
                     }
                 })
