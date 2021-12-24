@@ -34,7 +34,9 @@ public class AnonRouter {
                                             if (count == ZERO_COUNT) {
                                                 return completeWithFuture(
                                                         client.singleRequest(HttpRequest.create(url))
-                                                )
+                                                );
+                                            } else {
+                                                return completeWithFuture()
                                             }
                                         })))
                         ))
