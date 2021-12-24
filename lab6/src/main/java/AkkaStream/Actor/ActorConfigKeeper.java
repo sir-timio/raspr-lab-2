@@ -2,6 +2,7 @@ package AkkaStream.Actor;
 
 import AkkaStream.Message.MessageServers;
 import akka.actor.AbstractActor;
+import akka.actor.Actor;
 import akka.japi.pf.ReceiveBuilder;
 
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class ActorConfigKeeper extends AbstractActor{
                         msg -> sender()
                                 .tell(
                                         servers.get(rand.nextInt(servers.size()))
-                                        
+                                        Actor.noSender()
                                 )
                 )
 
