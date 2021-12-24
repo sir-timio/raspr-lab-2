@@ -28,7 +28,7 @@ import org.apache.zookeeper.ZooKeeper;
 public class AkkaMain {
 
     private static final String HOST = "127.0.0.1";
-    private static final String ZOO_PORT = "8000";
+    private static final String ZOO_PORT = "2181";
     private static final int SESSION_TIMEOUT = 5000;
 
     public static void main(String[] args) throws Exception {
