@@ -1,9 +1,15 @@
 package AnonApp;
 
+import AnonApp.Message.MessageGetRandom;
 import akka.actor.ActorRef;
 import akka.http.javadsl.Http;
 import akka.http.javadsl.model.HttpRequest;
+import akka.http.javadsl.model.HttpResponse;
 import akka.http.javadsl.server.Route;
+import akka.pattern.Patterns;
+
+import java.time.Duration;
+import java.util.concurrent.CompletionStage;
 
 import static akka.http.javadsl.server.Directives.*;
 
@@ -42,4 +48,12 @@ public class AnonRouter {
                         )));
     }
 
+    private CompletionStage<HttpResponse> sendNext(String url, int count) {
+        return Patterns.ask(
+                actorConfigKeeper,
+                new MessageGetRandom(),
+                Duration.ofSeconds(TIMEOUT_SECONDS)
+        )
+    }
 }
+
