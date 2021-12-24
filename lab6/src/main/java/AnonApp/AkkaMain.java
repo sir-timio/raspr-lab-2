@@ -15,6 +15,8 @@ import akka.stream.ActorMaterializer;
 
 public class AkkaMain {
 
+    private static final int SESSION_TIMEOUT = 5000;
+
     public static void main(String[] args) throws IOException {
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
