@@ -1,5 +1,6 @@
 package AkkaStream.Actor;
 
+import AkkaStream.Message.MessageGetRandom;
 import AkkaStream.Message.MessageServers;
 import akka.actor.AbstractActor;
 import akka.actor.Actor;
@@ -15,14 +16,15 @@ public class ActorConfigKeeper extends AbstractActor{
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
-                .match(MessageServers.class,
+                .match(MessageGetRandom.class,
                         msg -> sender()
                                 .tell(
                                         servers.get(rand.nextInt(servers.size())),
                                         Actor.noSender()
                                 )
                 )
-                .match(MessageRandom)
+                .match(MessageGetRandom.class,
+                        msg -> )
 
     }
 }
