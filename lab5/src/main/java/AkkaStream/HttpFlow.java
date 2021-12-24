@@ -62,7 +62,6 @@ public class HttpFlow {
                                 )
                         );
                     } else {
-                        Sink<Integer, CompletionStage<Long>> fold = Sink.fold(0L, (Function2<Long, Integer, Long>) Long::sum);
                         Sink<Pair<String, Integer>, CompletionStage<Long>> sink = Flow
                                 .<Pair<String, Integer>>create()
                                 .mapConcat(req -> new ArrayList<>(Collections.nCopies(req.second(), req.first())))
