@@ -22,7 +22,8 @@ public class HttpFlow {
                 .map(request -> {
                     Query query = request.getUri().query();
                     String url = query.get(QUERY_URL).get();
-                    int count = Integer.parseInt(query.get(QUERY_COUNT).get())
+                    int count = Integer.parseInt(query.get(QUERY_COUNT).get());
+                    return new Pair<>(url, count);
                 })
     }
 }
