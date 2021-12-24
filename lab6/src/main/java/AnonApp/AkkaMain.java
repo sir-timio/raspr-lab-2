@@ -28,6 +28,7 @@ public class AkkaMain {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
             System.err.println("Usage: AnonApp <port>");
+            return;
         }
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
