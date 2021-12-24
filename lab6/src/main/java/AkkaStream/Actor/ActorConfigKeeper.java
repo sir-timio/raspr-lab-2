@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class ActorConfigKeeper extends AbstractActor{
     private ArrayList<String> servers;
-    private Random rand = new Random();
+    private final Random random = new Random();
 
     @Override
     public Receive createReceive() {
@@ -19,13 +19,12 @@ public class ActorConfigKeeper extends AbstractActor{
                 .match(MessageGetRandom.class,
                         msg -> sender()
                                 .tell(
-                                        servers.get(rand.nextInt(servers.size())),
+                                        servers.get(random.nextInt(servers.size())),
                                         Actor.noSender()
                                 )
                 )
                 .match(MessageServers.class,
                         msg -> servers = msg.getServers())
                 .build();
-
     }
 }
