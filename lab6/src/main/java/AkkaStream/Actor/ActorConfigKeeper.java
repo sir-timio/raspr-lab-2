@@ -14,7 +14,9 @@ public class ActorConfigKeeper extends AbstractActor{
         return ReceiveBuilder.create()
                 .match(MessageServers.class,
                         msg -> sender()
-                                .tell(servers.get(random.nex))
+                                .tell(
+                                        
+                                )
                 )
 
     }
