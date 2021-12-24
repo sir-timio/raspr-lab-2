@@ -20,7 +20,7 @@ public class ZooWatcher implements Watcher {
         this.actorConfigKeeper = actorConfigKeeper;
         this.zooKeeper = zooKeeper;
 
-        sendServers();
+        
     }
 
 }
