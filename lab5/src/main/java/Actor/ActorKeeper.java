@@ -2,6 +2,11 @@ package Actor;
 
 import akka.actor.AbstractActor;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ActorKeeper extends AbstractActor {
-    private map<String, Long> 
+    private Map<String, Long> results = new HashMap<>();
+
+    
 }
