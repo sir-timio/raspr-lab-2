@@ -57,8 +57,8 @@ public class AnonRouter {
                 new MessageGetRandom(),
                 TIMEOUT
         )
-        .thenCompose(server -> {
-            Uri uri = Uri.create((String) server)
+        .thenCompose(port -> {
+            Uri uri = Uri.create((String) port)
                     .query(Query.create(
                             Pair.create("url", url),
                             Pair.create("count", count.toString())
