@@ -29,7 +29,7 @@ public class AnonRouter implements Watcher {
     private static final String QUERY_URL = "testUrl";
     private static final String QUERY_COUNT = "count";
     private static final String PATH = "";
-    private static final String SERVERS_PATH = "/servers";
+    private static final String HOST = "127.0.0.1";
 
     public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
         this.actorConfigKeeper = actorConfigKeeper;
