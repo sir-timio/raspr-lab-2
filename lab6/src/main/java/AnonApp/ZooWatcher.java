@@ -16,14 +16,9 @@ public class ZooWatcher implements Watcher {
     private final ZooKeeper zooKeeper;
     private final ActorRef actorConfigKeeper;
 
-    public ZooWatcher(ActorRef actorConfigKeeper, String host, String port) throws Exception {
-        this.zooKeeper = new ZooKeeper(
-                ZOO_HOST + ": " + ZOO_PORT,
-                SESSION_TIMEOUT,
-                this
-        );
-        this.actorConfigKeeper = actorConfigKeeper
-
+    public ZooWatcher(ActorRef actorConfigKeeper, ZooKeeper zooKeeper) throws Exception {
+        this.actorConfigKeeper = actorConfigKeeper;
+        this.zooKeeper = zooKeeper;
         String akkaUrl = "http://" + host + ":" + port;
         zooKeeper.create(
                 SERVERS_PATH,
