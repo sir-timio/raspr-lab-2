@@ -45,6 +45,7 @@ public class AkkaMain {
             return;
         }
         watcher.setZooKeeper(zooKeeper);
+        String 
 
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
