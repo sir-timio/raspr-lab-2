@@ -1,4 +1,5 @@
 package AnonApp;
 
-public class ZooWatcher {
+
+public class ZooWatcher implements {
 }
