@@ -1,2 +1,4 @@
-package Message;public class MessageCache {
+package Message;
+
+public class MessageCache {
 }
