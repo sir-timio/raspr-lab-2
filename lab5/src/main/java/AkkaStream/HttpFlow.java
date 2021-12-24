@@ -12,7 +12,8 @@ import akka.stream.javadsl.Flow;
 public class HttpFlow {
     public static final int TIMEOUT_SECONDS = 5;
     public static final int NUM_OF_WORKERS = 3;
-    private static final String QUERY_URL = ""
+    private static final String QUERY_URL = "testUrl";
+    private static final String QUERY_COUNT = "count";
 
     public static Flow<HttpRequest, HttpResponse, NotUsed> httpFlow(
             ActorMaterializer materializer, ActorRef actorRef
