@@ -69,16 +69,13 @@ public class HttpFlow {
                                 .mapAsync(request.second(), url -> {
                                     long start = System.currentTimeMillis();
                                     Request testRequest = Dsl.get(url).build();
-                                    CompletableFuture<Response> responseFuture = Dsl
-                                                                                 .asyncHttpClient()
-                                                                                 .executeRequest(testRequest)
-                                                                                 .toCompletableFuture();
+
                                     AsyncHttpClient client = Dsl.asyncHttpClient();
                                     return client.executeRequest(testRequest)
                                             .toCompletableFuture()
-                                            .thenApply(response -> System.currentTimeMillis() - start)
+                                            .thenApply(response -> System.currentTimeMillis() - start);
                                 })
-                                .toMat(fold, Keep.right());
+                                .toMat(Sink.fold(0L, Long::sum), Keep.right());
                         return Source.from(Collections.singletonList(request))
                                 .toMat(sink, Keep.right())
                                 .run(materializer)
