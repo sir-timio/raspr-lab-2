@@ -13,6 +13,7 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Sink;
+import org.asynchttpclient.AsyncHttpClient;
 import org.asynchttpclient.Dsl;
 import org.asynchttpclient.Response;
 
@@ -69,12 +70,10 @@ public class HttpFlow {
                                                                                  .asyncHttpClient()
                                                                                  .executeRequest(testRequest)
                                                                                  .toCompletableFuture();
-                                    return responseFuture.thenCompose(
-                                            response -> {
-                                                return CompletableFuture.completedFuture(
-                                                        System.currentTimeMillis() - start);
-                                            }
-                                    )
+                                    AsyncHttpClient client = Dsl.asyncHttpClient();
+                                    return client.executeRequest(testRequest)
+                                            .toCompletableFuture()
+                                            .thenApply(response -> System.currentTimeMillis() - start)
                                 })
                     }
                 })
