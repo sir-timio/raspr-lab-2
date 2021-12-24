@@ -36,6 +36,8 @@ public class AkkaMain {
 
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = new AnonRouter(actorConfigKeeper, http)
                 .createRoute().flow(system, materializer);
+        final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
+                ConnectHttp.toHost(HOST, port), materializer)
 
     }
 }
