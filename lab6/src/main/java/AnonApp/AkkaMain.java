@@ -51,12 +51,12 @@ public class AkkaMain {
                     watcher);
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("Can't init zooKeeper");
             return;
         }
-        String url = String.format("%s:%d", HOST, port);
 
         watcher.setZooKeeper(zooKeeper);
-
+        String url = String.format("%s:%d", HOST, port);
         try {
             zooKeeper.create("/servers",
                     url.getBytes(),
