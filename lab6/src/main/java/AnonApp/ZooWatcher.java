@@ -18,7 +18,7 @@ public class ZooWatcher implements Watcher {
 
     public void sendServers() throws Exception {
         ArrayList<String> servers = new ArrayList<>();
-        List<String> zooChildren = this.zooKeeper.getChildren(SERVERS_PATH, this);
+        List<String> zooChildren = zooKeeper.getChildren(SERVERS_PATH, this);
         for (String s : zooKeeper.getChildren(SERVERS_PATH, this)) {
             servers.add(new String(zooKeeper.getData(SERVERS_PATH + "/" + s, false, null)));
         }
