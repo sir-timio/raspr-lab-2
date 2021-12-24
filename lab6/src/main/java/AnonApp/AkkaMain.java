@@ -51,7 +51,7 @@ public class AkkaMain {
         String url = HOST + ":" + port;
         watcher.setZooKeeper(zooKeeper);
         try {
-            zooKeeper.create("/servers/s",
+            zooKeeper.create("/servers",
                     url.getBytes(),
                     ZooDefs.Ids.OPEN_ACL_UNSAFE,
                     CreateMode.EPHEMERAL_SEQUENTIAL);
