@@ -72,7 +72,7 @@ public class HttpFlow {
                                     return responseFuture.thenCompose(
                                             response -> {
                                                 return CompletableFuture.completedFuture(
-                                                        System.currentTimeMillis() - start)
+                                                        System.currentTimeMillis() - start);
                                             }
                                     )
                                 })
