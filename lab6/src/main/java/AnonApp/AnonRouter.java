@@ -52,7 +52,7 @@ public class AnonRouter {
         return Patterns.ask(
                 actorConfigKeeper,
                 new MessageGetRandom(),
-                Duration.ofSeconds(TIMEOUT_SECONDS)
+                TIMEOUT
         )
     }
 }
