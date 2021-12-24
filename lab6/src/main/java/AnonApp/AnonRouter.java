@@ -34,7 +34,7 @@ public class AnonRouter implements Watcher {
     public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
-        this.path =
+        this.path = HOST + ":" + port
     }
 
     public Route createRoute() {
