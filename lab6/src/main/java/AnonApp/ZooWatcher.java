@@ -4,6 +4,7 @@ import akka.actor.ActorRef;
 import org.apache.zookeeper.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ZooWatcher implements Watcher {
     private static final String SERVERS_PATH = "/servers";
@@ -17,6 +18,7 @@ public class ZooWatcher implements Watcher {
 
     public void sendServers() throws Exception {
         ArrayList<String> servers = new ArrayList<>();
+        List<String> zooChildren = zooKeeper.getChildren(SERVERS_PATH, this);
         for (String s : zooKeeper.getChildren(SERVERS_PATH, this)) {
             servers.add(new String(zooKeeper.getData(SERVERS_PATH + "/" + s, false, null)));
         }
