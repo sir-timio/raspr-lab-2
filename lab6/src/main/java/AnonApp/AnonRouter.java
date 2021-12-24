@@ -10,10 +10,9 @@ import akka.http.javadsl.model.Uri;
 import akka.http.javadsl.server.Route;
 import akka.japi.Pair;
 import akka.pattern.Patterns;
-import org.apache.zookeeper.WatchedEvent;
-import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.ZooKeeper;
+import org.apache.zookeeper.*;
 
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.concurrent.CompletionStage;
 
@@ -36,7 +35,10 @@ public class AnonRouter implements Watcher {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
         this.path = HOST + ":" + port;
-        zooKeeper.create("/servers/" + path)
+        zooKeeper.create("/servers/" + path,
+                path.getBytes(StandardCharsets.UTF_8),
+                ZooDefs.Ids.OPEN_ACL_UNSAFE,
+                CreateMode.EPHEMERAL_SEQUENTIAL)
 
     }
 
