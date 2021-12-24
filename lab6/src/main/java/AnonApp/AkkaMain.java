@@ -48,6 +48,7 @@ public class AkkaMain {
             return;
         }
         String url = String.format("%s:%d", HOST, port);
+        System.out.println(url.getBytes(StandardCharsets.UTF_8));
         watcher.setZooKeeper(zooKeeper);
         try {
             zooKeeper.create("/servers",
