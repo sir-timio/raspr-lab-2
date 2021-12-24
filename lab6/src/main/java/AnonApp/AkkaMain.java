@@ -57,6 +57,7 @@ public class AkkaMain {
                     CreateMode.EPHEMERAL_SEQUENTIAL);
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("aaaa");
             return;
         }
 
