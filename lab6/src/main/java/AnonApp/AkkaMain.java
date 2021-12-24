@@ -46,7 +46,7 @@ public class AkkaMain {
         ZooKeeper zooKeeper;
         try {
             zooKeeper = new ZooKeeper(
-                    HOST + ":" + port,
+                    HOST + ":" + ZOO_PORT,
                     SESSION_TIMEOUT,
                     watcher);
         } catch (Exception e) {
