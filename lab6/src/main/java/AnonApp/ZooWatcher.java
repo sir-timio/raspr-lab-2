@@ -32,7 +32,7 @@ public class ZooWatcher implements Watcher {
     public void setZooKeeper(ZooKeeper zooKeeper){
         this.zooKeeper = zooKeeper;
     }
-    
+
     @Override
     public void process(WatchedEvent watchedEvent) {
         List<String> servers;
