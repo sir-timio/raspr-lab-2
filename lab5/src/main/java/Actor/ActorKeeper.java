@@ -1,2 +1,7 @@
-package Actor;public class ActorKeeper {
+package Actor;
+
+import akka.actor.AbstractActor;
+
+public class ActorKeeper extends AbstractActor {
+    
 }
