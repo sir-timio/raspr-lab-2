@@ -36,7 +36,7 @@ public class AnonRouter {
                                                         client.singleRequest(HttpRequest.create(url))
                                                 );
                                             } else {
-                                                return completeWithFuture()
+                                                return completeWithFuture(sendNext(url, count-1));
                                             }
                                         })))
                         ))
