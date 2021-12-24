@@ -29,7 +29,7 @@ public class AnonRouter {
     private static final String QUERY_COUNT = "count";
     private static final String PATH = "";
 
-    public AnonRouter(ActorRef actorConfigKeeper, Http client, String port) {
+    public AnonRouter(ActorRef actorConfigKeeper, Http client) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
     }
