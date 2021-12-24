@@ -13,6 +13,9 @@ public class AnonRouter {
     private static final int TIMEOUT_SECONDS = 5;
     private static final String ZERO_COUNT = "0";
 
+    private static final String QUERY_URL = "testUrl";
+    private static final String QUERY_COUNT = "count";
+
     public AnonRouter(ActorRef actorConfigKeeper, Http client) {
         this.actorConfigKeeper = actorConfigKeeper;
         this.client = client;
