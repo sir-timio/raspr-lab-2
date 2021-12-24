@@ -13,6 +13,8 @@ import akka.pattern.Patterns;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 import akka.stream.javadsl.Sink;
+import org.asynchttpclient.Dsl;
+import org.asynchttpclient.Response;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -57,7 +59,11 @@ public class HttpFlow {
                         Sink<Pair<String, Integer>, CompletionStage<Long>> sink = Flow
                                 .<Pair<String, Integer>>create()
                                 .mapConcat(req -> new ArrayList<>(Collections.nCopies(req.second(), req.first())))
-                                .mapAsync(req.)
+                                .mapAsync(request.second(), url -> {
+                                    long start = System.currentTimeMillis();
+                                    Request r = Dsl.get(url).build();
+                                    CompletableFuture<Response>
+                                })
                     }
                 })
     }
