@@ -46,7 +46,9 @@ public class AkkaMain {
 
         System.out.println("Servers online at\n");
 
-        for (port: args)
+        for (String port: args) {
+            
+        }
 
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 ConnectHttp.toHost("localhost", 8080),
