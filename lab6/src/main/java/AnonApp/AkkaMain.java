@@ -41,7 +41,7 @@ public class AkkaMain {
 
         ZooWatcher watcher = new ZooWatcher(actorConfigKeeper);
 
-        ZooKeeper zooKeeper = null;
+        ZooKeeper zooKeeper;
         try {
             zooKeeper = new ZooKeeper(HOST,SESSION_TIMEOUT, watcher);
         } catch (Exception e) {
