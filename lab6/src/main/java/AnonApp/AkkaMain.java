@@ -26,6 +26,9 @@ public class AkkaMain {
     private static final int SESSION_TIMEOUT = 5000;
 
     public static void main(String[] args) throws IOException {
+        if (args.length != 1) {
+            System.err.println("Usage: AnonApp <port>");
+        }
         System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
