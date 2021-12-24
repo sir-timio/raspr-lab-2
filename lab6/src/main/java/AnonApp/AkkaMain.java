@@ -30,13 +30,13 @@ public class AkkaMain {
             System.err.println("Usage: AnonApp <port>");
             return;
         }
-        System.out.println("start!");
-        ActorSystem system = ActorSystem.create("routes");
+        int port = Integer.parseInt(args[0]);
+
+        ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
 
-        int port = Integer.parseInt(args[0])
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = new AnonRouter(actorConfigKeeper, http)
                 .createRoute().flow(system, materializer);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(routeFlow,
