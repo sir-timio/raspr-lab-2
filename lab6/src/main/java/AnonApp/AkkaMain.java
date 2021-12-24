@@ -27,6 +27,7 @@ import org.apache.zookeeper.ZooKeeper;
 public class AkkaMain {
 
     private static final String HOST = "127.0.0.1";
+    private static final String ZOO_PORT = "2181";
     private static final int SESSION_TIMEOUT = 5000;
 
     public static void main(String[] args) throws Exception {
@@ -42,15 +43,15 @@ public class AkkaMain {
 
         ZooKeeper zooKeeper;
         try {
-            zooKeeper = new ZooKeeper(HOST,SESSION_TIMEOUT, watcher);
+            zooKeeper = new ZooKeeper(HOST + ":" + ,SESSION_TIMEOUT, watcher);
         } catch (Exception e) {
             e.printStackTrace();
             return;
         }
         String url = String.format("%s:%d", HOST, port);
-        System.out.println(url.getBytes(StandardCharsets.UTF_8));
+
         watcher.setZooKeeper(zooKeeper);
-        
+
         try {
             zooKeeper.create("/servers/s",
                     url.getBytes(),
