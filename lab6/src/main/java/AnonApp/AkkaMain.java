@@ -35,7 +35,7 @@ public class AkkaMain {
             return;
         }
         int port = Integer.parseInt(args[0]);
-
+        System.out.println(port);
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
 
