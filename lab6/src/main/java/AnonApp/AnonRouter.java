@@ -18,7 +18,8 @@ public class AnonRouter {
 
     public Route createRoute() {
         return route(
-                
+                get(() ->
+                        )
 
         )
     }
