@@ -1,2 +1,4 @@
-package AkkaStream.Actor;public class ActorConfigKeeper {
+package AkkaStream.Actor;
+
+public class ActorConfigKeeper {
 }
