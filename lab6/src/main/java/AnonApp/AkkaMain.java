@@ -1,8 +1,6 @@
 package AnonApp;
 
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.concurrent.CompletionStage;
 
 import AnonApp.Actor.ActorConfigKeeper;
@@ -17,10 +15,8 @@ import akka.http.javadsl.model.HttpRequest;
 import akka.http.javadsl.model.HttpResponse;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
-import com.sun.net.httpserver.HttpServer;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.zookeeper.CreateMode;
-import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
@@ -41,7 +37,7 @@ public class AkkaMain {
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
 
-        ZooWatcher watcher = new ZooWatcher(actorConfigKeeper);
+        NodeWatcher watcher = new NodeWatcher(actorConfigKeeper);
 
         ZooKeeper zooKeeper;
         try {
@@ -51,17 +47,18 @@ public class AkkaMain {
                     watcher);
         } catch (Exception e) {
             e.printStackTrace();
-            System.out.println("Can't init zooKeeper");
             return;
         }
 
-        watcher.setZooKeeper(zooKeeper);
-        String url = String.format("%s:%d", HOST, port);
+        watcher.setZoo(zooKeeper);
+        String url = HOST + ":" + port;
         try {
-            zooKeeper.create("/servers",
+            zooKeeper.create(
+                    "/servers/s",
                     url.getBytes(),
                     ZooDefs.Ids.OPEN_ACL_UNSAFE,
-                    CreateMode.EPHEMERAL_SEQUENTIAL);
+                    CreateMode.EPHEMERAL_SEQUENTIAL
+            );
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(-1);

@@ -20,7 +20,6 @@ import akka.stream.javadsl.Flow;
 public class AkkaMain {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("start!");
         ActorSystem system = ActorSystem.create("routes");
         ActorRef actor = system.actorOf(Props.create(ActorKeeper.class));
 
@@ -29,10 +28,10 @@ public class AkkaMain {
         final Flow<HttpRequest, HttpResponse, NotUsed> routeFlow = HttpFlow.httpFlow(materializer, actor);
         final CompletionStage<ServerBinding> binding = http.bindAndHandle(
                 routeFlow,
-                ConnectHttp.toHost("localhost", 8080),
+                ConnectHttp.toHost("localhost", 8082),
                 materializer
         );
-        System.out.println("Server online at http://localhost:8080/\nPress RETURN to stop...");
+        System.out.println("Server online at http://localhost:8082/\nPress RETURN to stop...");
         System.in.read();
         binding
                 .thenCompose(ServerBinding::unbind)

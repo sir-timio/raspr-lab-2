@@ -1,6 +1,7 @@
 package TesterApp.Actor;
 
 import TesterApp.Message.MessageRequestJson;
+import TesterApp.Message.MessageTest;
 import TesterApp.Message.MessageTestsPackage;
 import TesterApp.Test.TestJson;
 import akka.actor.AbstractActor;
@@ -45,9 +46,9 @@ public class ActorRouter extends AbstractActor {
                             String jsScript = m.getJsScript();
                             String functionName = m.getFunctionName();
 
-                            for (TestJson test: m.getTests()) {
-                                router.route(new Message.MessageTest(packageId, jsScript,
-                                                            functionName, test), keeper);
+                            for (TestJson test : m.getTests()) {
+                                router.route(new MessageTest(packageId, jsScript,
+                                        functionName, test), keeper);
                             }
                         }
                 )

@@ -1,6 +1,7 @@
 package TesterApp.Actor;
 
 import TesterApp.Actor.ActorRouter;
+import TesterApp.Message.MessageTest;
 import TesterApp.Test.TestResultStore;
 import akka.actor.AbstractActor;
 
@@ -20,7 +21,7 @@ public class ActorTester extends AbstractActor {
     public Receive createReceive() {
         return receiveBuilder()
                 .match(
-                        ActorRouter.MessageTest.class,
+                        MessageTest.class,
                         m -> sender().tell(
                                 evalTest(m),
                                 self()
@@ -37,7 +38,7 @@ public class ActorTester extends AbstractActor {
     }
 
 
-    private TestResultStore evalTest(ActorRouter.MessageTest messageTest) {
+    private TestResultStore evalTest(MessageTest messageTest) {
         String evaluated;
         String status;
         String expected = messageTest.getTest().getExpectedResult();
