@@ -58,7 +58,7 @@ public class AnonRouter {
                 TIMEOUT
         )
         .thenCompose(port -> {
-            Uri uri = Uri.create("http://" +  port)
+            Uri uri = Uri.create((String) port)
                     .query(Query.create(
                             Pair.create("url", url),
                             Pair.create("count", count.toString())

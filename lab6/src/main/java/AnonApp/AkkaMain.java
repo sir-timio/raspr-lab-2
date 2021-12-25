@@ -1,6 +1,5 @@
 package AnonApp;
 
-import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CompletionStage;
 
 import AnonApp.Actor.ActorConfigKeeper;
@@ -16,8 +15,6 @@ import akka.http.javadsl.model.HttpResponse;
 import akka.stream.ActorMaterializer;
 import akka.stream.javadsl.Flow;
 import org.apache.log4j.BasicConfigurator;
-import org.apache.zookeeper.CreateMode;
-import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
 
@@ -36,33 +33,10 @@ public class AkkaMain {
         int port = Integer.parseInt(args[0]);
         ActorSystem system = ActorSystem.create();
         ActorRef actorConfigKeeper = system.actorOf(Props.create(ActorConfigKeeper.class));
+        new NodeWatcher(actorConfigKeeper, HOST, port);
 
-        NodeWatcher watcher = new NodeWatcher(actorConfigKeeper);
 
-        ZooKeeper zooKeeper;
-        try {
-            zooKeeper = new ZooKeeper(
-                    HOST + ":" + ZOO_PORT,
-                    SESSION_TIMEOUT,
-                    watcher);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return;
-        }
 
-        watcher.setZoo(zooKeeper);
-        String url = HOST + ":" + port;
-        try {
-            zooKeeper.create(
-                    "/servers/s",
-                    url.getBytes(),
-                    ZooDefs.Ids.OPEN_ACL_UNSAFE,
-                    CreateMode.EPHEMERAL_SEQUENTIAL
-            );
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(-1);
-        }
 
         final Http http = Http.get(system);
         final ActorMaterializer materializer = ActorMaterializer.create(system);
